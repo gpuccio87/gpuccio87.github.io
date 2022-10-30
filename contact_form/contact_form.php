@@ -8,6 +8,11 @@ $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'm
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
+$url = 'https://docs.google.com/forms/d/e/1FAIpQLSe3c76-V1S75w-e_UYHPc_WFaW9t4ZH7xrGss4p2dUIhJj06Q/formResponse?&entry.1356265276=ciao&entry.1282836463=dfgdfg&entry.528392803=dfgdfg&entry.1308078063=dfgdfg';
+
+	//Once again, we use file_get_contents to GET the URL in question.
+	$contents = file_get_contents($url);
+
 // let's do the sending
 
 if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])):
