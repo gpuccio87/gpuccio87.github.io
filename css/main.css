@@ -988,6 +988,32 @@ textarea.form-control, textarea.form-control:focus {
   transition: all 0.2s ease-in-out;
 }
 
+.lm-info-block:hover {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0 0 15px 0;
+  background-color: #333;
+  padding: 30px 10px;
+  border: 1px solid #09aeea;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.lm-info-block img {
+  text-align: center;
+  margin: auto;
+  display:block;
+}
+
 .lm-info-block i {
   position: relative;
   font-size: 33px;
@@ -1008,7 +1034,6 @@ textarea.form-control, textarea.form-control:focus {
   margin: 10px 0;
   color: #09aeea;
 }
-
 
 .lm-info-block .lm-info-block-value:empty {
   margin: 0;
