@@ -1021,6 +1021,18 @@ textarea.form-control, textarea.form-control:focus {
   z-index: 1;
 }
 
+.lm-info-block:hover i {
+  position: relative;
+  font-size: 40px;
+  color: #09aeea;
+  z-index: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
 .lm-info-block h4 {
   font-size: 15px;
   margin-top: 8px;
