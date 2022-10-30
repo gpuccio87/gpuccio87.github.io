@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'gabriele@gabrielepucciarelli.com'; // Replace it with Your Hosting Admin email. REQUIRED!
+$from = 'gpuccio87@gmail.com'; // Replace it with Your Hosting Admin email. REQUIRED!
 $sendTo = 'gabriele@gabrielepucciarelli.com'; // Replace it with Your email. REQUIRED!
 $subject = 'Nuovo messaggio dal sito';
 $fields = array('name' => 'Name', 'email' => 'Email', 'subject' => 'Subject', 'message' => 'Message'); // array variable name => Text to appear in the email. If you added or deleted a field in the contact form, edit this array.
