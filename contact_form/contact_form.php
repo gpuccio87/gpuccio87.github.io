@@ -10,8 +10,23 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 $url = 'https://docs.google.com/forms/d/e/1FAIpQLSe3c76-V1S75w-e_UYHPc_WFaW9t4ZH7xrGss4p2dUIhJj06Q/formResponse?&entry.1356265276=ciao&entry.1282836463=dfgdfg&entry.528392803=dfgdfg&entry.1308078063=dfgdfg';
 
-	//Once again, we use file_get_contents to GET the URL in question.
-	$contents = file_get_contents($url);
+	//Initialize cURL.
+$ch = curl_init();
+
+//Set the URL that you want to GET by using the CURLOPT_URL option.
+curl_setopt($ch, CURLOPT_URL, $url);
+
+//Set CURLOPT_RETURNTRANSFER so that the content is returned as a variable.
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+//Set CURLOPT_FOLLOWLOCATION to true to follow redirects.
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+
+//Execute the request.
+$data = curl_exec($ch);
+
+//Close the cURL handle.
+curl_close($ch);
 
 // let's do the sending
 
