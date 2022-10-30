@@ -19,16 +19,12 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
 	
 	//The URL with parameters / query string.
 	$url = 'https://docs.google.com/forms/d/e/1FAIpQLSe3c76-V1S75w-e_UYHPc_WFaW9t4ZH7xrGss4p2dUIhJj06Q/formResponse?&entry.1356265276='.$fields[0].'&entry.1282836463=dfgdfg&entry.528392803=dfgdfg&entry.1308078063=dfgdfg';
+	
+	$url = 'https://docs.google.com/forms/d/e/1FAIpQLSe3c76-V1S75w-e_UYHPc_WFaW9t4ZH7xrGss4p2dUIhJj06Q/formResponse?&entry.1356265276=ciao&entry.1282836463=dfgdfg&entry.528392803=dfgdfg&entry.1308078063=dfgdfg';
 
 	//Once again, we use file_get_contents to GET the URL in question.
 	$contents = file_get_contents($url);
 
-
-
-    //$c = curl_init('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
-	//$c = curl_init('https://docs.google.com/forms/d/e/1FAIpQLSe3c76-V1S75w-e_UYHPc_WFaW9t4ZH7xrGss4p2dUIhJj06Q/formResponse?&entry.1356265276='.$fields[0].'&entry.1282836463=dfgdfg&entry.528392803=dfgdfg&entry.1308078063=dfgdfg']);
-    //curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
-    //$verifyResponse = curl_exec($c);
 
     $responseData = json_decode($verifyResponse);
     if($responseData->success):
