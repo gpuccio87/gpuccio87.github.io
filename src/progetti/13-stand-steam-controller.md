@@ -23,4 +23,4 @@ technologies:
 - PLA
 ---
 
-Stand per il joypad Steam Controller. Permette di mantenere il joypad in verticale. Composto da due pezzi (stand e simbolo di Steam) incollati tra loro. La stampa è stata effetuata con l'ecologica PLA. Modifica di un progetto trovato online
+Stand per il joypad Steam Controller. Permette di mantenere il joypad in verticale. Composto da due pezzi (stand e simbolo di Steam) incollati tra loro. La stampa è stata effettuata con l'ecologica PLA. Modifica di un progetto trovato online

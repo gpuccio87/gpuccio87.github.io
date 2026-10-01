@@ -20,4 +20,4 @@ technologies:
 - PLA
 ---
 
-Questa dock a forma di sveglia è stata disegnata per ospitare un Google Home Mini, che viene incastrato saldamente all'interno della dock e può quindi essere utilizzato su un comodino come una vera e propria sveglia. La dock è composta da 5 parti, da stampare divise per poi essere montate o avvitate tra loro. La stampa è stata effetuata con l'ecologica PLA.
+Questa dock a forma di sveglia è stata disegnata per ospitare un Google Home Mini, che viene incastrato saldamente all'interno della dock e può quindi essere utilizzato su un comodino come una vera e propria sveglia. La dock è composta da 5 parti, da stampare divise per poi essere montate o avvitate tra loro. La stampa è stata effettuata con l'ecologica PLA.

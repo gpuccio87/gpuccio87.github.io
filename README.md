@@ -64,3 +64,7 @@ npm install
 npm start        # anteprima su http://localhost:8080
 npm run build    # genera il sito in _site/
 ```
+
+## Form contatti
+
+Il form usa [Web3Forms](https://web3forms.com) e compare solo quando in `src/_data/contact.yml` il campo `form.access_key` contiene la chiave ottenuta dal sito (gratuita, arriva via email). I messaggi vengono recapitati all'indirizzo con cui si è richiesta la chiave.

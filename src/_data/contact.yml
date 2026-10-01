@@ -24,3 +24,20 @@ columns:
   - icon: lnr-bubble
     label: Telegram
     url: https://t.me/gpuccio87
+form:
+  # Chiave pubblica Web3Forms (https://web3forms.com): finché è vuota il form non viene mostrato
+  access_key: ''
+  title: Scrivimi <span>un messaggio</span>
+  success: Messaggio inviato. Grazie, ti risponderò al più presto!
+  error: Si è verificato un errore durante l'invio. Riprova più tardi o scrivimi via email.
+  labels:
+    name: Nome
+    email: Email
+    subject: Oggetto
+    message: Messaggio
+    send: Invia messaggio
+  errors:
+    name: Il nome è richiesto
+    email: È richiesta una email valida
+    subject: L'oggetto è richiesto
+    message: Per favore, lasciami un messaggio

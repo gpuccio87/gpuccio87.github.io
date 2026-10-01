@@ -10,7 +10,7 @@ author: Gabriele Pucciarelli
 images:
 - img/portfolio/nn.png
 technologies:
-- Phython
+- Python
 - Numpy
 - Scipy
 ---

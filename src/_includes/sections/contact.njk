@@ -5,9 +5,11 @@
                     <h2>{{ contact.title }}</h2>
                   </div>
 
-                  <div class="col-xs-12 col-sm-8">
-                    <div class="block-title">
-                      <h3>{{ contact.subtitle | safe }}</h3>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>{{ contact.subtitle | safe }}</h3>
+                      </div>
                     </div>
                   </div>
 
@@ -29,6 +31,65 @@
                     {%- endfor %}
                     <!-- End of Contact Info -->
                   </div>
+
+                  {%- if contact.form.access_key %}
+                  <div class="white-space-30"></div>
+
+                  <!-- Contact Form -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>{{ contact.form.title | safe }}</h3>
+                      </div>
+
+                      <form id="contact_form" class="contact-form" action="https://api.web3forms.com/submit" method="post" data-success="{{ contact.form.success }}" data-error="{{ contact.form.error }}">
+                        <input type="hidden" name="access_key" value="{{ contact.form.access_key }}">
+                        <input type="hidden" name="from_name" value="{{ site.name }} - sito web">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
+
+                        <div class="messages"></div>
+
+                        <div class="controls two-columns">
+                          <div class="fields clearfix">
+                            <div class="left-column">
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="{{ contact.form.errors.name }}">
+                                <label>{{ contact.form.labels.name }}</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="{{ contact.form.errors.email }}">
+                                <label>{{ contact.form.labels.email }}</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+
+                              <div class="form-group form-group-with-icon">
+                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="{{ contact.form.errors.subject }}">
+                                <label>{{ contact.form.labels.subject }}</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                            <div class="right-column">
+                              <div class="form-group form-group-with-icon">
+                                <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="{{ contact.form.errors.message }}"></textarea>
+                                <label>{{ contact.form.labels.message }}</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <input type="submit" class="btn btn-primary btn-send" value="{{ contact.form.labels.send }}">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <!-- End of Contact Form -->
+                  {%- endif %}
 
                 </div>
               </section>

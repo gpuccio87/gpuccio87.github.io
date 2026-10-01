@@ -10,7 +10,7 @@ author: Gabriele Pucciarelli
 images:
 - img/portfolio/full/moviepal.jpg
 technologies:
-- Phython
+- Python
 - TMDB API
 ---
 

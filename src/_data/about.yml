@@ -34,7 +34,7 @@ services_left:
 services_right:
 - icon: lnr-bicycle
   title: Sport
-  text: Sono stato un buon atleta per diversi anni. Ho abbandonto lo sport agonistico quando ho iniziato l'università, ma questo non mi ha impedito di continuare a seguire la mia passione da Fisioterapista. Sono stato fisioterapista della squadra di <b>calcio di Pisa</b> e ho seguito in gara Salvatore Caruso e Cultrera Concetta, <b>vice-campioni del mondo 2012 e campioni del mondo 2013 di Danza Sportiva</b>.
+  text: Sono stato un buon atleta per diversi anni. Ho abbandonato lo sport agonistico quando ho iniziato l'università, ma questo non mi ha impedito di continuare a seguire la mia passione da Fisioterapista. Sono stato fisioterapista della squadra di <b>calcio di Pisa</b> e ho seguito in gara Salvatore Caruso e Cultrera Concetta, <b>vice-campioni del mondo 2012 e campioni del mondo 2013 di Danza Sportiva</b>.
 - icon: lnr-flag
   title: Management
   text: Ho assunto il ruolo di organizzatore in diverse occasioni. Al Pisa Calcio sono stato <b>Responsabile dei Fisioterapisti del settore giovanile</b> e sono stato lo Streaming Specialist del <b>Lucca Comics and Games.</b>
@@ -71,7 +71,7 @@ testimonials:
 - name: Dott.ssa Lucia Vanni
   role: Fisioterapista
   image: img/testimonials/testimonial-5.jpg
-  text: Ho avuto il piacere di passare una giornata di formazione con lui. Ho constatato quanto sia un professionista serio e compentente con doti comunicative non comuni
+  text: Ho avuto il piacere di passare una giornata di formazione con lui. Ho constatato quanto sia un professionista serio e competente con doti comunicative non comuni
 clients_title: Alcuni miei <span>clienti</span>
 clients:
 - url: https://pisasportingclub.com/
@@ -103,7 +103,7 @@ facts:
   value: 4000+
 - icon: lnr-clock
   title: Ore di lavoro
-  value: 24,000+
+  value: 24.000+
 - icon: lnr-film-play
   title: Views su Youtube
   value: 21.000+
