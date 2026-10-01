@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension("yml,yaml", (contents) => yaml.load(contents));
 
   // Asset statici copiati così come sono
-  for (const p of ["css", "js", "img", "fonts", "articles", "thesis", "favicon.ico", "favicon.jpg", "vcard.vcf", "qr-code.png"]) {
+  for (const p of ["css", "js", "img", "fonts", "articles", "thesis", "favicon.ico", "favicon.jpg", "vcard.vcf", "qr-code.png", "admin/config.yml"]) {
     eleventyConfig.addPassthroughCopy(`src/${p}`);
   }
 

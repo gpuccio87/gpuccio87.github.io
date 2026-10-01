@@ -9,16 +9,14 @@ topics:
 - suggerimenti
 order: 2
 ---
+
 <p>Una delle cose che amo è tenere nota di quello che faccio, di quello che leggo, che vedo, e che -appunto- ascolto.
 Qui sotto c'è un'immagine, aggiornata mensilmente, degli album che ho ascoltato di più questo mese.
-
 
 </p>
 
 <!-- INIZIO IMMAGINE TAPMUSIC.NET -->
 
 <img src="https://www.tapmusic.net/collage.php?user=gpuccio87&type=1month&size=5x5" alt="Music" />
-
-
 
 <!-- FINE IMMAGINE TAPMUSIC.NET -->

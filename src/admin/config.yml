@@ -1,0 +1,321 @@
+backend:
+  name: github
+  repo: gpuccio87/gpuccio87.github.io
+  branch: main
+  base_url: https://www.gabrielepucciarelli.com
+  auth_endpoint: api/auth
+  commit_messages:
+    create: "Aggiunge {{collection}} “{{slug}}”"
+    update: "Aggiorna {{collection}} “{{slug}}”"
+    delete: "Elimina {{collection}} “{{slug}}”"
+    uploadMedia: "Carica {{path}}"
+    deleteMedia: "Elimina {{path}}"
+
+site_url: https://www.gabrielepucciarelli.com
+display_url: https://www.gabrielepucciarelli.com
+logo_url: https://www.gabrielepucciarelli.com/img/main_photo.jpg
+
+media_folder: src/img/uploads
+public_folder: img/uploads
+
+collections:
+  - name: blog
+    label: Blog
+    label_singular: Post
+    folder: src/blog
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.order}}-{{slug}}"
+    summary: "{{order}} · {{title}} ({{category}})"
+    sortable_fields: [order, title]
+    fields:
+      - { name: title, label: Titolo, widget: string }
+      - { name: category, label: Categoria, widget: string, hint: "Es. Libri, Musica, Fisioterapia" }
+      - { name: image, label: Immagine anteprima (griglia), widget: image }
+      - { name: image_full, label: Immagine grande (in cima al post), widget: image, required: false }
+      - { name: image_alt, label: Testo alternativo immagine, widget: string, required: false }
+      - { name: topics, label: Tag, widget: list, required: false, hint: "Separati da virgola" }
+      - { name: order, label: Numero del post, widget: number, value_type: int, min: 1, hint: "Genera l'indirizzo blog-post-N.html. Usa il numero successivo all'ultimo post." }
+      - { name: date_label, label: Data (testo mostrato), widget: string, required: false, hint: "Es. 12 marzo 2026. Lascia vuoto per non mostrarla." }
+      - { name: body, label: Testo, widget: markdown }
+
+  - name: progetti
+    label: Progetti
+    label_singular: Progetto
+    folder: src/progetti
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.order}}-{{slug}}"
+    summary: "{{order}} · {{name}}"
+    sortable_fields: [order, name]
+    fields:
+      - { name: title, label: Titolo completo, widget: string, hint: "Mostrato nella scheda del progetto, es. EventToSMS 1.3.7" }
+      - { name: name, label: Nome breve, widget: string, hint: "Mostrato nella griglia del portfolio" }
+      - { name: category, label: Etichetta sotto il nome, widget: string, default: Progetto }
+      - name: group
+        label: Sezione del portfolio
+        widget: select
+        options:
+          - { label: Software, value: code }
+          - { label: Stampa 3D, value: "3D" }
+      - { name: thumbnail, label: Anteprima nella griglia, widget: image }
+      - { name: order, label: Numero del progetto, widget: number, value_type: int, min: 1, hint: "Genera l'indirizzo portfolio-N.html. Usa il numero successivo all'ultimo progetto." }
+      - { name: date_label, label: Data (testo mostrato), widget: string, hint: "Es. marzo, 2026" }
+      - { name: author, label: Autore, widget: string, default: Gabriele Pucciarelli }
+      - { name: images, label: Immagini del carosello, widget: list, field: { name: image, label: Immagine, widget: image } }
+      - { name: technologies, label: Tecnologie utilizzate, widget: list, hint: "Separate da virgola" }
+      - { name: body, label: Descrizione, widget: markdown, modes: [rich_text, raw] }
+
+  - name: pagine
+    label: Pagine del sito
+    editor:
+      preview: false
+    files:
+      - name: home
+        label: Home
+        file: src/_data/home.yml
+        fields:
+          - { name: name, label: Nome, widget: string }
+          - { name: roles, label: Ruoli a rotazione, widget: list }
+
+      - name: about
+        label: Chi sono
+        file: src/_data/about.yml
+        fields:
+          - { name: title, label: Titolo sezione, widget: string, hint: "Puoi usare <span> per la parola colorata" }
+          - { name: intro, label: Presentazione, widget: text, hint: "Testo con eventuali tag <b> e <i>" }
+          - name: info
+            label: Dati personali
+            widget: list
+            fields:
+              - { name: title, label: Etichetta, widget: string }
+              - { name: value, label: Valore, widget: string }
+          - { name: services_title, label: Titolo “Cosa faccio”, widget: string }
+          - name: services_left
+            label: Cosa faccio (colonna sinistra)
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: icon, label: Icona, widget: string, hint: "Nome icona Linearicons, es. lnr-wheelchair" }
+              - { name: title, label: Titolo, widget: string }
+              - { name: text, label: Testo, widget: text }
+          - name: services_right
+            label: Cosa faccio (colonna destra)
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: icon, label: Icona, widget: string }
+              - { name: title, label: Titolo, widget: string }
+              - { name: text, label: Testo, widget: text }
+          - { name: testimonials_title, label: Titolo testimonianze, widget: string }
+          - { name: testimonials_cta, label: Invito a lasciare una testimonianza, widget: string }
+          - { name: testimonials_cta_label, label: Testo del link, widget: string }
+          - { name: testimonials_form, label: Link al modulo testimonianze, widget: string }
+          - name: testimonials
+            label: Testimonianze
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { name: name, label: Nome, widget: string }
+              - { name: role, label: Ruolo, widget: string }
+              - { name: image, label: Foto, widget: image }
+              - { name: text, label: Testo, widget: text }
+          - { name: clients_title, label: Titolo clienti, widget: string }
+          - name: clients
+            label: Clienti
+            widget: list
+            summary: "{{fields.url}}"
+            fields:
+              - { name: url, label: Sito, widget: string }
+              - { name: image, label: Logo, widget: image }
+          - { name: facts_title, label: Titolo fatti divertenti, widget: string }
+          - name: facts
+            label: Fatti divertenti
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: icon, label: Icona, widget: string }
+              - { name: title, label: Titolo, widget: string }
+              - { name: value, label: Valore, widget: string }
+
+      - name: resume
+        label: Resume
+        file: src/_data/resume.yml
+        fields:
+          - { name: title, label: Titolo sezione, widget: string }
+          - { name: education_title, label: Titolo educazione, widget: string }
+          - name: education
+            label: Educazione
+            widget: list
+            summary: "{{fields.period}} · {{fields.title}}"
+            fields:
+              - { name: period, label: Periodo, widget: string }
+              - { name: company, label: Ente, widget: string }
+              - { name: title, label: Titolo, widget: string }
+              - { name: text, label: Note, widget: text, required: false, hint: "Righe vuote separano i paragrafi" }
+          - { name: experience_title, label: Titolo esperienza, widget: string }
+          - name: experience
+            label: Esperienza
+            widget: list
+            summary: "{{fields.period}} · {{fields.title}}"
+            fields:
+              - { name: period, label: Periodo, widget: string }
+              - { name: company, label: Ente, widget: string }
+              - { name: title, label: Ruolo, widget: string }
+              - { name: text, label: Note, widget: text, required: false }
+          - { name: other_title, label: Titolo altre esperienze, widget: string }
+          - name: other
+            label: Altre esperienze lavorative
+            widget: list
+            summary: "{{fields.period}} · {{fields.title}}"
+            fields:
+              - { name: period, label: Periodo, widget: string }
+              - { name: company, label: Ente, widget: string }
+              - { name: title, label: Ruolo, widget: string }
+              - { name: text, label: Note, widget: text, required: false }
+          - name: skill_groups
+            label: Competenze (barre)
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: Titolo gruppo, widget: string }
+              - name: items
+                label: Voci
+                widget: list
+                summary: "{{fields.name}} {{fields.value}}%"
+                fields:
+                  - { name: name, label: Nome, widget: string }
+                  - { name: value, label: Percentuale, widget: number, value_type: int, min: 0, max: 100 }
+          - { name: knowledges_title, label: Titolo conoscenze, widget: string }
+          - { name: knowledges, label: Conoscenze, widget: list }
+          - { name: certificates_title, label: Titolo certificati, widget: string }
+          - name: certificates
+            label: Certificati
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: logo, label: Logo, widget: image }
+              - { name: title, label: Titolo, widget: string }
+              - { name: date, label: Data, widget: string }
+
+      - name: portfolio
+        label: Portfolio (articoli, video, tesi…)
+        file: src/_data/portfolio.yml
+        fields:
+          - { name: title, label: Titolo sezione, widget: string }
+          - { name: all_label, label: Etichetta filtro “tutti”, widget: string }
+          - name: filters
+            label: Filtri
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { name: group, label: Codice, widget: string, hint: "Es. articles, videos. Non modificare quelli esistenti." }
+              - { name: label, label: Etichetta, widget: string }
+          - name: sections
+            label: Sezioni
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: group, label: Codice filtro, widget: string }
+              - { name: title, label: Titolo, widget: string }
+              - name: items
+                label: Elementi
+                widget: list
+                summary: "{{fields.name}}"
+                fields:
+                  - { name: name, label: Nome, widget: string }
+                  - { name: category, label: Etichetta sotto il nome, widget: string }
+                  - { name: image, label: Anteprima, widget: image }
+                  - name: type
+                    label: Tipo
+                    widget: select
+                    options:
+                      - { label: File PDF o pagina da aprire, value: file }
+                      - { label: Video YouTube (lightbox), value: video }
+                      - { label: Link esterno, value: link }
+                  - { name: url, label: Indirizzo, widget: string, hint: "Per i PDF: articles/nome.pdf o thesis/nome.pdf. Per YouTube: https://www.youtube.com/embed/ID" }
+                  - { name: title, label: Titolo del link (facoltativo), widget: string, required: false }
+
+      - name: contact
+        label: Contatti
+        file: src/_data/contact.yml
+        fields:
+          - { name: title, label: Titolo sezione, widget: string }
+          - { name: subtitle, label: Sottotitolo, widget: string }
+          - name: columns
+            label: Colonne di contatti
+            widget: list
+            field:
+              name: column
+              label: Colonna
+              widget: list
+              summary: "{{fields.label}}"
+              fields:
+                - { name: icon, label: Icona, widget: string }
+                - { name: label, label: Testo, widget: string }
+                - { name: url, label: Link, widget: string }
+                - { name: title, label: Titolo del link, widget: string, required: false }
+                - { name: small, label: Testo piccolo, widget: boolean, required: false }
+                - { name: lightbox, label: Apri come immagine, widget: boolean, required: false }
+          - name: form
+            label: Form contatti
+            widget: object
+            fields:
+              - { name: access_key, label: Chiave Web3Forms, widget: string, required: false }
+              - { name: title, label: Titolo, widget: string }
+              - { name: success, label: Messaggio di successo, widget: string }
+              - { name: error, label: Messaggio di errore, widget: string }
+              - name: labels
+                label: Etichette campi
+                widget: object
+                fields:
+                  - { name: name, label: Nome, widget: string }
+                  - { name: email, label: Email, widget: string }
+                  - { name: subject, label: Oggetto, widget: string }
+                  - { name: message, label: Messaggio, widget: string }
+                  - { name: send, label: Pulsante invio, widget: string }
+              - name: errors
+                label: Messaggi di validazione
+                widget: object
+                fields:
+                  - { name: name, label: Nome, widget: string }
+                  - { name: email, label: Email, widget: string }
+                  - { name: subject, label: Oggetto, widget: string }
+                  - { name: message, label: Messaggio, widget: string }
+
+      - name: site
+        label: Impostazioni generali
+        file: src/_data/site.yml
+        fields:
+          - { name: name, label: Nome, widget: string }
+          - { name: title, label: Titolo della scheda, widget: string }
+          - { name: description, label: Descrizione (meta), widget: string }
+          - { name: keywords, label: Parole chiave (meta), widget: string }
+          - { name: lang, label: Lingua, widget: string }
+          - { name: photo, label: Foto profilo, widget: image }
+          - { name: background, label: Sfondo animato, widget: image }
+          - { name: copyright, label: Copyright, widget: string }
+          - { name: email, label: Email, widget: string }
+          - { name: phone, label: Telefono (mostrato), widget: string }
+          - { name: phone_link, label: Telefono (per il link tel:), widget: string }
+          - { name: whatsapp, label: Link WhatsApp, widget: string }
+          - { name: telegram, label: Link Telegram, widget: string }
+          - { name: vcard, label: File vCard, widget: string }
+          - { name: qr_code, label: Immagine QR code, widget: string }
+          - name: menu
+            label: Menu
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { name: id, label: Sezione, widget: string }
+              - { name: icon, label: Icona, widget: string }
+              - { name: label, label: Etichetta, widget: string }
+          - name: social
+            label: Icone social nella barra laterale
+            widget: list
+            summary: "{{fields.url}}"
+            fields:
+              - { name: icon, label: Icona (Font Awesome), widget: string }
+              - { name: url, label: Link, widget: string }
