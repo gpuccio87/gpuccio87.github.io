@@ -26,7 +26,7 @@ columns:
     url: https://t.me/gpuccio87
 form:
   # Chiave pubblica Web3Forms (https://web3forms.com): finché è vuota il form non viene mostrato
-  access_key: ''
+  access_key: '577c023d-0265-4215-89ac-fa532f2c8b42'
   title: Scrivimi <span>un messaggio</span>
   success: Messaggio inviato. Grazie, ti risponderò al più presto!
   error: Si è verificato un errore durante l'invio. Riprova più tardi o scrivimi via email.
