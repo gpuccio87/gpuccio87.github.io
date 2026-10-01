@@ -1,0 +1,43 @@
+title: Contatti
+subtitle: Come posso <span>aiutarti?</span>
+columns:
+- - icon: lnr-phone-handset
+    label: +39 3805334868
+    url: tel:3805334868
+  - icon: lnr-user
+    label: Scarica il mio contatto
+    url: vcard.vcf
+    title: VCard
+- - icon: lnr-envelope
+    label: info@gabrielepucciarelli.com
+    url: mailto:info@gabrielepucciarelli.com
+    small: true
+  - icon: lnr-smartphone
+    label: Clicca e scansiona il QR Code
+    url: qr-code.png
+    title: VCard
+    lightbox: true
+    small: true
+- - icon: lnr-bubble
+    label: Whatsapp
+    url: https://wa.me/3805334868
+  - icon: lnr-bubble
+    label: Telegram
+    url: https://t.me/gpuccio87
+form:
+  # Chiave pubblica Web3Forms (https://web3forms.com): finché è vuota il form non viene mostrato
+  access_key: '577c023d-0265-4215-89ac-fa532f2c8b42'
+  title: Scrivimi <span>un messaggio</span>
+  success: Messaggio inviato. Grazie, ti risponderò al più presto!
+  error: Si è verificato un errore durante l'invio. Riprova più tardi o scrivimi via email.
+  labels:
+    name: Nome
+    email: Email
+    subject: Oggetto
+    message: Messaggio
+    send: Invia messaggio
+  errors:
+    name: Il nome è richiesto
+    email: È richiesta una email valida
+    subject: L'oggetto è richiesto
+    message: Per favore, lasciami un messaggio

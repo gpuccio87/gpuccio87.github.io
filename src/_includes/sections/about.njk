@@ -1,0 +1,161 @@
+              <!-- About Me Subpage -->
+              <section data-id="about-me" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>{{ about.title | safe }}</h2>
+                  </div>
+
+                  <!-- Personal Information -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <p>{{ about.intro | safe }}</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5">
+                      <div class="info-list">
+                        <ul>
+                          {%- for i in about.info %}
+                          <li>
+                            <span class="title">{{ i.title }}</span>
+                            <span class="value">{{ i.value }}</span>
+                          </li>
+                          {%- endfor %}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Personal Information -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Services -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>{{ about.services_title | safe }}</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    {%- for column in [about.services_left, about.services_right] %}
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          {%- for s in column %}
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr {{ s.icon }}"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>{{ s.title }}</h4>
+                              <p>{{ s.text | safe }}</p>
+                            </div>
+                          </div>
+                          {%- endfor %}
+                        </div>
+                      </div>
+                    </div>
+                    {%- endfor %}
+                  </div>
+                  <!-- End of Services -->
+
+                  <div class="white-space-30"></div>
+
+                  <!-- Testimonials -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>{{ about.testimonials_title }}</h3>
+                        <div class="info-list">
+                          <ul>
+                            <li>
+                              <span class="value">{{ about.testimonials_cta }}</span>
+                              <a href="{{ about.testimonials_form }}"> <span class="title">{{ about.testimonials_cta_label }}</span></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="testimonials owl-carousel">
+                        {%- for t in about.testimonials %}
+                        <div class="testimonial">
+                          <div class="img">
+                            <img src="{{ t.image }}" alt="{{ t.name }}">
+                          </div>
+                          <div class="text">
+                            <p>{{ t.text | safe }}</p>
+                          </div>
+
+                          <div class="author-info">
+                            <h4 class="author">{{ t.name }}</h4>
+                            <h5 class="company">{{ t.role }}</h5>
+                            <div class="icon">
+                              <i class="fas fa-quote-right"></i>
+                            </div>
+                          </div>
+                        </div>
+                        {%- endfor %}
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Testimonials -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Clients -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>{{ about.clients_title | safe }}</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="clients owl-carousel">
+                        {%- for c in about.clients %}
+                        <div class="client-block">
+                          <a href="{{ c.url }}" target="_blank" title="Logo">
+                            <img src="{{ c.image }}" alt="Logo">
+                          </a>
+                        </div>
+                        {%- endfor %}
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Clients -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Fun Facts -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>{{ about.facts_title | safe }}</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    {%- for f in about.facts %}
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr {{ f.icon }}"></i>
+                        <h4>{{ f.title }}</h4>
+                        <span class="fun-fact-block-value">{{ f.value }}</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
+                    {%- endfor %}
+                  </div>
+                  <!-- End of Fun Facts -->
+
+                </div>
+              </section>
+              <!-- End of About Me Subpage -->

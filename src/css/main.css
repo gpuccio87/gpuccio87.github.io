@@ -2968,3 +2968,37 @@ blockquote {
   }
 }
 
+
+/* --- Personalizzazioni (2026) --- */
+
+/* Anteprime del blog con la stessa proporzione, così le card restano allineate */
+.blog-card .media-block img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+/* Messaggi di esito del form contatti */
+.contact-form .messages .alert {
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  border-radius: 5px;
+  font-size: 0.93em;
+}
+
+.contact-form .messages .alert-success {
+  background-color: #1b8a5a;
+  color: #fff;
+}
+
+.contact-form .messages .alert-danger {
+  background-color: #b03a3a;
+  color: #fff;
+}
+
+.contact-form .btn-send[disabled] {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+/* --- /Personalizzazioni --- */

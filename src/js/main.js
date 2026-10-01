@@ -64,36 +64,43 @@
     }
     // /Custom scroll
 
-    // Contact form validator
+    // Contact form (Web3Forms)
     $(function () {
+        var form = $('#contact_form');
+        if (!form.length) { return; }
 
-        $('#contact_form').validator();
+        form.validator();
 
-        $('#contact_form').on('submit', function (e) {
-            if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
+        form.on('submit', function (e) {
+            if (e.isDefaultPrevented()) { return; }
+            e.preventDefault();
 
-                $.ajax({
-                    type: "POST",
-                    url: url,
-                    data: $(this).serialize(),
-                    success: function (data)
-                    {
-                        var messageAlert = 'alert-' + data.type;
-                        var messageText = data.message;
+            var button = form.find('.btn-send'),
+                messages = form.find('.messages');
 
-                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                        if (messageAlert && messageText) {
-                            $('#contact_form').find('.messages').html(alertBox);
-                            $('#contact_form')[0].reset();
-                        }
-                    }
-                });
-                return false;
-            }
+            button.prop('disabled', true);
+
+            fetch(form.attr('action'), {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                body: JSON.stringify(Object.fromEntries(new FormData(form[0])))
+            })
+            .then(function (r) { return r.json(); })
+            .then(function (data) {
+                var ok = data && data.success;
+                messages.html('<div class="alert ' + (ok ? 'alert-success' : 'alert-danger') + '">' + (ok ? form.data('success') : form.data('error')) + '</div>');
+                if (ok) {
+                    form[0].reset();
+                    form.find('.form-group').removeClass('form-group-focus');
+                }
+            })
+            .catch(function () {
+                messages.html('<div class="alert alert-danger">' + form.data('error') + '</div>');
+            })
+            .then(function () { button.prop('disabled', false); });
         });
     });
-    // /Contact form validator
+    // /Contact form (Web3Forms)
 
     //On Window load & Resize
     $(window)
@@ -304,13 +311,6 @@
             },
         });
 
-        //Google Maps
-        $("#map").googleMap({
-            zoom: 16 // Google Map ZOOM. You can change this value
-        });
-        $("#map").addMarker({
-            address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
-        });
     });
 
 })(jQuery);

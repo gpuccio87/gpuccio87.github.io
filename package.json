@@ -1,0 +1,17 @@
+{
+  "name": "gabrielepucciarelli.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sito personale di Gabriele Pucciarelli, generato con Eleventy",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "js-yaml": "^5.4.2"
+  }
+}

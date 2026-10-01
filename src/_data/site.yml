@@ -1,0 +1,41 @@
+name: Gabriele Pucciarelli
+title: Gabriele Pucciarelli
+description: Gabriele Pucciarelli
+keywords: Gabriele Pucciarelli, fisioterapista, posturologia, streaming, docente, videomaker, portfolio
+lang: it
+photo: img/main_photo.jpg
+background: img/main_bg.png
+copyright: © 2025 All rights reserved.
+email: info@gabrielepucciarelli.com
+phone: +39 380 5334868
+phone_link: '3805334868'
+whatsapp: https://wa.me/3805334868
+telegram: https://t.me/gpuccio87
+vcard: vcard.vcf
+qr_code: qr-code.png
+menu:
+- id: home
+  icon: lnr-home
+  label: Home
+- id: about-me
+  icon: lnr-user
+  label: Chi sono
+- id: resume
+  icon: lnr-graduation-hat
+  label: Resume
+- id: portfolio
+  icon: lnr-briefcase
+  label: Portfolio
+- id: blog
+  icon: lnr-book
+  label: Blog
+- id: contact
+  icon: lnr-envelope
+  label: Contatti
+social:
+- icon: fab fa-whatsapp
+  url: https://wa.me/3805334868
+- icon: fas fa-phone
+  url: tel:3805334868
+- icon: far fa-envelope
+  url: mailto:info@gabrielepucciarelli.com

@@ -1,0 +1,109 @@
+title: Chi <span>sono</span>
+intro: Fondamentalmente un <i>geek</i>. Mi piace trovare <b>soluzioni intelligenti</b> ai problemi delle persone. Sono estremamente curioso ed <small><small>eccessivamente</small></small> organizzato. Accanito consumatore di musica, film, libri e videogiochi. Mi interesso alla programmazione, alla stampa 3D, alla domotica e al mondo della finanza. <b>Docente</b> e assistente alla docenza. <b>Fisioterapista</b> nel tempo libero.
+info:
+- title: Anni
+  value: '38'
+- title: Residenza
+  value: Italia
+- title: Luogo
+  value: Lucca, Pisa, Versilia
+- title: Email
+  value: info@gabrielepucciarelli.com
+- title: Telefono
+  value: +39 380 5334868
+services_title: Cosa <span>faccio</span>
+services_left:
+- icon: lnr-wheelchair
+  title: Fisioterapia
+  text: Negli anni mi sono specializzato nel trattamento del <b>dolore</b>, soprattutto <b>cronico</b>. Curo i problemi dei miei pazienti secondo le più recenti ricerche scientifiche ma personalizzando il trattamento sulla persona, utilizzando <b>Terapia Manuale, Osteopatia, Rieducazione Posturale</b> ed <b>Esercizio terapeutico</b>.
+- icon: lnr-users
+  title: Comunicazione
+  text: Con il <b>Lucca Comics and Games</b> ho lavorato al canale Twitch del Festival. Attualmente curo la comunicazione dello <b>Studio di Fisioterapia e Comunicazione Kinesis.</b>
+- icon: lnr-bubble
+  title: Docenza
+  text: Mi piace <b>divulgare</b> quello che conosco, e ho occasione di farlo in diverse sedi, ad esempio come assistente alla docenza al <b><a href="http://masterposturologia.med.unipi.it/">Master di Posturologia Clinica</a></b> dell'Università di Pisa. Nel 2023 ho organizzato e sono stato docente del corso <b>"Postura, Terapia Manuale ed Esercizio Terapeutico"</b> presso lo <b><a href="https://www.fisioterapia-osteopatia-r2.it/">Studio di Fisioterapia R2 di Barga</a></b> (LU).
+- icon: lnr-magnifier
+  title: Ricerca
+  text: Non c'è miglioramento senza ricerca <small>(o, almeno, senza tentativo di ricerca)</small>. Ho lavorato per il progetto <b>MAP</b>, in collaborazione con il Dott. Paolo Bongioanni, Neurologo di Pisa, con lo scopo di amplificare gli effetti della <b>terapia posturale Mezieres</b> tramite <b>l'arte e le emozioni</b> del teatro e della sua scuola. Sono correlatore di diverse <b>Tesi al Master di Posturologia Clinica</b>.
+- icon: lnr-printer
+  title: Stampa 3D
+  text: La stampa 3D permette di unire la passione per la <b>tecnologia</b> e la <b>creatività</b>. Il progetto più bello? Disegnare e stampare <em>from scratch</em> una cover a forma di sveglia per un Google Home Mini.
+- icon: lnr-camera-video
+  title: Videomaking
+  text: Mi piace passare la giornata all'aria aperta, e mi piace trasmettere quello che vedo. Per questo mi sono appassionato al videomaking da terra e con il <b>drone</b>. Ho collaborato come regista per la gara per auto ibride <b>Economy Run</b> del Gruppo di Acquisto Ibrido, e ho realizzato il video per sponsorizzare la <b>Festa Medievale di Castiglione di Garfagnana</b>, in collaborazione con la Pro-Loco.
+services_right:
+- icon: lnr-bicycle
+  title: Sport
+  text: Sono stato un buon atleta per diversi anni. Ho abbandonato lo sport agonistico quando ho iniziato l'università, ma questo non mi ha impedito di continuare a seguire la mia passione da Fisioterapista. Sono stato fisioterapista della squadra di <b>calcio di Pisa</b> e ho seguito in gara Salvatore Caruso e Cultrera Concetta, <b>vice-campioni del mondo 2012 e campioni del mondo 2013 di Danza Sportiva</b>.
+- icon: lnr-flag
+  title: Management
+  text: Ho assunto il ruolo di organizzatore in diverse occasioni. Al Pisa Calcio sono stato <b>Responsabile dei Fisioterapisti del settore giovanile</b> e sono stato lo Streaming Specialist del <b>Lucca Comics and Games.</b>
+- icon: lnr-pencil
+  title: Articoli e Blog
+  text: Amo scrivere. Sono collaboratore per la rivista <b>Starbene</b>, con cui ho collaborato nella <b>stesura di diversi articoli</b> e rispondendo alle <b>domande dei pazienti</b> in qualità di Esperto Fisioterapista. In passato ho scritto diversi articoli riguardanti il cinema, l'intelligenza artificiale, il software per <b>Skimbu</b>, un blog di tecnologia. Più recentemente ho scritto articoli per il sito di Kinesis, lo studio di Fisioterapia con cui collaboro.
+- icon: lnr-home
+  title: Domotica
+  text: Sai che la mia casa può parlare? Accende e spegne a comando le luci e gli elettrodomestici. Apre e chiude le tende da sole a seconda del meteo. Avvisa se una porta o una finestra è rimasta aperta quando si accende il riscaldamento (anche il riscaldamento è intelligente). Ha un sacco di funzioni intelligenti, che <b>semplificano</b> la vita e permettono di <b>risparmiare energia</b>... e tutte programmate da me!
+- icon: lnr-code
+  title: Programmazione
+  text: Amo ottimizzare le mie routine, e la tecnologia mi aiuta in questo. Come quel pezzo di codice che ho scritto per <b>ricordare ai miei pazienti l'appuntamento</b> del giorno successivo. Una volta ho insegnato ad una <b>Intelligenza Artificiale</b> a giocare a Tris. E co<small>me quella <small>volta c<small>he...</small></small></small>
+testimonials_title: Testimonials
+testimonials_cta: Vuoi lasciare la tua testimonianza?
+testimonials_cta_label: Clicca qui!
+testimonials_form: https://docs.google.com/forms/d/e/1FAIpQLSdof2aCfCTdtqLev0a6VndNIxx_N8ksG0408j18Z5lbiLQTAQ/viewform
+testimonials:
+- name: Luca Canessa
+  role: Paziente - Pisa
+  image: img/testimonials/testimonial-1.jpg
+  text: Ho conosciuto Gabriele qualche anno fa nell’ambito della mia attività sportiva. Mi ha trattato benissimo sia a livello professionale che umano; da allora non l'ho più abbandonato, in quanto lo ritengo un fisioterapista preparato e capace, tanto da consigliarlo ad amici e a parenti.
+- name: Dott. Luigi Nicoletti
+  role: Docente Master Posturologia Clinica - UniPi
+  image: img/testimonials/testimonial-2.jpg
+  text: Raramente ho trovato collaboratori così preparati, precisi e puntuali
+- name: Dott. Federico Rocchiccioli
+  role: Fisioterapista - Titolare Studio R2
+  image: img/testimonials/testimonial-3.jpg
+  text: Il Dott. Pucciarelli è un professore molto preparato, ho seguito con lui alcuni corsi sulle catene muscolari. La parte teorica è sempre seguita da una corposa parte pratica che ti insegna molti modi per risolvere il problema del paziente
+- name: Dott. Deya Watad
+  role: Fisioterapista
+  image: img/testimonials/testimonial-4.jpg
+  text: Il Dott. Pucciarelli ha ottime capacità comunicative. Le lezioni si basano sulle ultime evidenze scientifiche accompagnate da una vasta parte pratica. Ho riscontrato risultati davvero soddisfacenti nel trattamento delle problematiche dei pazienti
+- name: Dott.ssa Lucia Vanni
+  role: Fisioterapista
+  image: img/testimonials/testimonial-5.jpg
+  text: Ho avuto il piacere di passare una giornata di formazione con lui. Ho constatato quanto sia un professionista serio e competente con doti comunicative non comuni
+clients_title: Alcuni miei <span>clienti</span>
+clients:
+- url: https://pisasportingclub.com/
+  image: img/clients/client-1.png
+- url: https://www.kinesislucca.it/
+  image: img/clients/client-2.png
+- url: https://www.twitch.tv/luccacomicsandgames
+  image: img/clients/client-3.png
+- url: http://masterposturologia.med.unipi.it/
+  image: img/clients/client-4.png
+- url: https://www.starbene.it/
+  image: img/clients/client-5.png
+- url: https://www.fisioterapia-osteopatia-r2.it/
+  image: img/clients/client-11.png
+- url: https://www.aitop.it/
+  image: img/clients/client-10.png
+- url: https://ecoverso.org/
+  image: img/clients/client-6.png
+- url: '#'
+  image: img/clients/client-7.png
+- url: http://www.castiglionegarf.altervista.org/
+  image: img/clients/client-8.png
+- url: https://www.atleticolucca.it/
+  image: img/clients/client-9.png
+facts_title: Fatti <span>Divertenti</span>
+facts:
+- icon: lnr-heart
+  title: Pazienti felici
+  value: 4000+
+- icon: lnr-clock
+  title: Ore di lavoro
+  value: 24.000+
+- icon: lnr-film-play
+  title: Views su Youtube
+  value: 21.000+

@@ -1,9 +1,13 @@
+{%- set prevItem = collections.progetti | getPreviousCollectionItem -%}
+{%- set nextItem = collections.progetti | getNextCollectionItem -%}
+{%- if not prevItem %}{% set prevItem = collections.progetti | last %}{% endif -%}
+{%- if not nextItem %}{% set nextItem = collections.progetti | first %}{% endif -%}
 <div id="ajax-page" class="ajax-page-content">
     <div class="ajax-page-wrapper">
         <div class="ajax-page-nav">
             <div class="nav-item ajax-page-prev-next">
-                <a class="ajax-page-load" href="portfolio-1.html"><i class="lnr lnr-chevron-left"></i></a>
-                <a class="ajax-page-load" href="portfolio-3.html"><i class="lnr lnr-chevron-right"></i></a>
+                <a class="ajax-page-load" href="{{ prevItem.url | replace('/', '') }}"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="{{ nextItem.url | replace('/', '') }}"><i class="lnr lnr-chevron-right"></i></a>
             </div>
             <div class="nav-item ajax-page-close-button">
                 <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
@@ -11,17 +15,18 @@
         </div>
 
         <div class="ajax-page-title">
-            <h1>CalLog 2.2.3</h1>
+            <h1>{{ title }}</h1>
         </div>
 
         <div class="row">
             <div class="col-sm-8 col-md-8 portfolio-block">
                 <div class="owl-carousel portfolio-page-carousel">
+                    {%- for img in images %}
                     <div class="item">
-                        <img src="img/portfolio/full/eventtosms/1.jpg" alt="" />
+                        <img src="{{ img }}" alt="{{ title }}" />
                     </div>
+                    {%- endfor %}
                 </div>
-
 
                 <script type="text/javascript">
                     jQuery(document).ready(function($){
@@ -48,11 +53,13 @@
                         <h3>Descrizione</h3>
                     </div>
                     <ul class="project-general-info">
-                        <li><p><i class="fa fa-user"></i> Gabriele Pucciarelli</p></li>
-                        <li><p><i class="fa fa-calendar"></i> 7 novembre, 2018</p></li>
+                        <li><p><i class="fa fa-user"></i> {{ author or site.name }}</p></li>
+                        <li><p><i class="fa fa-calendar"></i> {{ date_label }}</p></li>
                     </ul>
 
-                    <p class="text-justify">CalLog è uno script per Android, realizzato con Tasker e Javascript, che invia un SMS ad ogni chiamata persa in modo automatico. Inoltre lo script invia, una volta al giorno, un promemoria -via email- con tutte le chiamate perse.</p>
+                    <div class="text-justify">
+{{ content | safe }}
+                    </div>
                     <!-- /Project Description -->
 
                     <!-- Technology -->
@@ -61,23 +68,12 @@
                             <h3>Tecnologie <span>utilizzate</span></h3>
                         </div>
                         <ul class="tags">
-                            <li><a>Android</a></li>
-                            <li><a>Tasker</a></li>
-                            <li><a>Javascript</a></li>
+                            {%- for t in technologies %}
+                            <li><a>{{ t }}</a></li>
+                            {%- endfor %}
                         </ul>
                     </div>
                     <!-- /Technology -->
-
-                    <!-- Share Buttons -->
-                    <div class="btn-group share-buttons">
-                        <div class="block-title">
-                            <h3>Condividi</h3>
-                        </div>
-                        <a href="#" target="_blank" class="btn"><i class="fab fa-facebook-f"></i> </a>
-                        <a href="#" target="_blank" class="btn"><i class="fab fa-twitter"></i> </a>
-                        <a href="#" target="_blank" class="btn"><i class="fab fa-dribbble"></i> </a>
-                    </div>
-                    <!-- /Share Buttons -->
                 </div>
                 <!-- Project Description -->
             </div>

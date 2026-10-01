@@ -1,0 +1,38 @@
+              <!-- Blog Subpage -->
+              <section data-id="blog" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Blog</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="blog-masonry two-columns clearfix">
+                        {%- for post in collections.posts %}
+                        {%- set postUrl = post.url | replace('/', '') %}
+                        <div class="item post-1">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="Vedi tutti i post in {{ post.data.category }}">{{ post.data.category }}</a>
+                              </div>
+                              <a href="{{ postUrl }}">
+                                <img src="{{ post.data.image }}" class="size-blog-masonry-image-two-c" alt="{{ post.data.image_alt or post.data.title }}" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">{{ post.data.date_label or ' ' }}</div>
+                              <a href="{{ postUrl }}">
+                                <h4 class="blog-item-title">{{ post.data.title }}</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        {%- endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Blog Subpage -->

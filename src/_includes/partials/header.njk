@@ -1,0 +1,32 @@
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="{{ site.photo }}" alt="{{ site.name }}">
+              </div>
+              <div class="header-titles">
+                <h2>{{ site.name }}</h2>
+                <h4> </h4>
+              </div>
+            </div>
+
+            <ul class="main-menu">
+              {%- for item in site.menu %}
+              <li{% if loop.first %} class="active"{% endif %}>
+                <a href="{{ menuBase }}#{{ item.id }}" class="nav-anim">
+                  <span class="menu-icon lnr {{ item.icon }}"></span>
+                  <span class="link-text">{{ item.label }}</span>
+                </a>
+              </li>
+              {%- endfor %}
+            </ul>
+
+            <div class="social-links">
+              <ul>
+                {%- for s in site.social %}
+                <li><a href="{{ s.url }}" target="_blank"><i class="{{ s.icon }}"></i></a></li>
+                {%- endfor %}
+              </ul>
+            </div>
+
+            <div class="copyrights">{{ site.copyright }}</div>
+          </header>

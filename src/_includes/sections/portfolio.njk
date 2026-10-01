@@ -1,0 +1,65 @@
+              <!-- Portfolio Subpage -->
+              <section data-id="portfolio" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>{{ portfolio.title }}</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          {%- for f in portfolio.filters %}
+                          <li{% if loop.first %} class="active"{% endif %}>
+                            <a class="filter btn btn-sm btn-link" data-group="category_{{ f.group }}">{{ f.label }}</a>
+                          </li>
+                          {%- endfor %}
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid three-columns">
+                          {%- for sec in portfolio.sections %}
+
+                          <!-- {{ sec.title }} -->
+                          {%- for it in sec.items %}
+                          <figure class="item {{ 'lbvideo' if it.type == 'video' or it.type == 'link' else 'standard' }}" data-groups='["category_all", "category_{{ sec.group }}"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{ it.image }}" alt="{{ it.name }}" title="" />
+                              {%- if it.type == 'video' %}
+                              <a href="{{ it.url }}" class="lightbox mfp-iframe" title="{{ it.title or it.name }}"></a>
+                              {%- else %}
+                              <a href="{{ it.url }}" class="_blank" title="{{ it.title or it.name }}"></a>
+                              {%- endif %}
+                            </div>
+
+                            <i class="{{ 'fas fa-video' if it.type == 'video' or it.type == 'link' else 'far fa-file-alt' }}"></i>
+                            <h4 class="name">{{ it.name }}</h4>
+                            <span class="category">{{ it.category }}</span>
+                          </figure>
+                          {%- endfor %}
+                          {%- endfor %}
+
+                          <!-- Progetti -->
+                          {%- for p in collections.progetti %}
+                          <figure class="item standard" data-groups='["category_all", "category_{{ p.data.group }}"]'>
+                            <div class="portfolio-item-img">
+                              <img src="{{ p.data.thumbnail }}" alt="{{ p.data.name }}" title="" />
+                              <a href="{{ p.url | replace('/', '') }}" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">{{ p.data.name }}</h4>
+                            <span class="category">{{ p.data.category }}</span>
+                          </figure>
+                          {%- endfor %}
+
+                        </div>
+                      </div>
+                      <!-- End of Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Portfolio Subpage -->
