@@ -1,0 +1,234 @@
+title: Portfolio
+all_label: All
+filters:
+- group: all
+  label: All
+- group: articles
+  label: Articoli
+- group: thesis
+  label: Tesi
+- group: interviews
+  label: Interviste
+- group: videos
+  label: Video
+- group: stream
+  label: Live stream
+- group: code
+  label: Software
+- group: 3D
+  label: Stampa 3D
+sections:
+- group: articles
+  title: Articoli
+  items:
+  - name: Le cattive posture dei ragazzi
+    category: Articolo Starbene
+    image: img/portfolio/1.jpg
+    type: file
+    url: articles/8-20.pdf
+    title: Articolo
+  - name: Il colpo di frusta
+    category: Articolo Starbene
+    image: img/portfolio/1.jpg
+    type: file
+    url: articles/10-20.pdf
+    title: Articolo
+  - name: Il dolore al gomito
+    category: Articolo Starbene
+    image: img/portfolio/1.jpg
+    type: file
+    url: articles/16-20.pdf
+    title: Articolo
+  - name: Troppo tempo sul divano
+    category: Articolo Starbene
+    image: img/portfolio/1.jpg
+    type: file
+    url: articles/17-1-20.pdf
+    title: Articolo
+  - name: Dolori posturali
+    category: Articolo Starbene
+    image: img/portfolio/1.jpg
+    type: file
+    url: articles/21-20.pdf
+    title: Articolo
+  - name: La gym per lo smartworking
+    category: Articolo Starbene
+    image: img/portfolio/1.jpg
+    type: file
+    url: articles/22-20.pdf
+    title: Articolo
+  - name: 'Ergonomia: i nostri consigli per una postura corretta'
+    category: Articolo Kinesis
+    image: img/portfolio/3.jpg
+    type: file
+    url: articles/Ergonomia i nostri consigli per una postura corretta.pdf
+    title: Articolo
+  - name: Falsi miti in Posturologia
+    category: Articolo Kinesis
+    image: img/portfolio/3.jpg
+    type: file
+    url: articles/Falsi miti in posturologia.pdf
+    title: Articolo
+  - name: 'Dalla biologia all''intelligenza artificiale: le reti neurali'
+    category: Articolo Skimbu
+    image: img/portfolio/2.jpg
+    type: file
+    url: articles/Reti neurali.pdf
+    title: Articolo
+  - name: 'Stanley Kubrick ovvero: come imparai a non...'
+    category: Articolo Skimbu
+    image: img/portfolio/2.jpg
+    type: file
+    url: articles/Stanley Kubrick ovvero.pdf
+    title: Articolo
+  - name: 5 apps per scaricare musica con Android
+    category: Articolo Skimbu
+    image: img/portfolio/2.jpg
+    type: file
+    url: articles/5 apps per scaricare musica con Android.pdf
+    title: Articolo
+  - name: 5 soluzioni alternative per scaricare musica da internet
+    category: Articolo Skimbu
+    image: img/portfolio/2.jpg
+    type: file
+    url: articles/5 soluzioni alternative per scaricare musica da internet.pdf
+    title: Articolo
+  - name: 'Google: sei sicuro di usarlo bene?'
+    category: Articolo Skimbu
+    image: img/portfolio/2.jpg
+    type: file
+    url: articles/Google.pdf
+    title: Articolo
+  - name: 'A caccia di musica: 10 servizi per scoprire nuove canzoni'
+    category: Articolo Skimbu
+    image: img/portfolio/2.jpg
+    type: file
+    url: articles/A caccia di musica.pdf
+    title: Articolo
+  - name: 'Syncness: sincronizzazione wifi di file e musica...'
+    category: Articolo Skimbu
+    image: img/portfolio/2.jpg
+    type: file
+    url: articles/Syncness.pdf
+    title: Articolo
+  - name: Quando un numero diventa musica
+    category: Articolo Skimbu
+    image: img/portfolio/2.jpg
+    type: file
+    url: articles/Quando un numero diventa musica.pdf
+    title: Articolo
+- group: videos
+  title: Video
+  items:
+  - name: Festa Medievale Castiglione di Garfagnana - Spot
+    category: Video Youtube
+    image: img/portfolio/10.jpg
+    type: video
+    url: https://www.youtube.com/embed/9nIb0Ehdz3Q
+  - name: Lucca, abbiamo chiesto ai passanti...
+    category: Video Youtube
+    image: img/portfolio/11.jpg
+    type: video
+    url: https://www.youtube.com/embed/0kcRvqsO3qs
+  - name: Nicoletta e Nicola - L'inizio del cammino insieme
+    category: Video Youtube
+    image: img/portfolio/12.jpg
+    type: video
+    url: https://www.youtube.com/embed/5awKBFTDmFQ
+  - name: Matrimonio di Fabio e Veronica, con "sorpresa" - Palazzo della Spiaggia, Marina di Pietrasanta
+    category: Video Youtube
+    image: img/portfolio/13.jpg
+    type: video
+    url: https://www.youtube.com/embed/V19NUKZNEX8
+    title: Matrimonio di Fabio e Veronica, con sorpresa - Palazzo della Spiaggia, Marina di Pietrasanta
+  - name: Garda - Trailer
+    category: Video Youtube
+    image: img/portfolio/14.jpg
+    type: video
+    url: https://www.youtube.com/embed/KyXbZ6zpAXo
+  - name: Il Borgo Fantasma di Toiano, Pisa - Cinematic Drone Video
+    category: Video Youtube
+    image: img/portfolio/15.jpg
+    type: video
+    url: https://www.youtube.com/embed/7SUFFUxIY30
+  - name: Fortezza della Brunella, Aulla - Cinematic Drone Video
+    category: Video Youtube
+    image: img/portfolio/16.jpg
+    type: video
+    url: https://www.youtube.com/embed/5dQnxd2G6IE
+- group: stream
+  title: Live stream
+  items:
+  - name: Canale Twitch Lucca Comics and Games
+    category: Live Streaming
+    image: img/portfolio/lcg.jpg
+    type: link
+    url: https://www.twitch.tv/luccacomicsandgames
+    title: Lucca Comics and Games
+  - name: GAI Economy Run - Milano 2019
+    category: Live Streaming
+    image: img/portfolio/17.jpg
+    type: video
+    url: https://www.youtube.com/embed/oHDeOVxdTMw
+- group: thesis
+  title: Tesi
+  items:
+  - name: Gabriele Pucciarelli - Trattamento Riabilitativo, posturale e preventivo nella danza sportiva con il Metodo Mezieres
+    category: Tesi di Laurea
+    image: img/portfolio/18.jpg
+    type: file
+    url: thesis/Trattamento riabilitativo, posturale e preventivo nella danza sportiva con il metodo Mezieres.pdf
+    title: Tesi
+  - name: Gabriele Pucciarelli et al. - Master di Posturologia Clinica - La postura nella danza, uno studio statistico
+    category: Tesi di Master
+    image: img/portfolio/18.jpg
+    type: file
+    url: thesis/La postura nella danza, uno studio statistico.pdf
+    title: Tesi
+  - name: Roberto Bellotti et al. - Master di Posturologia Clinica - Modifiche Posturali dopo l'intervento di correzione dell'alluce valgo con tecnica mininvasiva percutanea
+    category: Tesi di Master
+    image: img/portfolio/18.jpg
+    type: file
+    url: thesis/Modifiche Posturali Dopo Intervento.pdf
+    title: Tesi
+  - name: 'Serena Loprevite - Master di Posturologia Clinica - Danza e Postura: Metodologia per il riequilibrio posturale'
+    category: Tesi di Master
+    image: img/portfolio/18.jpg
+    type: file
+    url: thesis/Tesi Serena Loprevite.pdf
+    title: Tesi
+  - name: Dorina Chirila et al. - Master di Posturologia Clinica - Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni
+    category: Tesi di Master
+    image: img/portfolio/18.jpg
+    type: file
+    url: thesis/Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni.pdf
+    title: Tesi
+- group: interviews
+  title: Interviste
+  items:
+  - name: Postura nel ciclismo - Emozione Bike - NoiTv 2021
+    category: Contributo
+    image: img/portfolio/4.jpg
+    type: video
+    url: https://www.youtube.com/embed/Pha5R82uliw
+  - name: Cervicale nel ciclismo - Emozione Bike - NoiTv 2021
+    category: Contributo
+    image: img/portfolio/4.jpg
+    type: video
+    url: https://www.youtube.com/embed/N6_bMXNjOkg
+  - name: Postura - Il Calcio che vorrei - NoiTv 2020
+    category: Contributo
+    image: img/portfolio/4.jpg
+    type: video
+    url: https://www.youtube.com/embed/MsfJn7IGZnE
+  - name: Propriocezione - Il Calcio che vorrei - NoiTv 2020
+    category: Contributo
+    image: img/portfolio/4.jpg
+    type: video
+    url: https://www.youtube.com/embed/-qjXOcsSCyg
+    title: Propriocezione - Il Calcio che vorrei NoiTv 2020
+  - name: Intervento a Il Calcio che vorrei - NoiTv 2019
+    category: Intervista
+    image: img/portfolio/4.jpg
+    type: video
+    url: https://www.youtube.com/embed/xf-hXsO6NPM

@@ -1,0 +1,193 @@
+title: Resume
+education_title: Educazione
+education:
+- period: '2007'
+  company: Università degli Studi di Pisa
+  title: Fisioterapia
+  text: 1° classificato al test di Ingresso di Fisioterapia su un totale di 890 candidati.
+- period: '2008'
+  company: Studio di Fisioterapia Tekmedica
+  title: Corso di Massaggio Sportivo
+- period: '2009'
+  company: Università degli Studi di Pisa - FIsiolife
+  title: Corso di Fisiologia e Tecniche di Massaggio
+- period: '2013'
+  company: Università degli Studi di Pisa
+  title: Dottore in Fisioterapia
+  text: Laureato in Fisioterapia con la votazione di 110/110.
+- period: '2010'
+  company: Università degli Studi di Pisa
+  title: Corso di Perfezionamento in Terapia Manuale
+- period: 2012-2013
+  company: JMC Formations
+  title: Diploma Internazionale di Formazione al Metodo Mezieres
+- period: 2014-2015
+  company: Università degli Studi di Pisa
+  title: Master di I Livello in Posturologia Clinica
+  text: 'Vincitore di borsa di Studio. Voto finale: <b>Ottimo</b>'
+- period: 2015-2016
+  company: Accademia Italiana Terapia Osteopatica Posturale
+  title: Corso TOP - Terapia Osteopatica Posturale
+  text: Moduli Rachide Base, Periferico, Fasciale
+- period: '2018'
+  company: Manipulations Italian Accademy
+  title: Corso di Chiroterapia e Manipolazioni Vertebrali
+experience_title: Esperienza
+experience:
+- period: 2007 - 2010
+  company: A.O.U. Santa Chiara, A.O.U. Cisanello
+  title: Tirocinante Fisioterapista
+- period: 2009 - 2011
+  company: A.C. Pisa 1909
+  title: Fisioterapista, Responsabile Settore Medico Giovanili
+- period: 2010 - 2011
+  company: Studio di Fisioterapia Genesi - Livorno
+  title: Tirocinante Fisioterapista
+- period: 2011 - 2014
+  company: Studio di Fisioterapia Genesi - Livorno
+  title: Fisioterapista
+- period: 2011 - attuale
+  company: Ballomania - Pisa
+  title: Fisioterapista, Docente
+  text: Fisioterapista per gli atelti della scuola. <b>Fisioterapista dei campioni del mondo 2013</b>
+- period: 2014 - 2015
+  company: Atletico Lucca S.C. 1970
+  title: Fisioterapista
+  text: Fisioterapista del Settore Giovanile
+- period: 2014 - attuale
+  company: Studio di Fisioterapia Kinesis - Lucca
+  title: Fisioterapista
+- period: 2016 - attuale
+  company: Starbene
+  title: Esperto Fisioterapista, Collaboratore tecnico-scientifico
+  text: 'Collaboratore nella stesura di articoli per la rivista Starbene:
+
+
+    "Cattiva Postura"
+
+
+    "Colpo di Frusta"
+
+
+    "Dolore al gomito"
+
+
+    "Riattivare la muscolatura"
+
+
+    "Cattiva postura"
+
+
+    "La ginnastica per lo smartworking"
+
+
+    "Dolore del ginocchio"
+
+
+    "Materasso e Cuscino"'
+- period: 2016 - attuale
+  company: Master di Posturologia Clinica - Università di Pisa
+  title: Assistente alla Docenza
+  text: 'Relatore delle tesi:
+
+
+    2019: "Modificazioni posturali dopo intervento di correzione di alluce valgo con tecnica mininvasiva percutanea"
+
+
+    2021: "Postura, allenamento e Embodied Cognition nella danza"'
+- period: 2021 - 2024
+  company: Progetto MAP
+  title: Ricercatore
+  text: Potenziamento della terapia posturale con l'utilizzo di tecniche artistiche derivate dal teatro e dalla scuola di teatro
+- period: 2026 - attuale
+  company: ANFASS Lucca
+  title: Fisioterapista
+  text: Riabilitazione per gli utenti della casa famiglia Aquilone
+other_title: Altre esperienze <span>lavorative</span>
+other:
+- period: '2017'
+  company: Lucca Comics and Games
+  title: Intervistatore
+  text: 'Intervistatore, per conto del Festival, di artisti di fama internazionale, tra gli ospiti della Fiera Lucca Comics and Games: <small>Raphael Lacoste, Michael Whelan, Eather Theurer, Chris Ayers, Wayne Reynolds, Federico Bertolucci, Timothy Zhan, Enzo D''Alò, Thimoty Zahn, David Preti, Vanni Santoni, John Wick, Bill Slavicsek, Jason Engle, Jeff Lemire, Daniele Orizio, Lucio Parrillo. </small>'
+- period: '2017'
+  company: Croce Rossa Italiana, LuccAut, AnlAids, C.e.i.s., SIPS, Comune di Lucca, Comune di Capannori, Provincia di Capannori
+  title: Videomaker
+  text: Produzione e montaggio del video di sensibilizzazione alla lotta contro l'AIDS "Lucca, abbiamo chiesto ai passanti..."
+- period: 2018 - 2021
+  company: Lucca Comics and Games
+  title: Streaming Specialist
+  text: Responsabile in team della ideazione, progettazione e sviluppo del canale Twitch di Lucca Comics and Games, dei format stagionali e dello Show live durante il Festival.
+- period: '2018'
+  company: ProLoco Castiglione di Garfagana
+  title: Videomaker
+  text: Produzione e montaggio del video di sponsorizzazione della Fiera Medievale di Castiglione di Garfagnana
+- period: '2019'
+  company: Gruppo di Acquisto Ibrido
+  title: Project Specialist, Regista
+  text: Responsabile della ideazione, progettazione e sviluppo dello streaming e della messa in onda sui Social della Economy Run, la corsa endurance per automobili ibride ideata dal Gruppo di Acquisto Ibrido.
+- period: 2026 - attuale
+  company: Studio di Fisioterapia Kinesis
+  title: Responsabile Comunicazione e Marketing
+  text: Responsabile della comunicazione Social, Newsletter, Sito e Blog dello Studio di Fisioterapia Kinesis
+skill_groups:
+- title: Competenza di <span>lavoro</span>
+  items:
+  - name: Terapia Manuale
+    value: 95
+  - name: Terapia Posturale
+    value: 95
+  - name: Esercizio Terapeutico
+    value: 85
+  - name: Terapia Fisica
+    value: 75
+  - name: Osteopatia
+    value: 90
+- title: Esperienza di <span>lavoro</span>
+  items:
+  - name: Dolore cronico
+    value: 95
+  - name: Dolore acuto
+    value: 95
+  - name: Riabilitazione
+    value: 95
+  - name: Sportivo
+    value: 90
+  - name: Patologie reumatiche
+    value: 75
+  - name: Patologie neurologiche
+    value: 85
+  - name: Patologie polmonari
+    value: 80
+  - name: Patologie cardiologiche
+    value: 80
+knowledges_title: Conoscenze
+knowledges:
+- Metodo Mezieres
+- Terapia Miofasciale
+- Manipolazioni articolari
+- Mobilizzazioni articolari
+- Esercizio terapeutico
+- Gestione del dolore
+- Core Stability
+- Tecar
+- Laser
+- Ultrasuoni
+- Microcorrenti
+- Massaggio
+- Massaggio sportivo
+- Bendaggio
+- Taping neuromuscolare
+- Problem-Solving
+- Coaching
+- Comunicazione
+certificates_title: Certificati
+certificates:
+- logo: img/clients/client-4.png
+  title: Laurea in Fisioterapia
+  date: Novembre 2013
+- logo: img/clients/client-4.png
+  title: Master in Posturologia Clinica
+  date: Dicembre 2015
+- logo: img/clients/client-4.png
+  title: Corso di Perfezionamento in Terapia Manuale
+  date: Dicembre 2010

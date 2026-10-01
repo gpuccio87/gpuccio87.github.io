@@ -1,0 +1,35 @@
+              <!-- Contact Subpage -->
+              <section data-id="contact" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>{{ contact.title }}</h2>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-8">
+                    <div class="block-title">
+                      <h3>{{ contact.subtitle | safe }}</h3>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <!-- Contact Info -->
+                    {%- for column in contact.columns %}
+                    <div class="col-xs-12 col-sm-4">
+                      {%- for c in column %}
+                      <div class="lm-info-block gray-default">
+                        <a href="{{ c.url }}"{% if c.lightbox %} class="lightbox"{% endif %}{% if c.title %} title="{{ c.title }}"{% endif %}>
+                          <i class="lnr {{ c.icon }}"></i>
+                          <h4>{% if c.small %}<small>{{ c.label }}</small>{% else %}{{ c.label }}{% endif %}</h4>
+                        </a>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+                      {%- endfor %}
+                    </div>
+                    {%- endfor %}
+                    <!-- End of Contact Info -->
+                  </div>
+
+                </div>
+              </section>
+              <!-- End of Contact Subpage -->

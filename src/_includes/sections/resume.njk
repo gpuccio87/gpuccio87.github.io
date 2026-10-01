@@ -1,0 +1,127 @@
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>{{ resume.title }}</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+
+                      {%- macro timeline(items) %}
+                      <div class="timeline timeline-second-style clearfix">
+                        {%- for e in items %}
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">{{ e.period }}</h5>
+                            <span class="item-company">{{ e.company }}</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">{{ e.title }}</h4>
+                            {{ e.text | paragraphs | safe }}
+                          </div>
+                        </div>
+                        {%- endfor %}
+                      </div>
+                      {%- endmacro %}
+
+                      <div class="block-title">
+                        <h3>{{ resume.education_title | safe }}</h3>
+                      </div>
+                      {{ timeline(resume.education) }}
+
+                      <div class="white-space-50"></div>
+
+                      <div class="block-title">
+                        <h3>{{ resume.experience_title | safe }}</h3>
+                      </div>
+                      {{ timeline(resume.experience) }}
+
+                      <div class="white-space-50"></div>
+
+                      <div class="block-title">
+                        <h3>{{ resume.other_title | safe }}</h3>
+                      </div>
+                      {{ timeline(resume.other) }}
+
+                    </div>
+
+                    <!-- Skills & Certificates -->
+                    <div class="col-xs-12 col-sm-5">
+                      {%- for g in resume.skill_groups %}
+                      <div class="block-title">
+                        <h3>{{ g.title | safe }}</h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+                        {%- for s in g.items %}
+                        <div class="skill clearfix">
+                          <h4>{{ s.name }}</h4>
+                          <div class="skill-value">{{ s.value }}%</div>
+                        </div>
+                        <div class="skill-container">
+                          <div class="skill-percentage" style="width: {{ s.value }}%;"></div>
+                        </div>
+                        {%- endfor %}
+                      </div>
+
+                      <div class="white-space-10"></div>
+                      {%- endfor %}
+
+                      <!-- Knowledges -->
+                      <div class="block-title">
+                        <h3>{{ resume.knowledges_title }}</h3>
+                      </div>
+
+                      <ul class="knowledges">
+                        {%- for k in resume.knowledges %}
+                        <li>{{ k }}</li>
+                        {%- endfor %}
+                      </ul>
+                      <!-- End of Knowledges -->
+                    </div>
+                    <!-- End of Skills & Certificates -->
+                  </div>
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Certificates -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>{{ resume.certificates_title }}</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    {%- for c in resume.certificates %}
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="{{ c.logo }}" alt="logo">
+                        </div>
+
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>{{ c.title }}</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span></span>
+                          </div>
+                          <div class="certi-date">
+                            <span>{{ c.date }}</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {%- endfor %}
+                  </div>
+                  <!-- End of Certificates -->
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
