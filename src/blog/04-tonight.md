@@ -25,7 +25,7 @@ Il punto di partenza sono i titoli che hai visto. Per ognuno, Tonight guarda qua
 Ogni candidato riceve un'**affinità da 0 a 100**, che mette insieme tre segnali:
 
 - **I tuoi visti.** Un film collegato a tanti titoli che hai votato bene sale; uno collegato a titoli che non ti sono piaciuti scende.
-- **Il tuo DNA.** Tonight guarda cosa hanno in comune i film che ami: registi, generi, epoche, temi, attori. Ne esce un profilo, con i tratti che "ti spingono in alto" e quelli che "ti frenano". Il mio, per esempio, premia Miyazaki e Hitchcock e boccia i cinepanettoni.
+- **Il tuo DNA.** Tonight guarda cosa hanno in comune i film che ami: registi, generi, epoche, temi, attori. Ne esce un profilo, con i tratti che "ti spingono in alto" e quelli che "ti frenano".
 - **La folla.** Le persone che hanno votato in modo simile a te, in forma anonima, portano titoli che da solo non avresti trovato.
 
 Per capire se una modifica all'algoritmo migliora davvero i consigli, ho costruito un banco di prova: nascondo una parte dei film che ho già visto e controllo quanti di quelli che avevo amato Tonight riesce a ritrovare in cima alla classifica. Una sorpresa: fra tutti i tratti del DNA, quello che conta di più è il **decennio**. Ognuno ha la sua epoca preferita, più di quanto creda.
