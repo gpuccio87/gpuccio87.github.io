@@ -4,6 +4,9 @@ module.exports = function (eleventyConfig) {
   // File dati in YAML (src/_data/*.yml)
   eleventyConfig.addDataExtension("yml,yaml", (contents) => yaml.load(contents));
 
+  // Anno corrente, per il copyright ({anno} in site.yml)
+  eleventyConfig.addGlobalData("anno", new Date().getFullYear());
+
   // Asset statici copiati così come sono
   for (const p of ["css", "js", "img", "fonts", "articles", "thesis", "favicon.ico", "favicon.jpg", "vcard.vcf", "qr-code.png", "admin/config.yml"]) {
     eleventyConfig.addPassthroughCopy(`src/${p}`);

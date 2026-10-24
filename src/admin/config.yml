@@ -297,7 +297,7 @@ collections:
           - { name: lang, label: Lingua, widget: string }
           - { name: photo, label: Foto profilo, widget: image }
           - { name: background, label: Sfondo animato, widget: image }
-          - { name: copyright, label: Copyright, widget: string }
+          - { name: copyright, label: Copyright, widget: string, hint: "{anno} diventa l'anno corrente a ogni pubblicazione" }
           - { name: email, label: Email, widget: string }
           - { name: phone, label: Telefono (mostrato), widget: string }
           - { name: phone_link, label: Telefono (per il link tel:), widget: string }
