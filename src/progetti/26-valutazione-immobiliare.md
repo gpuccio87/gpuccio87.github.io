@@ -4,7 +4,7 @@ name: Valutazione immobiliare
 category: Automazione
 group: claude
 thumbnail: img/portfolio/automazione-immobiliare.jpg
-order: 24
+order: 26
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

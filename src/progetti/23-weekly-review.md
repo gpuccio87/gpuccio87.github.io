@@ -4,7 +4,7 @@ name: Weekly Review
 category: Automazione
 group: claude
 thumbnail: img/portfolio/automazione-weekly-review.jpg
-order: 21
+order: 23
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

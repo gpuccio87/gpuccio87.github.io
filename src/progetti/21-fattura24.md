@@ -4,7 +4,7 @@ name: Fattura24
 category: Automazione
 group: claude
 thumbnail: img/portfolio/automazione-fattura24.jpg
-order: 19
+order: 21
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

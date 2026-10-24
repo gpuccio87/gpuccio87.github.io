@@ -4,7 +4,7 @@ name: Organizza Film
 category: Automazione
 group: claude
 thumbnail: img/portfolio/automazione-organizza-film.jpg
-order: 23
+order: 25
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

@@ -4,7 +4,7 @@ name: Vault Obsidian
 category: Automazione
 group: claude
 thumbnail: img/portfolio/automazione-obsidian.jpg
-order: 25
+order: 27
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

@@ -4,7 +4,7 @@ name: Thunderbird
 category: Automazione
 group: claude
 thumbnail: img/portfolio/automazione-thunderbird.jpg
-order: 20
+order: 22
 date_label: 2026
 author: Gabriele Pucciarelli
 images:
