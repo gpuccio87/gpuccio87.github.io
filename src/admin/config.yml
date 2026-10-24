@@ -32,6 +32,7 @@ collections:
     fields:
       - { name: title, label: Titolo, widget: string }
       - { name: category, label: Categoria, widget: string, hint: "Es. Libri, Musica, Fisioterapia" }
+      - { name: description, label: Riassunto (anteprima su social e Google), widget: string, required: false, hint: "Una o due frasi. Vuoto: si usano i ruoli della home." }
       - { name: image, label: Immagine anteprima (griglia), widget: image }
       - { name: image_full, label: Immagine grande (in cima al post), widget: image, required: false }
       - { name: image_alt, label: Testo alternativo immagine, widget: string, required: false }
@@ -297,6 +298,7 @@ collections:
           - { name: lang, label: Lingua, widget: string }
           - { name: photo, label: Foto profilo, widget: image }
           - { name: background, label: Sfondo animato, widget: image }
+          - { name: og_image, label: Immagine di anteprima per i social (1200x630), widget: image }
           - { name: copyright, label: Copyright, widget: string, hint: "{anno} diventa l'anno corrente a ogni pubblicazione" }
           - { name: email, label: Email, widget: string }
           - { name: phone, label: Telefono (mostrato), widget: string }

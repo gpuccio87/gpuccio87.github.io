@@ -48,6 +48,7 @@ Crea `src/blog/03-titolo.md`:
 ---
 title: Titolo del post
 category: Libri
+description: Una o due frasi per l'anteprima su social e Google (facoltativa)
 image: img/blog/blog_post_3.jpg
 image_full: img/blog/blog_post_3_full.jpg
 topics: [libri, suggerimenti]

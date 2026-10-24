@@ -9,6 +9,21 @@
     <meta name="keywords" content="{{ site.keywords }}" />
     <meta name="author" content="{{ site.name }}" />
     <link rel="shortcut icon" href="favicon.ico">
+    {%- set ogTitle = title or pageTitle or site.title %}
+    {%- set ogDesc = description or (home.roles | join(" · ")) %}
+    {%- set ogImage = (image_full or site.og_image) %}
+    {%- set ogUrl = site.url + "/" + (page.url | replace("/", "")) %}
+    <link rel="canonical" href="{{ ogUrl }}" />
+
+    <!-- Anteprima per social e app di messaggistica -->
+    <meta property="og:type" content="{{ 'article' if title else 'website' }}" />
+    <meta property="og:site_name" content="{{ site.name }}" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:title" content="{{ ogTitle }}" />
+    <meta property="og:description" content="{{ ogDesc }}" />
+    <meta property="og:url" content="{{ ogUrl }}" />
+    <meta property="og:image" content="{{ site.url }}/{{ ogImage }}" />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
