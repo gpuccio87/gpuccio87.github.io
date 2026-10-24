@@ -60,6 +60,7 @@ collections:
         options:
           - { label: Software, value: code }
           - { label: Stampa 3D, value: "3D" }
+          - { label: Automazioni Claude, value: claude }
       - { name: thumbnail, label: Anteprima nella griglia, widget: image }
       - { name: order, label: Numero del progetto, widget: number, value_type: int, min: 1, hint: "Genera l'indirizzo portfolio-N.html. Usa il numero successivo all'ultimo progetto." }
       - { name: date_label, label: Data (testo mostrato), widget: string, hint: "Es. marzo, 2026" }

@@ -11,7 +11,7 @@ Sito personale generato con [Eleventy](https://www.11ty.dev/) e pubblicato da Cl
 | Chi sono                 | `src/_data/about.yml`                  |
 | Resume                   | `src/_data/resume.yml`                 |
 | Portfolio (articoli, video, tesi, interviste, stream) | `src/_data/portfolio.yml` |
-| Progetti (software, stampa 3D) | `src/progetti/*.md`, uno per progetto |
+| Progetti (software, stampa 3D, automazioni Claude) | `src/progetti/*.md`, uno per progetto |
 | Post del blog            | `src/blog/*`, uno per post             |
 | Contatti                 | `src/_data/contact.yml`                |
 | Immagini, PDF, CSS, JS   | `src/img`, `src/articles`, `src/thesis`, `src/css`, `src/js` |
@@ -27,7 +27,7 @@ Crea `src/progetti/17-nome-progetto.md`:
 title: Nome completo del progetto
 name: Nome breve (griglia)
 category: Progetto
-group: code          # code = Software, 3D = Stampa 3D
+group: code          # code = Software, 3D = Stampa 3D, claude = Automazioni Claude
 thumbnail: img/portfolio/python.jpg
 order: 17            # genera portfolio-17.html
 date_label: marzo, 2026

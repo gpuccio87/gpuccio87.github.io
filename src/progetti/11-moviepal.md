@@ -1,17 +1,26 @@
 ---
-title: MoviePal 1.3
+title: MoviePal 5.1
 name: MoviePal
 category: Progetto
 group: code
 thumbnail: img/portfolio/python.jpg
 order: 11
-date_label: 13 gennaio, 2021
+date_label: 2026
 author: Gabriele Pucciarelli
 images:
 - img/portfolio/full/moviepal.jpg
 technologies:
 - Python
+- PySide6 (Qt)
+- SQLite
 - TMDB API
+- OMDb API
+- MDBList API
+- Plex, Jellyfin, Radarr, Sonarr
 ---
 
-MoviePal è uno script in Python per il suggerimento dei film. Basandosi sui film visti e sul voto che l'utente ha dato ad ognuno di essi, MoviePal suggerisce una lista di film (utilizzando le API di TMDB) e li ordina per "affinità". Il calcolo dell'affinità è dato da 4 algoritmi diversi, che tengono traccia in modo diverso del voto assegnato ad ogni film visto e dalla quantità di volte che un film viene suggerito. Lo script tiene traccia dei film visti e suggeriti. L'interfaccia è minimale. Il nome, "MoviePal", è stato generato da ChatGPT!
+MoviePal è un'applicazione desktop in Python per il suggerimento di film e serie TV. Nata nel 2021 come semplice script, oggi è un programma completo con interfaccia grafica in Qt, disponibile in sei lingue e distribuito come eseguibile per Windows.
+
+Basandosi sui titoli visti e sul voto che l'utente ha dato a ciascuno, MoviePal costruisce un grafo di film collegati (con i dati di TMDB, OMDb e MDBList) e ordina i suggerimenti per "affinità", combinando diversi algoritmi. Tiene traccia di visti, suggeriti e scartati, ha filtri per genere, anno, piattaforma e voto, e due modalità separate per film e serie.
+
+Si collega ai servizi della mediateca di casa: legge e scrive i voti su Plex e Jellyfin, e manda i titoli scelti a Radarr e Sonarr per scaricarli. Da MoviePal è nato <a class="ajax-page-load" href="portfolio-18.html">Tonight</a>, la sua versione web per più utenti. Il nome, "MoviePal", è stato generato da ChatGPT!

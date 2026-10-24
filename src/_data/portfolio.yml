@@ -17,6 +17,8 @@ filters:
   label: Software
 - group: 3D
   label: Stampa 3D
+- group: claude
+  label: Automazioni Claude
 sections:
 - group: articles
   title: Articoli
