@@ -26,9 +26,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("progetti", (api) =>
     api.getFilteredByTag("progetti").sort((a, b) => a.data.order - b.data.order)
   );
-  // Post del blog, ordinati per campo "order"
+  // Post del blog, dal più recente (campo "order" più alto)
   eleventyConfig.addCollection("posts", (api) =>
-    api.getFilteredByTag("posts").sort((a, b) => a.data.order - b.data.order)
+    api.getFilteredByTag("posts").sort((a, b) => b.data.order - a.data.order)
   );
 
   return {
