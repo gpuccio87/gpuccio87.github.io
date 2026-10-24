@@ -10,6 +10,8 @@ author: Gabriele Pucciarelli
 images:
 - img/portfolio/full/tonight/1.jpg
 - img/portfolio/full/tonight/2.jpg
+- img/portfolio/full/tonight/3.jpg
+- img/portfolio/full/tonight/4.jpg
 technologies:
 - Python
 - FastAPI

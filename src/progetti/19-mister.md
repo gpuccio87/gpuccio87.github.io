@@ -9,6 +9,8 @@ date_label: 2026
 author: Gabriele Pucciarelli
 images:
 - img/portfolio/full/mister/1.jpg
+- img/portfolio/full/mister/2.jpg
+- img/portfolio/full/mister/3.jpg
 technologies:
 - Python
 - FastAPI
