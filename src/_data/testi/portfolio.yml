@@ -235,3 +235,955 @@ it:
       image: img/portfolio/4.jpg
       type: video
       url: https://www.youtube.com/embed/xf-hXsO6NPM
+
+en:
+  title: Portfolio
+  all_label: All
+  filters:
+  - group: all
+    label: All
+  - group: articles
+    label: Articles
+  - group: thesis
+    label: Theses
+  - group: interviews
+    label: Interviews
+  - group: videos
+    label: Videos
+  - group: stream
+    label: Live stream
+  - group: code
+    label: Software
+  - group: 3D
+    label: 3D Printing
+  - group: claude
+    label: Claude automations
+  sections:
+  - group: articles
+    title: Articles
+    items:
+    - name: Le cattive posture dei ragazzi
+      category: Starbene Article
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/8-20.pdf
+      title: Article
+    - name: Il colpo di frusta
+      category: Starbene Article
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/10-20.pdf
+      title: Article
+    - name: Il dolore al gomito
+      category: Starbene Article
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/16-20.pdf
+      title: Article
+    - name: Troppo tempo sul divano
+      category: Starbene Article
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/17-1-20.pdf
+      title: Article
+    - name: Dolori posturali
+      category: Starbene Article
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/21-20.pdf
+      title: Article
+    - name: La gym per lo smartworking
+      category: Starbene Article
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/22-20.pdf
+      title: Article
+    - name: 'Ergonomia: i nostri consigli per una postura corretta'
+      category: Kinesis Article
+      image: img/portfolio/3.jpg
+      type: file
+      url: articles/Ergonomia i nostri consigli per una postura corretta.pdf
+      title: Article
+    - name: Falsi miti in Posturologia
+      category: Kinesis Article
+      image: img/portfolio/3.jpg
+      type: file
+      url: articles/Falsi miti in posturologia.pdf
+      title: Article
+    - name: 'Dalla biologia all''intelligenza artificiale: le reti neurali'
+      category: Skimbu Article
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Reti neurali.pdf
+      title: Article
+    - name: 'Stanley Kubrick ovvero: come imparai a non...'
+      category: Skimbu Article
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Stanley Kubrick ovvero.pdf
+      title: Article
+    - name: 5 apps per scaricare musica con Android
+      category: Skimbu Article
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/5 apps per scaricare musica con Android.pdf
+      title: Article
+    - name: 5 soluzioni alternative per scaricare musica da internet
+      category: Skimbu Article
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/5 soluzioni alternative per scaricare musica da internet.pdf
+      title: Article
+    - name: 'Google: sei sicuro di usarlo bene?'
+      category: Skimbu Article
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Google.pdf
+      title: Article
+    - name: 'A caccia di musica: 10 servizi per scoprire nuove canzoni'
+      category: Skimbu Article
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/A caccia di musica.pdf
+      title: Article
+    - name: 'Syncness: sincronizzazione wifi di file e musica...'
+      category: Skimbu Article
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Syncness.pdf
+      title: Article
+    - name: Quando un numero diventa musica
+      category: Skimbu Article
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Quando un numero diventa musica.pdf
+      title: Article
+  - group: videos
+    title: Videos
+    items:
+    - name: Festa Medievale Castiglione di Garfagnana - Spot
+      category: YouTube Video
+      image: img/portfolio/10.jpg
+      type: video
+      url: https://www.youtube.com/embed/9nIb0Ehdz3Q
+    - name: Lucca, abbiamo chiesto ai passanti...
+      category: YouTube Video
+      image: img/portfolio/11.jpg
+      type: video
+      url: https://www.youtube.com/embed/0kcRvqsO3qs
+    - name: Nicoletta e Nicola - L'inizio del cammino insieme
+      category: YouTube Video
+      image: img/portfolio/12.jpg
+      type: video
+      url: https://www.youtube.com/embed/5awKBFTDmFQ
+    - name: Matrimonio di Fabio e Veronica, con "sorpresa" - Palazzo della Spiaggia, Marina di Pietrasanta
+      category: YouTube Video
+      image: img/portfolio/13.jpg
+      type: video
+      url: https://www.youtube.com/embed/V19NUKZNEX8
+      title: Matrimonio di Fabio e Veronica, con sorpresa - Palazzo della Spiaggia, Marina di Pietrasanta
+    - name: Garda - Trailer
+      category: YouTube Video
+      image: img/portfolio/14.jpg
+      type: video
+      url: https://www.youtube.com/embed/KyXbZ6zpAXo
+    - name: Il Borgo Fantasma di Toiano, Pisa - Cinematic Drone Video
+      category: YouTube Video
+      image: img/portfolio/15.jpg
+      type: video
+      url: https://www.youtube.com/embed/7SUFFUxIY30
+    - name: Fortezza della Brunella, Aulla - Cinematic Drone Video
+      category: YouTube Video
+      image: img/portfolio/16.jpg
+      type: video
+      url: https://www.youtube.com/embed/5dQnxd2G6IE
+  - group: stream
+    title: Live stream
+    items:
+    - name: Canale Twitch Lucca Comics and Games
+      category: Live Streaming
+      image: img/portfolio/lcg.jpg
+      type: link
+      url: https://www.twitch.tv/luccacomicsandgames
+      title: Lucca Comics and Games
+    - name: GAI Economy Run - Milano 2019
+      category: Live Streaming
+      image: img/portfolio/17.jpg
+      type: video
+      url: https://www.youtube.com/embed/oHDeOVxdTMw
+  - group: thesis
+    title: Theses
+    items:
+    - name: Gabriele Pucciarelli - Trattamento Riabilitativo, posturale e preventivo nella danza sportiva con il Metodo Mezieres
+      category: Bachelor's Thesis
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Trattamento riabilitativo, posturale e preventivo nella danza sportiva con il metodo Mezieres.pdf
+      title: Thesis
+    - name: Gabriele Pucciarelli et al. - Master di Posturologia Clinica - La postura nella danza, uno studio statistico
+      category: Master's Thesis
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/La postura nella danza, uno studio statistico.pdf
+      title: Thesis
+    - name: Roberto Bellotti et al. - Master di Posturologia Clinica - Modifiche Posturali dopo l'intervento di correzione dell'alluce valgo con tecnica mininvasiva percutanea
+      category: Master's Thesis
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Modifiche Posturali Dopo Intervento.pdf
+      title: Thesis
+    - name: 'Serena Loprevite - Master di Posturologia Clinica - Danza e Postura: Metodologia per il riequilibrio posturale'
+      category: Master's Thesis
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Tesi Serena Loprevite.pdf
+      title: Thesis
+    - name: Dorina Chirila et al. - Master di Posturologia Clinica - Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni
+      category: Master's Thesis
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni.pdf
+      title: Thesis
+  - group: interviews
+    title: Interviews
+    items:
+    - name: Postura nel ciclismo - Emozione Bike - NoiTv 2021
+      category: Contribution
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/Pha5R82uliw
+    - name: Cervicale nel ciclismo - Emozione Bike - NoiTv 2021
+      category: Contribution
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/N6_bMXNjOkg
+    - name: Postura - Il Calcio che vorrei - NoiTv 2020
+      category: Contribution
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/MsfJn7IGZnE
+    - name: Propriocezione - Il Calcio che vorrei - NoiTv 2020
+      category: Contribution
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/-qjXOcsSCyg
+      title: Propriocezione - Il Calcio che vorrei NoiTv 2020
+    - name: Intervento a Il Calcio che vorrei - NoiTv 2019
+      category: Interview
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/xf-hXsO6NPM
+
+es:
+  title: Portfolio
+  all_label: Todos
+  filters:
+  - group: all
+    label: Todos
+  - group: articles
+    label: Artículos
+  - group: thesis
+    label: Tesis
+  - group: interviews
+    label: Entrevistas
+  - group: videos
+    label: Vídeos
+  - group: stream
+    label: Live stream
+  - group: code
+    label: Software
+  - group: 3D
+    label: Impresión 3D
+  - group: claude
+    label: Automatizaciones Claude
+  sections:
+  - group: articles
+    title: Artículos
+    items:
+    - name: Le cattive posture dei ragazzi
+      category: Artículo Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/8-20.pdf
+      title: Artículo
+    - name: Il colpo di frusta
+      category: Artículo Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/10-20.pdf
+      title: Artículo
+    - name: Il dolore al gomito
+      category: Artículo Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/16-20.pdf
+      title: Artículo
+    - name: Troppo tempo sul divano
+      category: Artículo Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/17-1-20.pdf
+      title: Artículo
+    - name: Dolori posturali
+      category: Artículo Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/21-20.pdf
+      title: Artículo
+    - name: La gym per lo smartworking
+      category: Artículo Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/22-20.pdf
+      title: Artículo
+    - name: 'Ergonomia: i nostri consigli per una postura corretta'
+      category: Artículo Kinesis
+      image: img/portfolio/3.jpg
+      type: file
+      url: articles/Ergonomia i nostri consigli per una postura corretta.pdf
+      title: Artículo
+    - name: Falsi miti in Posturologia
+      category: Artículo Kinesis
+      image: img/portfolio/3.jpg
+      type: file
+      url: articles/Falsi miti in posturologia.pdf
+      title: Artículo
+    - name: 'Dalla biologia all''intelligenza artificiale: le reti neurali'
+      category: Artículo Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Reti neurali.pdf
+      title: Artículo
+    - name: 'Stanley Kubrick ovvero: come imparai a non...'
+      category: Artículo Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Stanley Kubrick ovvero.pdf
+      title: Artículo
+    - name: 5 apps per scaricare musica con Android
+      category: Artículo Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/5 apps per scaricare musica con Android.pdf
+      title: Artículo
+    - name: 5 soluzioni alternative per scaricare musica da internet
+      category: Artículo Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/5 soluzioni alternative per scaricare musica da internet.pdf
+      title: Artículo
+    - name: 'Google: sei sicuro di usarlo bene?'
+      category: Artículo Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Google.pdf
+      title: Artículo
+    - name: 'A caccia di musica: 10 servizi per scoprire nuove canzoni'
+      category: Artículo Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/A caccia di musica.pdf
+      title: Artículo
+    - name: 'Syncness: sincronizzazione wifi di file e musica...'
+      category: Artículo Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Syncness.pdf
+      title: Artículo
+    - name: Quando un numero diventa musica
+      category: Artículo Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Quando un numero diventa musica.pdf
+      title: Artículo
+  - group: videos
+    title: Vídeos
+    items:
+    - name: Festa Medievale Castiglione di Garfagnana - Spot
+      category: Vídeo YouTube
+      image: img/portfolio/10.jpg
+      type: video
+      url: https://www.youtube.com/embed/9nIb0Ehdz3Q
+    - name: Lucca, abbiamo chiesto ai passanti...
+      category: Vídeo YouTube
+      image: img/portfolio/11.jpg
+      type: video
+      url: https://www.youtube.com/embed/0kcRvqsO3qs
+    - name: Nicoletta e Nicola - L'inizio del cammino insieme
+      category: Vídeo YouTube
+      image: img/portfolio/12.jpg
+      type: video
+      url: https://www.youtube.com/embed/5awKBFTDmFQ
+    - name: Matrimonio di Fabio e Veronica, con "sorpresa" - Palazzo della Spiaggia, Marina di Pietrasanta
+      category: Vídeo YouTube
+      image: img/portfolio/13.jpg
+      type: video
+      url: https://www.youtube.com/embed/V19NUKZNEX8
+      title: Matrimonio di Fabio e Veronica, con sorpresa - Palazzo della Spiaggia, Marina di Pietrasanta
+    - name: Garda - Trailer
+      category: Vídeo YouTube
+      image: img/portfolio/14.jpg
+      type: video
+      url: https://www.youtube.com/embed/KyXbZ6zpAXo
+    - name: Il Borgo Fantasma di Toiano, Pisa - Cinematic Drone Video
+      category: Vídeo YouTube
+      image: img/portfolio/15.jpg
+      type: video
+      url: https://www.youtube.com/embed/7SUFFUxIY30
+    - name: Fortezza della Brunella, Aulla - Cinematic Drone Video
+      category: Vídeo YouTube
+      image: img/portfolio/16.jpg
+      type: video
+      url: https://www.youtube.com/embed/5dQnxd2G6IE
+  - group: stream
+    title: Live stream
+    items:
+    - name: Canale Twitch Lucca Comics and Games
+      category: Live Streaming
+      image: img/portfolio/lcg.jpg
+      type: link
+      url: https://www.twitch.tv/luccacomicsandgames
+      title: Lucca Comics and Games
+    - name: GAI Economy Run - Milano 2019
+      category: Live Streaming
+      image: img/portfolio/17.jpg
+      type: video
+      url: https://www.youtube.com/embed/oHDeOVxdTMw
+  - group: thesis
+    title: Tesis
+    items:
+    - name: Gabriele Pucciarelli - Trattamento Riabilitativo, posturale e preventivo nella danza sportiva con il Metodo Mezieres
+      category: Tesis de Grado
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Trattamento riabilitativo, posturale e preventivo nella danza sportiva con il metodo Mezieres.pdf
+      title: Tesis
+    - name: Gabriele Pucciarelli et al. - Master di Posturologia Clinica - La postura nella danza, uno studio statistico
+      category: Tesis de Máster
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/La postura nella danza, uno studio statistico.pdf
+      title: Tesis
+    - name: Roberto Bellotti et al. - Master di Posturologia Clinica - Modifiche Posturali dopo l'intervento di correzione dell'alluce valgo con tecnica mininvasiva percutanea
+      category: Tesis de Máster
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Modifiche Posturali Dopo Intervento.pdf
+      title: Tesis
+    - name: 'Serena Loprevite - Master di Posturologia Clinica - Danza e Postura: Metodologia per il riequilibrio posturale'
+      category: Tesis de Máster
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Tesi Serena Loprevite.pdf
+      title: Tesis
+    - name: Dorina Chirila et al. - Master di Posturologia Clinica - Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni
+      category: Tesis de Máster
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni.pdf
+      title: Tesis
+  - group: interviews
+    title: Entrevistas
+    items:
+    - name: Postura nel ciclismo - Emozione Bike - NoiTv 2021
+      category: Colaboración
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/Pha5R82uliw
+    - name: Cervicale nel ciclismo - Emozione Bike - NoiTv 2021
+      category: Colaboración
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/N6_bMXNjOkg
+    - name: Postura - Il Calcio che vorrei - NoiTv 2020
+      category: Colaboración
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/MsfJn7IGZnE
+    - name: Propriocezione - Il Calcio che vorrei - NoiTv 2020
+      category: Colaboración
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/-qjXOcsSCyg
+      title: Propriocezione - Il Calcio che vorrei NoiTv 2020
+    - name: Intervento a Il Calcio che vorrei - NoiTv 2019
+      category: Entrevista
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/xf-hXsO6NPM
+
+fr:
+  title: Portfolio
+  all_label: Tous
+  filters:
+  - group: all
+    label: Tous
+  - group: articles
+    label: Articles
+  - group: thesis
+    label: Mémoires
+  - group: interviews
+    label: Interviews
+  - group: videos
+    label: Vidéos
+  - group: stream
+    label: Live stream
+  - group: code
+    label: Logiciels
+  - group: 3D
+    label: Impression 3D
+  - group: claude
+    label: Automatisations Claude
+  sections:
+  - group: articles
+    title: Articles
+    items:
+    - name: Le cattive posture dei ragazzi
+      category: Article Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/8-20.pdf
+      title: Article
+    - name: Il colpo di frusta
+      category: Article Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/10-20.pdf
+      title: Article
+    - name: Il dolore al gomito
+      category: Article Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/16-20.pdf
+      title: Article
+    - name: Troppo tempo sul divano
+      category: Article Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/17-1-20.pdf
+      title: Article
+    - name: Dolori posturali
+      category: Article Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/21-20.pdf
+      title: Article
+    - name: La gym per lo smartworking
+      category: Article Starbene
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/22-20.pdf
+      title: Article
+    - name: 'Ergonomia: i nostri consigli per una postura corretta'
+      category: Article Kinesis
+      image: img/portfolio/3.jpg
+      type: file
+      url: articles/Ergonomia i nostri consigli per una postura corretta.pdf
+      title: Article
+    - name: Falsi miti in Posturologia
+      category: Article Kinesis
+      image: img/portfolio/3.jpg
+      type: file
+      url: articles/Falsi miti in posturologia.pdf
+      title: Article
+    - name: 'Dalla biologia all''intelligenza artificiale: le reti neurali'
+      category: Article Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Reti neurali.pdf
+      title: Article
+    - name: 'Stanley Kubrick ovvero: come imparai a non...'
+      category: Article Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Stanley Kubrick ovvero.pdf
+      title: Article
+    - name: 5 apps per scaricare musica con Android
+      category: Article Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/5 apps per scaricare musica con Android.pdf
+      title: Article
+    - name: 5 soluzioni alternative per scaricare musica da internet
+      category: Article Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/5 soluzioni alternative per scaricare musica da internet.pdf
+      title: Article
+    - name: 'Google: sei sicuro di usarlo bene?'
+      category: Article Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Google.pdf
+      title: Article
+    - name: 'A caccia di musica: 10 servizi per scoprire nuove canzoni'
+      category: Article Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/A caccia di musica.pdf
+      title: Article
+    - name: 'Syncness: sincronizzazione wifi di file e musica...'
+      category: Article Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Syncness.pdf
+      title: Article
+    - name: Quando un numero diventa musica
+      category: Article Skimbu
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Quando un numero diventa musica.pdf
+      title: Article
+  - group: videos
+    title: Vidéos
+    items:
+    - name: Festa Medievale Castiglione di Garfagnana - Spot
+      category: Vidéo YouTube
+      image: img/portfolio/10.jpg
+      type: video
+      url: https://www.youtube.com/embed/9nIb0Ehdz3Q
+    - name: Lucca, abbiamo chiesto ai passanti...
+      category: Vidéo YouTube
+      image: img/portfolio/11.jpg
+      type: video
+      url: https://www.youtube.com/embed/0kcRvqsO3qs
+    - name: Nicoletta e Nicola - L'inizio del cammino insieme
+      category: Vidéo YouTube
+      image: img/portfolio/12.jpg
+      type: video
+      url: https://www.youtube.com/embed/5awKBFTDmFQ
+    - name: Matrimonio di Fabio e Veronica, con "sorpresa" - Palazzo della Spiaggia, Marina di Pietrasanta
+      category: Vidéo YouTube
+      image: img/portfolio/13.jpg
+      type: video
+      url: https://www.youtube.com/embed/V19NUKZNEX8
+      title: Matrimonio di Fabio e Veronica, con sorpresa - Palazzo della Spiaggia, Marina di Pietrasanta
+    - name: Garda - Trailer
+      category: Vidéo YouTube
+      image: img/portfolio/14.jpg
+      type: video
+      url: https://www.youtube.com/embed/KyXbZ6zpAXo
+    - name: Il Borgo Fantasma di Toiano, Pisa - Cinematic Drone Video
+      category: Vidéo YouTube
+      image: img/portfolio/15.jpg
+      type: video
+      url: https://www.youtube.com/embed/7SUFFUxIY30
+    - name: Fortezza della Brunella, Aulla - Cinematic Drone Video
+      category: Vidéo YouTube
+      image: img/portfolio/16.jpg
+      type: video
+      url: https://www.youtube.com/embed/5dQnxd2G6IE
+  - group: stream
+    title: Live stream
+    items:
+    - name: Canale Twitch Lucca Comics and Games
+      category: Live Streaming
+      image: img/portfolio/lcg.jpg
+      type: link
+      url: https://www.twitch.tv/luccacomicsandgames
+      title: Lucca Comics and Games
+    - name: GAI Economy Run - Milano 2019
+      category: Live Streaming
+      image: img/portfolio/17.jpg
+      type: video
+      url: https://www.youtube.com/embed/oHDeOVxdTMw
+  - group: thesis
+    title: Mémoires
+    items:
+    - name: Gabriele Pucciarelli - Trattamento Riabilitativo, posturale e preventivo nella danza sportiva con il Metodo Mezieres
+      category: Mémoire de licence
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Trattamento riabilitativo, posturale e preventivo nella danza sportiva con il metodo Mezieres.pdf
+      title: Mémoire
+    - name: Gabriele Pucciarelli et al. - Master di Posturologia Clinica - La postura nella danza, uno studio statistico
+      category: Mémoire de master
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/La postura nella danza, uno studio statistico.pdf
+      title: Mémoire
+    - name: Roberto Bellotti et al. - Master di Posturologia Clinica - Modifiche Posturali dopo l'intervento di correzione dell'alluce valgo con tecnica mininvasiva percutanea
+      category: Mémoire de master
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Modifiche Posturali Dopo Intervento.pdf
+      title: Mémoire
+    - name: 'Serena Loprevite - Master di Posturologia Clinica - Danza e Postura: Metodologia per il riequilibrio posturale'
+      category: Mémoire de master
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Tesi Serena Loprevite.pdf
+      title: Mémoire
+    - name: Dorina Chirila et al. - Master di Posturologia Clinica - Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni
+      category: Mémoire de master
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni.pdf
+      title: Mémoire
+  - group: interviews
+    title: Interviews
+    items:
+    - name: Postura nel ciclismo - Emozione Bike - NoiTv 2021
+      category: Contribution
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/Pha5R82uliw
+    - name: Cervicale nel ciclismo - Emozione Bike - NoiTv 2021
+      category: Contribution
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/N6_bMXNjOkg
+    - name: Postura - Il Calcio che vorrei - NoiTv 2020
+      category: Contribution
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/MsfJn7IGZnE
+    - name: Propriocezione - Il Calcio che vorrei - NoiTv 2020
+      category: Contribution
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/-qjXOcsSCyg
+      title: Propriocezione - Il Calcio che vorrei NoiTv 2020
+    - name: Intervento a Il Calcio che vorrei - NoiTv 2019
+      category: Interview
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/xf-hXsO6NPM
+
+de:
+  title: Portfolio
+  all_label: Alle
+  filters:
+  - group: all
+    label: Alle
+  - group: articles
+    label: Artikel
+  - group: thesis
+    label: Abschlussarbeiten
+  - group: interviews
+    label: Interviews
+  - group: videos
+    label: Videos
+  - group: stream
+    label: Livestream
+  - group: code
+    label: Software
+  - group: 3D
+    label: 3D-Druck
+  - group: claude
+    label: Claude-Automatisierungen
+  sections:
+  - group: articles
+    title: Artikel
+    items:
+    - name: Le cattive posture dei ragazzi
+      category: Starbene-Artikel
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/8-20.pdf
+      title: Artikel
+    - name: Il colpo di frusta
+      category: Starbene-Artikel
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/10-20.pdf
+      title: Artikel
+    - name: Il dolore al gomito
+      category: Starbene-Artikel
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/16-20.pdf
+      title: Artikel
+    - name: Troppo tempo sul divano
+      category: Starbene-Artikel
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/17-1-20.pdf
+      title: Artikel
+    - name: Dolori posturali
+      category: Starbene-Artikel
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/21-20.pdf
+      title: Artikel
+    - name: La gym per lo smartworking
+      category: Starbene-Artikel
+      image: img/portfolio/1.jpg
+      type: file
+      url: articles/22-20.pdf
+      title: Artikel
+    - name: 'Ergonomia: i nostri consigli per una postura corretta'
+      category: Kinesis-Artikel
+      image: img/portfolio/3.jpg
+      type: file
+      url: articles/Ergonomia i nostri consigli per una postura corretta.pdf
+      title: Artikel
+    - name: Falsi miti in Posturologia
+      category: Kinesis-Artikel
+      image: img/portfolio/3.jpg
+      type: file
+      url: articles/Falsi miti in posturologia.pdf
+      title: Artikel
+    - name: 'Dalla biologia all''intelligenza artificiale: le reti neurali'
+      category: Skimbu-Artikel
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Reti neurali.pdf
+      title: Artikel
+    - name: 'Stanley Kubrick ovvero: come imparai a non...'
+      category: Skimbu-Artikel
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Stanley Kubrick ovvero.pdf
+      title: Artikel
+    - name: 5 apps per scaricare musica con Android
+      category: Skimbu-Artikel
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/5 apps per scaricare musica con Android.pdf
+      title: Artikel
+    - name: 5 soluzioni alternative per scaricare musica da internet
+      category: Skimbu-Artikel
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/5 soluzioni alternative per scaricare musica da internet.pdf
+      title: Artikel
+    - name: 'Google: sei sicuro di usarlo bene?'
+      category: Skimbu-Artikel
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Google.pdf
+      title: Artikel
+    - name: 'A caccia di musica: 10 servizi per scoprire nuove canzoni'
+      category: Skimbu-Artikel
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/A caccia di musica.pdf
+      title: Artikel
+    - name: 'Syncness: sincronizzazione wifi di file e musica...'
+      category: Skimbu-Artikel
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Syncness.pdf
+      title: Artikel
+    - name: Quando un numero diventa musica
+      category: Skimbu-Artikel
+      image: img/portfolio/2.jpg
+      type: file
+      url: articles/Quando un numero diventa musica.pdf
+      title: Artikel
+  - group: videos
+    title: Videos
+    items:
+    - name: Festa Medievale Castiglione di Garfagnana - Spot
+      category: YouTube-Video
+      image: img/portfolio/10.jpg
+      type: video
+      url: https://www.youtube.com/embed/9nIb0Ehdz3Q
+    - name: Lucca, abbiamo chiesto ai passanti...
+      category: YouTube-Video
+      image: img/portfolio/11.jpg
+      type: video
+      url: https://www.youtube.com/embed/0kcRvqsO3qs
+    - name: Nicoletta e Nicola - L'inizio del cammino insieme
+      category: YouTube-Video
+      image: img/portfolio/12.jpg
+      type: video
+      url: https://www.youtube.com/embed/5awKBFTDmFQ
+    - name: Matrimonio di Fabio e Veronica, con "sorpresa" - Palazzo della Spiaggia, Marina di Pietrasanta
+      category: YouTube-Video
+      image: img/portfolio/13.jpg
+      type: video
+      url: https://www.youtube.com/embed/V19NUKZNEX8
+      title: Matrimonio di Fabio e Veronica, con sorpresa - Palazzo della Spiaggia, Marina di Pietrasanta
+    - name: Garda - Trailer
+      category: YouTube-Video
+      image: img/portfolio/14.jpg
+      type: video
+      url: https://www.youtube.com/embed/KyXbZ6zpAXo
+    - name: Il Borgo Fantasma di Toiano, Pisa - Cinematic Drone Video
+      category: YouTube-Video
+      image: img/portfolio/15.jpg
+      type: video
+      url: https://www.youtube.com/embed/7SUFFUxIY30
+    - name: Fortezza della Brunella, Aulla - Cinematic Drone Video
+      category: YouTube-Video
+      image: img/portfolio/16.jpg
+      type: video
+      url: https://www.youtube.com/embed/5dQnxd2G6IE
+  - group: stream
+    title: Livestream
+    items:
+    - name: Twitch-Kanal von Lucca Comics and Games
+      category: Livestreaming
+      image: img/portfolio/lcg.jpg
+      type: link
+      url: https://www.twitch.tv/luccacomicsandgames
+      title: Lucca Comics and Games
+    - name: GAI Economy Run - Milano 2019
+      category: Livestreaming
+      image: img/portfolio/17.jpg
+      type: video
+      url: https://www.youtube.com/embed/oHDeOVxdTMw
+  - group: thesis
+    title: Abschlussarbeiten
+    items:
+    - name: Gabriele Pucciarelli - Trattamento Riabilitativo, posturale e preventivo nella danza sportiva con il Metodo Mezieres
+      category: Bachelorarbeit
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Trattamento riabilitativo, posturale e preventivo nella danza sportiva con il metodo Mezieres.pdf
+      title: Abschlussarbeit
+    - name: Gabriele Pucciarelli et al. - Master di Posturologia Clinica - La postura nella danza, uno studio statistico
+      category: Masterarbeit
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/La postura nella danza, uno studio statistico.pdf
+      title: Abschlussarbeit
+    - name: Roberto Bellotti et al. - Master di Posturologia Clinica - Modifiche Posturali dopo l'intervento di correzione dell'alluce valgo con tecnica mininvasiva percutanea
+      category: Masterarbeit
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Modifiche Posturali Dopo Intervento.pdf
+      title: Abschlussarbeit
+    - name: 'Serena Loprevite - Master di Posturologia Clinica - Danza e Postura: Metodologia per il riequilibrio posturale'
+      category: Masterarbeit
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Tesi Serena Loprevite.pdf
+      title: Abschlussarbeit
+    - name: Dorina Chirila et al. - Master di Posturologia Clinica - Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni
+      category: Masterarbeit
+      image: img/portfolio/18.jpg
+      type: file
+      url: thesis/Valutazione a carico del sistema posturale e risposta al trattamento delle catene miofasciali - analisi su un campione di bambini di 10 anni.pdf
+      title: Abschlussarbeit
+  - group: interviews
+    title: Interviews
+    items:
+    - name: Postura nel ciclismo - Emozione Bike - NoiTv 2021
+      category: Beitrag
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/Pha5R82uliw
+    - name: Cervicale nel ciclismo - Emozione Bike - NoiTv 2021
+      category: Beitrag
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/N6_bMXNjOkg
+    - name: Postura - Il Calcio che vorrei - NoiTv 2020
+      category: Beitrag
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/MsfJn7IGZnE
+    - name: Propriocezione - Il Calcio che vorrei - NoiTv 2020
+      category: Beitrag
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/-qjXOcsSCyg
+      title: Propriocezione - Il Calcio che vorrei NoiTv 2020
+    - name: Intervento a Il Calcio che vorrei - NoiTv 2019
+      category: Interview
+      image: img/portfolio/4.jpg
+      type: video
+      url: https://www.youtube.com/embed/xf-hXsO6NPM

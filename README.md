@@ -6,21 +6,34 @@ Sito personale generato con [Eleventy](https://www.11ty.dev/) e pubblicato da Cl
 
 | Cosa                     | File                                   |
 | ------------------------ | -------------------------------------- |
-| Dati generali, menu      | `src/_data/site.yml`                   |
-| Home (ruoli a rotazione) | `src/_data/home.yml`                   |
-| Chi sono                 | `src/_data/about.yml`                  |
-| Resume                   | `src/_data/resume.yml`                 |
-| Portfolio (articoli, video, tesi, interviste, stream) | `src/_data/portfolio.yml` |
-| Progetti (software, stampa 3D, automazioni Claude) | `src/progetti/*.md`, uno per progetto |
-| Post del blog            | `src/blog/*`, uno per post             |
-| Contatti                 | `src/_data/contact.yml`                |
+| Dati generali, menu      | `src/_data/testi/site.yml`             |
+| Home (ruoli a rotazione) | `src/_data/testi/home.yml`             |
+| Chi sono                 | `src/_data/testi/about.yml`            |
+| Resume                   | `src/_data/testi/resume.yml`           |
+| Portfolio (articoli, video, tesi, interviste, stream) | `src/_data/testi/portfolio.yml` |
+| Contatti                 | `src/_data/testi/contact.yml`          |
+| Testi dell'interfaccia   | `src/_data/testi/ui.yml`               |
+| Progetti (software, stampa 3D, automazioni Claude) | `src/progetti/<lingua>/*.md`, uno per progetto |
+| Post del blog            | `src/blog/<lingua>/*.md`, uno per post |
 | Immagini, PDF, CSS, JS   | `src/img`, `src/articles`, `src/thesis`, `src/css`, `src/js` |
 
 Il layout vive in `src/_includes` e non va toccato per aggiornare i contenuti.
 
+## Lingue
+
+Il sito è in italiano, inglese, spagnolo, francese e tedesco (elenco in `src/_data/lingue.js`).
+L'italiano sta alla radice del sito, le altre lingue in `/en/`, `/es/`, `/fr/`, `/de/`.
+
+- I file in `src/_data/testi/` hanno un blocco per lingua (`it:`, `en:`, ...). Quello che manca
+  in una lingua (link, icone, immagini) viene preso dal blocco italiano.
+- Progetti e post hanno un file per lingua, con lo stesso nome, in `it/`, `en/`, `es/`, `fr/`, `de/`.
+  Le immagini del carosello dei progetti si mettono solo nel file italiano.
+- Nel pannello `/admin` ogni contenuto si modifica affiancando l'italiano a un'altra lingua.
+  Cambiare un testo in italiano non aggiorna le traduzioni: vanno corrette a mano.
+
 ## Aggiungere un progetto
 
-Crea `src/progetti/17-nome-progetto.md`:
+Crea `src/progetti/it/17-nome-progetto.md`, e lo stesso file tradotto nelle altre cartelle di lingua:
 
 ```md
 ---
@@ -42,7 +55,7 @@ Descrizione del progetto, in testo semplice.
 
 ## Aggiungere un post
 
-Crea `src/blog/03-titolo.md`:
+Crea `src/blog/it/06-titolo.md`, e lo stesso file tradotto nelle altre cartelle di lingua:
 
 ```md
 ---

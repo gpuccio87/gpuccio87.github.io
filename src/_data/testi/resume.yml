@@ -196,3 +196,799 @@ it:
   - logo: img/clients/client-4.png
     title: Corso di Perfezionamento in Terapia Manuale
     date: Dicembre 2010
+
+en:
+  title: Resume
+  education_title: Education
+  education:
+  - period: '2007'
+    company: Università degli Studi di Pisa
+    title: Physiotherapy
+    text: Ranked 1st in the Physiotherapy admission test out of 890 candidates.
+  - period: '2008'
+    company: Studio di Fisioterapia Tekmedica
+    title: Sports Massage Course
+  - period: '2009'
+    company: Università degli Studi di Pisa - Fisiolife
+    title: Course in Physiology and Massage Techniques
+  - period: '2010'
+    company: Università degli Studi di Pisa
+    title: Advanced Course in Manual Therapy
+  - period: 2012-2013
+    company: JMC Formations
+    title: International Diploma in the Mezieres Method
+  - period: '2013'
+    company: Università degli Studi di Pisa
+    title: Degree in Physiotherapy
+    text: Graduated in Physiotherapy with a final mark of 110/110.
+  - period: 2014-2015
+    company: Università degli Studi di Pisa
+    title: First-Level Master's in Clinical Posturology
+    text: 'Scholarship winner. Final grade: <b>Excellent</b>'
+  - period: 2015-2016
+    company: Accademia Italiana Terapia Osteopatica Posturale
+    title: TOP Course - Postural Osteopathic Therapy
+    text: Basic Spine, Peripheral and Fascial modules
+  - period: '2018'
+    company: Manipulations Italian Accademy
+    title: Course in Chiropractic and Spinal Manipulation
+  experience_title: Experience
+  experience:
+  - period: 2007 - 2010
+    company: A.O.U. Santa Chiara, A.O.U. Cisanello
+    title: Physiotherapy Trainee
+  - period: 2009 - 2011
+    company: A.C. Pisa 1909
+    title: Physiotherapist, Head of the Youth Medical Department
+  - period: 2010 - 2011
+    company: Studio di Fisioterapia Genesi - Livorno
+    title: Physiotherapy Trainee
+  - period: 2011 - 2014
+    company: Studio di Fisioterapia Genesi - Livorno
+    title: Physiotherapist
+  - period: 2011 - present
+    company: Ballomania - Pisa
+    title: Physiotherapist, Teacher
+    text: Physiotherapist for the school's athletes. <b>Physiotherapist of the 2013 world champions</b>
+  - period: 2014 - 2015
+    company: Atletico Lucca S.C. 1970
+    title: Physiotherapist
+    text: Physiotherapist for the Youth Academy
+  - period: 2014 - present
+    company: Studio di Fisioterapia Kinesis - Lucca
+    title: Physiotherapist
+  - period: 2016 - present
+    company: Starbene
+    title: Expert Physiotherapist, Technical-Scientific Contributor
+    text: 'Contributor to articles for Starbene magazine:
+
+
+      "Bad Posture"
+
+
+      "Whiplash"
+
+
+      "Elbow Pain"
+
+
+      "Reactivating Your Muscles"
+
+
+      "Bad Posture"
+
+
+      "Exercises for Smart Working"
+
+
+      "Knee Pain"
+
+
+      "Mattress and Pillow"'
+  - period: 2016 - present
+    company: Master's in Clinical Posturology - University of Pisa
+    title: Teaching Assistant
+    text: 'Supervisor of the theses:
+
+
+      2019: "Postural changes after hallux valgus correction surgery with a minimally invasive percutaneous technique"
+
+
+      2021: "Posture, training and Embodied Cognition in dance"'
+  - period: 2021 - 2024
+    company: MAP Project
+    title: Researcher
+    text: Enhancing postural therapy with artistic techniques drawn from theatre and drama school
+  - period: '2025'
+    company: NeuroCare OdV - Pisa
+    title: Trainer
+    text: 'Teacher of the theory-and-practice sessions on <b>techniques for safely moving and handling patients</b>, to prevent caregiver injuries, as part of "Il Cerchio dell''Aiuto", a free program for people who care for elderly and neurological patients. Project supported by the Intesa Sanpaolo Charity Fund.'
+  - period: 2026 - present
+    company: ANFASS Lucca
+    title: Physiotherapist
+    text: Rehabilitation for the residents of the Aquilone group home
+  other_title: Other work <span>experience</span>
+  other:
+  - period: '2017'
+    company: Lucca Comics and Games
+    title: Interviewer
+    text: 'Interviewer, on behalf of the Festival, of internationally renowned artists among the guests of Lucca Comics and Games: <small>Raphael Lacoste, Michael Whelan, Heather Theurer, Chris Ayers, Wayne Reynolds, Federico Bertolucci, Timothy Zahn, Enzo D''Alò, David Preti, Vanni Santoni, John Wick, Bill Slavicsek, Jason Engle, Jeff Lemire, Daniele Orizio, Lucio Parrillo. </small>'
+  - period: '2017'
+    company: Croce Rossa Italiana, LuccAut, AnlAids, C.e.i.s., SIPS, Comune di Lucca, Comune di Capannori, Provincia di Capannori
+    title: Videomaker
+    text: Production and editing of the AIDS awareness video "Lucca, abbiamo chiesto ai passanti..." ("Lucca, we asked passers-by...")
+  - period: 2018 - 2021
+    company: Lucca Comics and Games
+    title: Streaming Specialist
+    text: Team lead for the concept, design and development of the Lucca Comics and Games Twitch channel, its seasonal formats and the live Show during the Festival.
+  - period: '2018'
+    company: ProLoco Castiglione di Garfagnana
+    title: Videomaker
+    text: Production and editing of the promotional video for the Medieval Fair of Castiglione di Garfagnana
+  - period: '2019'
+    company: Gruppo di Acquisto Ibrido
+    title: Project Specialist, Director
+    text: Responsible for the concept, design and development of the streaming and social media broadcast of the Economy Run, the endurance race for hybrid cars created by the Gruppo di Acquisto Ibrido.
+  - period: 2026 - present
+    company: Studio di Fisioterapia Kinesis
+    title: Head of Communication and Marketing
+    text: Responsible for the social media, newsletter, website and blog of the Kinesis Physiotherapy Studio
+  skill_groups:
+  - title: Work <span>skills</span>
+    items:
+    - name: Manual Therapy
+      value: 95
+    - name: Postural Therapy
+      value: 95
+    - name: Therapeutic Exercise
+      value: 85
+    - name: Physical Therapy
+      value: 75
+    - name: Osteopathy
+      value: 90
+  - title: Work <span>experience</span>
+    items:
+    - name: Chronic pain
+      value: 95
+    - name: Acute pain
+      value: 95
+    - name: Rehabilitation
+      value: 95
+    - name: Sports
+      value: 90
+    - name: Rheumatic conditions
+      value: 75
+    - name: Neurological conditions
+      value: 85
+    - name: Pulmonary conditions
+      value: 80
+    - name: Cardiac conditions
+      value: 80
+  knowledges_title: Knowledge
+  knowledges:
+  - Mezieres Method
+  - Myofascial Therapy
+  - Joint manipulation
+  - Joint mobilization
+  - Therapeutic exercise
+  - Pain management
+  - Core Stability
+  - Tecar
+  - Laser
+  - Ultrasound
+  - Microcurrent
+  - Massage
+  - Sports massage
+  - Bandaging
+  - Kinesio taping
+  - Problem-Solving
+  - Coaching
+  - Communication
+  certificates_title: Certificates
+  certificates:
+  - logo: img/clients/client-4.png
+    title: Degree in Physiotherapy
+    date: November 2013
+  - logo: img/clients/client-4.png
+    title: Master's in Clinical Posturology
+    date: December 2015
+  - logo: img/clients/client-4.png
+    title: Advanced Course in Manual Therapy
+    date: December 2010
+
+es:
+  title: Currículum
+  education_title: Formación
+  education:
+  - period: '2007'
+    company: Università degli Studi di Pisa
+    title: Fisioterapia
+    text: 1.º clasificado en la prueba de acceso a Fisioterapia sobre un total de 890 candidatos.
+  - period: '2008'
+    company: Studio di Fisioterapia Tekmedica
+    title: Curso de Masaje Deportivo
+  - period: '2009'
+    company: Università degli Studi di Pisa - Fisiolife
+    title: Curso de Fisiología y Técnicas de Masaje
+  - period: '2010'
+    company: Università degli Studi di Pisa
+    title: Curso de Perfeccionamiento en Terapia Manual
+  - period: 2012-2013
+    company: JMC Formations
+    title: Diploma Internacional de Formación en el Método Mézières
+  - period: '2013'
+    company: Università degli Studi di Pisa
+    title: Graduado en Fisioterapia
+    text: Graduado en Fisioterapia con una calificación de 110/110.
+  - period: 2014-2015
+    company: Università degli Studi di Pisa
+    title: Máster de I Nivel en Posturología Clínica
+    text: 'Ganador de una beca de estudios. Calificación final: <b>Sobresaliente</b>'
+  - period: 2015-2016
+    company: Accademia Italiana Terapia Osteopatica Posturale
+    title: Curso TOP - Terapia Osteopática Postural
+    text: Módulos Raquis Básico, Periférico, Fascial
+  - period: '2018'
+    company: Manipulations Italian Accademy
+    title: Curso de Quiropráctica y Manipulaciones Vertebrales
+  experience_title: Experiencia
+  experience:
+  - period: 2007 - 2010
+    company: A.O.U. Santa Chiara, A.O.U. Cisanello
+    title: Fisioterapeuta en prácticas
+  - period: 2009 - 2011
+    company: A.C. Pisa 1909
+    title: Fisioterapeuta, Responsable del Área Médica de las Categorías Inferiores
+  - period: 2010 - 2011
+    company: Studio di Fisioterapia Genesi - Livorno
+    title: Fisioterapeuta en prácticas
+  - period: 2011 - 2014
+    company: Studio di Fisioterapia Genesi - Livorno
+    title: Fisioterapeuta
+  - period: 2011 - actualidad
+    company: Ballomania - Pisa
+    title: Fisioterapeuta, Docente
+    text: Fisioterapeuta de los atletas de la escuela. <b>Fisioterapeuta de los campeones del mundo 2013</b>
+  - period: 2014 - 2015
+    company: Atletico Lucca S.C. 1970
+    title: Fisioterapeuta
+    text: Fisioterapeuta de las Categorías Inferiores
+  - period: 2014 - actualidad
+    company: Studio di Fisioterapia Kinesis - Lucca
+    title: Fisioterapeuta
+  - period: 2016 - actualidad
+    company: Starbene
+    title: Fisioterapeuta Experto, Colaborador técnico-científico
+    text: 'Colaborador en la redacción de artículos para la revista Starbene:
+
+
+      "Cattiva Postura"
+
+
+      "Colpo di Frusta"
+
+
+      "Dolore al gomito"
+
+
+      "Riattivare la muscolatura"
+
+
+      "Cattiva postura"
+
+
+      "La ginnastica per lo smartworking"
+
+
+      "Dolore del ginocchio"
+
+
+      "Materasso e Cuscino"'
+  - period: 2016 - actualidad
+    company: Master di Posturologia Clinica - Università di Pisa
+    title: Asistente de Docencia
+    text: 'Director de las tesis:
+
+
+      2019: "Modificazioni posturali dopo intervento di correzione di alluce valgo con tecnica mininvasiva percutanea"
+
+
+      2021: "Postura, allenamento e Embodied Cognition nella danza"'
+  - period: 2021 - 2024
+    company: Proyecto MAP
+    title: Investigador
+    text: Potenciación de la terapia postural mediante el uso de técnicas artísticas derivadas del teatro y de la escuela de teatro
+  - period: '2025'
+    company: NeuroCare OdV - Pisa
+    title: Formador
+    text: 'Docente de los encuentros teórico-prácticos sobre las <b>técnicas para una correcta movilización de las personas asistidas</b>, para prevenir las lesiones de los cuidadores, dentro del programa gratuito "Il Cerchio dell''Aiuto", dirigido a quienes cuidan de personas mayores y enfermos neurológicos. Proyecto apoyado por el Fondo di Beneficenza de Intesa Sanpaolo.'
+  - period: 2026 - actualidad
+    company: ANFASS Lucca
+    title: Fisioterapeuta
+    text: Rehabilitación para los usuarios de la casa de acogida Aquilone
+  other_title: Otras experiencias <span>laborales</span>
+  other:
+  - period: '2017'
+    company: Lucca Comics and Games
+    title: Entrevistador
+    text: 'Entrevistador, por encargo del Festival, de artistas de fama internacional entre los invitados de la feria Lucca Comics and Games: <small>Raphael Lacoste, Michael Whelan, Heather Theurer, Chris Ayers, Wayne Reynolds, Federico Bertolucci, Timothy Zahn, Enzo D''Alò, David Preti, Vanni Santoni, John Wick, Bill Slavicsek, Jason Engle, Jeff Lemire, Daniele Orizio, Lucio Parrillo. </small>'
+  - period: '2017'
+    company: Croce Rossa Italiana, LuccAut, AnlAids, C.e.i.s., SIPS, Comune di Lucca, Comune di Capannori, Provincia di Capannori
+    title: Videomaker
+    text: Producción y montaje del vídeo de sensibilización sobre la lucha contra el sida "Lucca, abbiamo chiesto ai passanti..."
+  - period: 2018 - 2021
+    company: Lucca Comics and Games
+    title: Streaming Specialist
+    text: Responsable, dentro del equipo, de la ideación, el diseño y el desarrollo del canal de Twitch de Lucca Comics and Games, de los formatos de temporada y del show en directo durante el Festival.
+  - period: '2018'
+    company: ProLoco Castiglione di Garfagnana
+    title: Videomaker
+    text: Producción y montaje del vídeo promocional de la Feria Medieval de Castiglione di Garfagnana
+  - period: '2019'
+    company: Gruppo di Acquisto Ibrido
+    title: Project Specialist, Director
+    text: Responsable de la ideación, el diseño y el desarrollo del streaming y de la emisión en redes sociales de la Economy Run, la carrera de resistencia para coches híbridos creada por el Gruppo di Acquisto Ibrido.
+  - period: 2026 - actualidad
+    company: Studio di Fisioterapia Kinesis
+    title: Responsable de Comunicación y Marketing
+    text: Responsable de la comunicación en redes sociales, la newsletter, la web y el blog del Studio di Fisioterapia Kinesis
+  skill_groups:
+  - title: Competencias <span>profesionales</span>
+    items:
+    - name: Terapia Manual
+      value: 95
+    - name: Terapia Postural
+      value: 95
+    - name: Ejercicio Terapéutico
+      value: 85
+    - name: Terapia Física
+      value: 75
+    - name: Osteopatía
+      value: 90
+  - title: Experiencia <span>profesional</span>
+    items:
+    - name: Dolor crónico
+      value: 95
+    - name: Dolor agudo
+      value: 95
+    - name: Rehabilitación
+      value: 95
+    - name: Deportiva
+      value: 90
+    - name: Patologías reumáticas
+      value: 75
+    - name: Patologías neurológicas
+      value: 85
+    - name: Patologías pulmonares
+      value: 80
+    - name: Patologías cardiológicas
+      value: 80
+  knowledges_title: Conocimientos
+  knowledges:
+  - Método Mézières
+  - Terapia Miofascial
+  - Manipulaciones articulares
+  - Movilizaciones articulares
+  - Ejercicio terapéutico
+  - Manejo del dolor
+  - Core Stability
+  - Tecar
+  - Láser
+  - Ultrasonidos
+  - Microcorrientes
+  - Masaje
+  - Masaje deportivo
+  - Vendaje
+  - Vendaje neuromuscular
+  - Resolución de problemas
+  - Coaching
+  - Comunicación
+  certificates_title: Certificados
+  certificates:
+  - logo: img/clients/client-4.png
+    title: Grado en Fisioterapia
+    date: Noviembre de 2013
+  - logo: img/clients/client-4.png
+    title: Máster en Posturología Clínica
+    date: Diciembre de 2015
+  - logo: img/clients/client-4.png
+    title: Curso de Perfeccionamiento en Terapia Manual
+    date: Diciembre de 2010
+
+fr:
+  title: CV
+  education_title: Formation
+  education:
+  - period: '2007'
+    company: Università degli Studi di Pisa
+    title: Kinésithérapie
+    text: Classé 1er au concours d'entrée en kinésithérapie, sur un total de 890 candidats.
+  - period: '2008'
+    company: Studio di Fisioterapia Tekmedica
+    title: Cours de massage sportif
+  - period: '2009'
+    company: Università degli Studi di Pisa - Fisiolife
+    title: Cours de physiologie et techniques de massage
+  - period: '2010'
+    company: Università degli Studi di Pisa
+    title: Diplôme de perfectionnement en thérapie manuelle
+  - period: 2012-2013
+    company: JMC Formations
+    title: Diplôme international de formation à la méthode Mézières
+  - period: '2013'
+    company: Università degli Studi di Pisa
+    title: Diplômé en kinésithérapie
+    text: Diplômé en kinésithérapie avec la note de 110/110.
+  - period: 2014-2015
+    company: Università degli Studi di Pisa
+    title: Master de 1er niveau en posturologie clinique
+    text: "Lauréat d'une bourse d'études. Note finale : <b>Excellent</b>"
+  - period: 2015-2016
+    company: Accademia Italiana Terapia Osteopatica Posturale
+    title: Cours TOP - Thérapie ostéopathique posturale
+    text: Modules Rachis de base, Périphérique, Fascial
+  - period: '2018'
+    company: Manipulations Italian Accademy
+    title: Cours de chiropraxie et de manipulations vertébrales
+  experience_title: Expérience
+  experience:
+  - period: 2007 - 2010
+    company: A.O.U. Santa Chiara, A.O.U. Cisanello
+    title: Kinésithérapeute stagiaire
+  - period: 2009 - 2011
+    company: A.C. Pisa 1909
+    title: Kinésithérapeute, responsable du secteur médical des jeunes
+  - period: 2010 - 2011
+    company: Studio di Fisioterapia Genesi - Livorno
+    title: Kinésithérapeute stagiaire
+  - period: 2011 - 2014
+    company: Studio di Fisioterapia Genesi - Livorno
+    title: Kinésithérapeute
+  - period: 2011 - aujourd'hui
+    company: Ballomania - Pisa
+    title: Kinésithérapeute, enseignant
+    text: Kinésithérapeute des athlètes de l'école. <b>Kinésithérapeute des champions du monde 2013</b>
+  - period: 2014 - 2015
+    company: Atletico Lucca S.C. 1970
+    title: Kinésithérapeute
+    text: Kinésithérapeute du secteur jeunes
+  - period: 2014 - aujourd'hui
+    company: Studio di Fisioterapia Kinesis - Lucca
+    title: Kinésithérapeute
+  - period: 2016 - aujourd'hui
+    company: Starbene
+    title: Expert kinésithérapeute, collaborateur technique et scientifique
+    text: 'Collaborateur pour la rédaction d''articles du magazine Starbene :
+
+
+      "Cattiva Postura"
+
+
+      "Colpo di Frusta"
+
+
+      "Dolore al gomito"
+
+
+      "Riattivare la muscolatura"
+
+
+      "Cattiva postura"
+
+
+      "La ginnastica per lo smartworking"
+
+
+      "Dolore del ginocchio"
+
+
+      "Materasso e Cuscino"'
+  - period: 2016 - aujourd'hui
+    company: Master di Posturologia Clinica - Università di Pisa
+    title: Assistant d'enseignement
+    text: 'Directeur des mémoires :
+
+
+      2019 : "Modificazioni posturali dopo intervento di correzione di alluce valgo con tecnica mininvasiva percutanea"
+
+
+      2021 : "Postura, allenamento e Embodied Cognition nella danza"'
+  - period: 2021 - 2024
+    company: Projet MAP
+    title: Chercheur
+    text: Renforcement de la thérapie posturale par des techniques artistiques issues du théâtre et de l'école de théâtre
+  - period: '2025'
+    company: NeuroCare OdV - Pisa
+    title: Formateur
+    text: 'Enseignant des rencontres théoriques et pratiques sur les <b>techniques de manutention correcte des personnes aidées</b>, pour prévenir les blessures des aidants, dans le parcours gratuit "Il Cerchio dell''Aiuto", destiné à celles et ceux qui accompagnent des personnes âgées et des malades neurologiques. Projet soutenu par le Fondo di Beneficenza d''Intesa Sanpaolo.'
+  - period: 2026 - aujourd'hui
+    company: ANFASS Lucca
+    title: Kinésithérapeute
+    text: Rééducation des résidents de la maison d'accueil Aquilone
+  other_title: Autres expériences <span>professionnelles</span>
+  other:
+  - period: '2017'
+    company: Lucca Comics and Games
+    title: Intervieweur
+    text: 'Interviews, pour le compte du Festival, d''artistes de renommée internationale parmi les invités du salon Lucca Comics and Games : <small>Raphael Lacoste, Michael Whelan, Heather Theurer, Chris Ayers, Wayne Reynolds, Federico Bertolucci, Timothy Zahn, Enzo D''Alò, David Preti, Vanni Santoni, John Wick, Bill Slavicsek, Jason Engle, Jeff Lemire, Daniele Orizio, Lucio Parrillo. </small>'
+  - period: '2017'
+    company: Croce Rossa Italiana, LuccAut, AnlAids, C.e.i.s., SIPS, Comune di Lucca, Comune di Capannori, Provincia di Capannori
+    title: Vidéaste
+    text: Production et montage de la vidéo de sensibilisation à la lutte contre le sida "Lucca, abbiamo chiesto ai passanti..."
+  - period: 2018 - 2021
+    company: Lucca Comics and Games
+    title: Streaming Specialist
+    text: Coresponsable, au sein de l'équipe, de la conception, de la planification et du développement de la chaîne Twitch de Lucca Comics and Games, des formats saisonniers et du show en direct pendant le Festival.
+  - period: '2018'
+    company: ProLoco Castiglione di Garfagnana
+    title: Vidéaste
+    text: Production et montage de la vidéo promotionnelle de la Foire médiévale de Castiglione di Garfagnana
+  - period: '2019'
+    company: Gruppo di Acquisto Ibrido
+    title: Project Specialist, réalisateur
+    text: Responsable de la conception, de la planification et du développement du streaming et de la diffusion sur les réseaux sociaux de l'Economy Run, la course d'endurance pour voitures hybrides créée par le Gruppo di Acquisto Ibrido.
+  - period: 2026 - aujourd'hui
+    company: Studio di Fisioterapia Kinesis
+    title: Responsable communication et marketing
+    text: Responsable de la communication sur les réseaux sociaux, de la newsletter, du site et du blog du Studio di Fisioterapia Kinesis
+  skill_groups:
+  - title: Compétences <span>professionnelles</span>
+    items:
+    - name: Thérapie manuelle
+      value: 95
+    - name: Thérapie posturale
+      value: 95
+    - name: Exercice thérapeutique
+      value: 85
+    - name: Physiothérapie instrumentale
+      value: 75
+    - name: Ostéopathie
+      value: 90
+  - title: Expérience <span>professionnelle</span>
+    items:
+    - name: Douleur chronique
+      value: 95
+    - name: Douleur aiguë
+      value: 95
+    - name: Rééducation
+      value: 95
+    - name: Sport
+      value: 90
+    - name: Pathologies rhumatismales
+      value: 75
+    - name: Pathologies neurologiques
+      value: 85
+    - name: Pathologies pulmonaires
+      value: 80
+    - name: Pathologies cardiologiques
+      value: 80
+  knowledges_title: Connaissances
+  knowledges:
+  - Méthode Mézières
+  - Thérapie myofasciale
+  - Manipulations articulaires
+  - Mobilisations articulaires
+  - Exercice thérapeutique
+  - Gestion de la douleur
+  - Core Stability
+  - Tecar
+  - Laser
+  - Ultrasons
+  - Microcourants
+  - Massage
+  - Massage sportif
+  - Bandage
+  - Taping neuromusculaire
+  - Problem-Solving
+  - Coaching
+  - Communication
+  certificates_title: Certificats
+  certificates:
+  - logo: img/clients/client-4.png
+    title: Diplôme de kinésithérapie
+    date: Novembre 2013
+  - logo: img/clients/client-4.png
+    title: Master en posturologie clinique
+    date: Décembre 2015
+  - logo: img/clients/client-4.png
+    title: Diplôme de perfectionnement en thérapie manuelle
+    date: Décembre 2010
+
+de:
+  title: Lebenslauf
+  education_title: Ausbildung
+  education:
+  - period: '2007'
+    company: Università degli Studi di Pisa
+    title: Physiotherapie
+    text: Platz 1 bei der Aufnahmeprüfung für Physiotherapie unter insgesamt 890 Bewerbern.
+  - period: '2008'
+    company: Studio di Fisioterapia Tekmedica
+    title: Kurs in Sportmassage
+  - period: '2009'
+    company: Università degli Studi di Pisa - Fisiolife
+    title: Kurs in Physiologie und Massagetechniken
+  - period: '2010'
+    company: Università degli Studi di Pisa
+    title: Weiterbildungskurs in Manueller Therapie
+  - period: 2012-2013
+    company: JMC Formations
+    title: Internationales Ausbildungsdiplom in der Mezieres-Methode
+  - period: '2013'
+    company: Università degli Studi di Pisa
+    title: Hochschulabschluss in Physiotherapie
+    text: Abschluss in Physiotherapie mit der Note 110/110.
+  - period: 2014-2015
+    company: Università degli Studi di Pisa
+    title: Master ersten Grades in Klinischer Posturologie
+    text: 'Stipendiat. Abschlussnote: <b>Ausgezeichnet</b>'
+  - period: 2015-2016
+    company: Accademia Italiana Terapia Osteopatica Posturale
+    title: TOP-Kurs - Posturale Osteopathische Therapie
+    text: Module Wirbelsäule Basis, Peripher, Faszial
+  - period: '2018'
+    company: Manipulations Italian Accademy
+    title: Kurs in Chirotherapie und Wirbelsäulenmanipulation
+  experience_title: Berufserfahrung
+  experience:
+  - period: 2007 - 2010
+    company: A.O.U. Santa Chiara, A.O.U. Cisanello
+    title: Praktikant Physiotherapie
+  - period: 2009 - 2011
+    company: A.C. Pisa 1909
+    title: Physiotherapeut, Leiter der medizinischen Abteilung im Jugendbereich
+  - period: 2010 - 2011
+    company: Studio di Fisioterapia Genesi - Livorno
+    title: Praktikant Physiotherapie
+  - period: 2011 - 2014
+    company: Studio di Fisioterapia Genesi - Livorno
+    title: Physiotherapeut
+  - period: 2011 - heute
+    company: Ballomania - Pisa
+    title: Physiotherapeut, Dozent
+    text: Physiotherapeut für die Athleten der Schule. <b>Physiotherapeut der Weltmeister 2013</b>
+  - period: 2014 - 2015
+    company: Atletico Lucca S.C. 1970
+    title: Physiotherapeut
+    text: Physiotherapeut der Jugendabteilung
+  - period: 2014 - heute
+    company: Studio di Fisioterapia Kinesis - Lucca
+    title: Physiotherapeut
+  - period: 2016 - heute
+    company: Starbene
+    title: Physiotherapie-Experte, technisch-wissenschaftlicher Mitarbeiter
+    text: 'Mitarbeit an Artikeln für die Zeitschrift Starbene:
+
+
+      "Cattiva Postura"
+
+
+      "Colpo di Frusta"
+
+
+      "Dolore al gomito"
+
+
+      "Riattivare la muscolatura"
+
+
+      "Cattiva postura"
+
+
+      "La ginnastica per lo smartworking"
+
+
+      "Dolore del ginocchio"
+
+
+      "Materasso e Cuscino"'
+  - period: 2016 - heute
+    company: Master di Posturologia Clinica - Università di Pisa
+    title: Lehrassistent
+    text: 'Betreuer der Abschlussarbeiten:
+
+
+      2019: "Modificazioni posturali dopo intervento di correzione di alluce valgo con tecnica mininvasiva percutanea"
+
+
+      2021: "Postura, allenamento e Embodied Cognition nella danza"'
+  - period: 2021 - 2024
+    company: Progetto MAP
+    title: Forscher
+    text: Verstärkung der Haltungstherapie durch künstlerische Techniken aus dem Theater und der Schauspielschule
+  - period: '2025'
+    company: NeuroCare OdV - Pisa
+    title: Ausbilder
+    text: 'Dozent der theoretisch-praktischen Treffen zu <b>Techniken für den richtigen Transfer von Betreuten</b>, um Verletzungen bei pflegenden Angehörigen vorzubeugen, im Rahmen des kostenlosen Programms "Il Cerchio dell''Aiuto" für alle, die ältere und neurologisch erkrankte Menschen betreuen. Ein Projekt mit Unterstützung des Fondo di Beneficenza di Intesa Sanpaolo.'
+  - period: 2026 - heute
+    company: ANFASS Lucca
+    title: Physiotherapeut
+    text: Rehabilitation für die Bewohner der betreuten Wohngemeinschaft Aquilone
+  other_title: Weitere <span>Berufserfahrung</span>
+  other:
+  - period: '2017'
+    company: Lucca Comics and Games
+    title: Interviewer
+    text: 'Interviewer im Auftrag des Festivals von international bekannten Künstlern unter den Gästen der Messe Lucca Comics and Games: <small>Raphael Lacoste, Michael Whelan, Heather Theurer, Chris Ayers, Wayne Reynolds, Federico Bertolucci, Timothy Zahn, Enzo D''Alò, David Preti, Vanni Santoni, John Wick, Bill Slavicsek, Jason Engle, Jeff Lemire, Daniele Orizio, Lucio Parrillo. </small>'
+  - period: '2017'
+    company: Croce Rossa Italiana, LuccAut, AnlAids, C.e.i.s., SIPS, Comune di Lucca, Comune di Capannori, Provincia di Capannori
+    title: Videomaker
+    text: Produktion und Schnitt des Aufklärungsvideos zum Kampf gegen AIDS "Lucca, abbiamo chiesto ai passanti..."
+  - period: 2018 - 2021
+    company: Lucca Comics and Games
+    title: Streaming Specialist
+    text: Im Team verantwortlich für Konzeption, Planung und Aufbau des Twitch-Kanals von Lucca Comics and Games, der saisonalen Formate und der Live-Show während des Festivals.
+  - period: '2018'
+    company: ProLoco Castiglione di Garfagnana
+    title: Videomaker
+    text: Produktion und Schnitt des Werbevideos für den Mittelaltermarkt von Castiglione di Garfagnana
+  - period: '2019'
+    company: Gruppo di Acquisto Ibrido
+    title: Project Specialist, Regisseur
+    text: Verantwortlich für Konzeption, Planung und Umsetzung des Streamings und der Übertragung in den sozialen Medien des Economy Run, des Langstreckenrennens für Hybridautos, das vom Gruppo di Acquisto Ibrido ins Leben gerufen wurde.
+  - period: 2026 - heute
+    company: Studio di Fisioterapia Kinesis
+    title: Leiter Kommunikation und Marketing
+    text: Verantwortlich für Social-Media-Kommunikation, Newsletter, Website und Blog des Studio di Fisioterapia Kinesis
+  skill_groups:
+  - title: Berufliche <span>Kompetenzen</span>
+    items:
+    - name: Manuelle Therapie
+      value: 95
+    - name: Haltungstherapie
+      value: 95
+    - name: Therapeutische Übungen
+      value: 85
+    - name: Physikalische Therapie
+      value: 75
+    - name: Osteopathie
+      value: 90
+  - title: Berufliche <span>Erfahrung</span>
+    items:
+    - name: Chronischer Schmerz
+      value: 95
+    - name: Akuter Schmerz
+      value: 95
+    - name: Rehabilitation
+      value: 95
+    - name: Sport
+      value: 90
+    - name: Rheumatische Erkrankungen
+      value: 75
+    - name: Neurologische Erkrankungen
+      value: 85
+    - name: Lungenerkrankungen
+      value: 80
+    - name: Herzerkrankungen
+      value: 80
+  knowledges_title: Kenntnisse
+  knowledges:
+  - Mezieres-Methode
+  - Myofasziale Therapie
+  - Gelenkmanipulationen
+  - Gelenkmobilisationen
+  - Therapeutische Übungen
+  - Schmerzmanagement
+  - Core Stability
+  - Tecar
+  - Laser
+  - Ultraschall
+  - Mikrostrom
+  - Massage
+  - Sportmassage
+  - Bandagieren
+  - Neuromuskuläres Taping
+  - Problem-Solving
+  - Coaching
+  - Kommunikation
+  certificates_title: Zertifikate
+  certificates:
+  - logo: img/clients/client-4.png
+    title: Abschluss in Physiotherapie
+    date: November 2013
+  - logo: img/clients/client-4.png
+    title: Master in Klinischer Posturologie
+    date: Dezember 2015
+  - logo: img/clients/client-4.png
+    title: Weiterbildungskurs in Manueller Therapie
+    date: Dezember 2010

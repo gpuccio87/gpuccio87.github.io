@@ -7,3 +7,43 @@ it:
   - Videomaker
   - Sviluppatore
   - Comunicazione e Marketing
+
+en:
+  name: Gabriele Pucciarelli
+  roles:
+  - Physiotherapist
+  - Streaming Specialist
+  - Teacher
+  - Videomaker
+  - Developer
+  - Communication and Marketing
+
+es:
+  name: Gabriele Pucciarelli
+  roles:
+  - Fisioterapeuta
+  - Streaming Specialist
+  - Docente
+  - Videomaker
+  - Desarrollador
+  - Comunicación y Marketing
+
+fr:
+  name: Gabriele Pucciarelli
+  roles:
+  - Kinésithérapeute
+  - Streaming Specialist
+  - Enseignant
+  - Vidéaste
+  - Développeur
+  - Communication et marketing
+
+de:
+  name: Gabriele Pucciarelli
+  roles:
+  - Physiotherapeut
+  - Streaming Specialist
+  - Dozent
+  - Videomaker
+  - Entwickler
+  - Kommunikation und Marketing

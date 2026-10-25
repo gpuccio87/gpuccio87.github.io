@@ -42,3 +42,183 @@ it:
     url: tel:3805334868
   - icon: far fa-envelope
     url: mailto:info@gabrielepucciarelli.com
+
+en:
+  name: Gabriele Pucciarelli
+  title: Gabriele Pucciarelli
+  description: Gabriele Pucciarelli
+  url: https://www.gabrielepucciarelli.com
+  og_image: img/og-image.jpg
+  keywords: Gabriele Pucciarelli, physiotherapist, posturology, streaming, teacher, videomaker, portfolio
+  lang: en
+  photo: img/main_photo.jpg
+  background: img/main_bg.png
+  copyright: © {anno} All rights reserved.
+  email: info@gabrielepucciarelli.com
+  phone: +39 380 5334868
+  phone_link: '3805334868'
+  whatsapp: https://wa.me/3805334868
+  telegram: https://t.me/gpuccio87
+  vcard: vcard.vcf
+  qr_code: qr-code.png
+  menu:
+  - id: home
+    icon: lnr-home
+    label: Home
+  - id: about-me
+    icon: lnr-user
+    label: About me
+  - id: resume
+    icon: lnr-graduation-hat
+    label: Resume
+  - id: portfolio
+    icon: lnr-briefcase
+    label: Portfolio
+  - id: blog
+    icon: lnr-book
+    label: Blog
+  - id: contact
+    icon: lnr-envelope
+    label: Contact
+  social:
+  - icon: fab fa-whatsapp
+    url: https://wa.me/3805334868
+  - icon: fas fa-phone
+    url: tel:3805334868
+  - icon: far fa-envelope
+    url: mailto:info@gabrielepucciarelli.com
+
+es:
+  name: Gabriele Pucciarelli
+  title: Gabriele Pucciarelli
+  description: Gabriele Pucciarelli
+  url: https://www.gabrielepucciarelli.com
+  og_image: img/og-image.jpg
+  keywords: Gabriele Pucciarelli, fisioterapeuta, posturología, streaming, docente, videomaker, portfolio
+  lang: es
+  photo: img/main_photo.jpg
+  background: img/main_bg.png
+  copyright: © {anno} Todos los derechos reservados.
+  email: info@gabrielepucciarelli.com
+  phone: +39 380 5334868
+  phone_link: '3805334868'
+  whatsapp: https://wa.me/3805334868
+  telegram: https://t.me/gpuccio87
+  vcard: vcard.vcf
+  qr_code: qr-code.png
+  menu:
+  - id: home
+    icon: lnr-home
+    label: Inicio
+  - id: about-me
+    icon: lnr-user
+    label: Sobre mí
+  - id: resume
+    icon: lnr-graduation-hat
+    label: Currículum
+  - id: portfolio
+    icon: lnr-briefcase
+    label: Portfolio
+  - id: blog
+    icon: lnr-book
+    label: Blog
+  - id: contact
+    icon: lnr-envelope
+    label: Contacto
+  social:
+  - icon: fab fa-whatsapp
+    url: https://wa.me/3805334868
+  - icon: fas fa-phone
+    url: tel:3805334868
+  - icon: far fa-envelope
+    url: mailto:info@gabrielepucciarelli.com
+
+fr:
+  name: Gabriele Pucciarelli
+  title: Gabriele Pucciarelli
+  description: Gabriele Pucciarelli
+  url: https://www.gabrielepucciarelli.com
+  og_image: img/og-image.jpg
+  keywords: Gabriele Pucciarelli, kinésithérapeute, posturologie, streaming, enseignant, vidéaste, portfolio
+  lang: fr
+  photo: img/main_photo.jpg
+  background: img/main_bg.png
+  copyright: © {anno} Tous droits réservés.
+  email: info@gabrielepucciarelli.com
+  phone: +39 380 5334868
+  phone_link: '3805334868'
+  whatsapp: https://wa.me/3805334868
+  telegram: https://t.me/gpuccio87
+  vcard: vcard.vcf
+  qr_code: qr-code.png
+  menu:
+  - id: home
+    icon: lnr-home
+    label: Accueil
+  - id: about-me
+    icon: lnr-user
+    label: Qui suis-je
+  - id: resume
+    icon: lnr-graduation-hat
+    label: CV
+  - id: portfolio
+    icon: lnr-briefcase
+    label: Portfolio
+  - id: blog
+    icon: lnr-book
+    label: Blog
+  - id: contact
+    icon: lnr-envelope
+    label: Contact
+  social:
+  - icon: fab fa-whatsapp
+    url: https://wa.me/3805334868
+  - icon: fas fa-phone
+    url: tel:3805334868
+  - icon: far fa-envelope
+    url: mailto:info@gabrielepucciarelli.com
+
+de:
+  name: Gabriele Pucciarelli
+  title: Gabriele Pucciarelli
+  description: Gabriele Pucciarelli
+  url: https://www.gabrielepucciarelli.com
+  og_image: img/og-image.jpg
+  keywords: Gabriele Pucciarelli, Physiotherapeut, Posturologie, Streaming, Dozent, Videomaker, Portfolio
+  lang: de
+  photo: img/main_photo.jpg
+  background: img/main_bg.png
+  copyright: © {anno} Alle Rechte vorbehalten.
+  email: info@gabrielepucciarelli.com
+  phone: +39 380 5334868
+  phone_link: '3805334868'
+  whatsapp: https://wa.me/3805334868
+  telegram: https://t.me/gpuccio87
+  vcard: vcard.vcf
+  qr_code: qr-code.png
+  menu:
+  - id: home
+    icon: lnr-home
+    label: Home
+  - id: about-me
+    icon: lnr-user
+    label: Über mich
+  - id: resume
+    icon: lnr-graduation-hat
+    label: Lebenslauf
+  - id: portfolio
+    icon: lnr-briefcase
+    label: Portfolio
+  - id: blog
+    icon: lnr-book
+    label: Blog
+  - id: contact
+    icon: lnr-envelope
+    label: Kontakt
+  social:
+  - icon: fab fa-whatsapp
+    url: https://wa.me/3805334868
+  - icon: fas fa-phone
+    url: tel:3805334868
+  - icon: far fa-envelope
+    url: mailto:info@gabrielepucciarelli.com

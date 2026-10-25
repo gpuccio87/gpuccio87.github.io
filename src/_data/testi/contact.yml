@@ -42,3 +42,183 @@ it:
       email: È richiesta una email valida
       subject: L'oggetto è richiesto
       message: Per favore, lasciami un messaggio
+
+en:
+  title: Contact
+  subtitle: How can I <span>help you?</span>
+  columns:
+  - - icon: lnr-phone-handset
+      label: +39 3805334868
+      url: tel:3805334868
+    - icon: lnr-user
+      label: Download my contact card
+      url: vcard.vcf
+      title: VCard
+  - - icon: lnr-envelope
+      label: info@gabrielepucciarelli.com
+      url: mailto:info@gabrielepucciarelli.com
+      small: true
+    - icon: lnr-smartphone
+      label: Click and scan the QR Code
+      url: qr-code.png
+      title: VCard
+      lightbox: true
+      small: true
+  - - icon: lnr-bubble
+      label: Whatsapp
+      url: https://wa.me/3805334868
+    - icon: lnr-bubble
+      label: Telegram
+      url: https://t.me/gpuccio87
+  form:
+    # Web3Forms public key (https://web3forms.com): while it is empty the form is not shown
+    access_key: '577c023d-0265-4215-89ac-fa532f2c8b42'
+    title: Send me <span>a message</span>
+    success: Message sent. Thank you, I'll get back to you as soon as possible!
+    error: Something went wrong while sending your message. Please try again later or email me.
+    labels:
+      name: Name
+      email: Email
+      subject: Subject
+      message: Message
+      send: Send message
+    errors:
+      name: Name is required
+      email: A valid email is required
+      subject: Subject is required
+      message: Please leave me a message
+
+es:
+  title: Contacto
+  subtitle: ¿Cómo puedo <span>ayudarte?</span>
+  columns:
+  - - icon: lnr-phone-handset
+      label: +39 3805334868
+      url: tel:3805334868
+    - icon: lnr-user
+      label: Descarga mi contacto
+      url: vcard.vcf
+      title: VCard
+  - - icon: lnr-envelope
+      label: info@gabrielepucciarelli.com
+      url: mailto:info@gabrielepucciarelli.com
+      small: true
+    - icon: lnr-smartphone
+      label: Haz clic y escanea el código QR
+      url: qr-code.png
+      title: VCard
+      lightbox: true
+      small: true
+  - - icon: lnr-bubble
+      label: Whatsapp
+      url: https://wa.me/3805334868
+    - icon: lnr-bubble
+      label: Telegram
+      url: https://t.me/gpuccio87
+  form:
+    # Clave pública de Web3Forms (https://web3forms.com): mientras esté vacía, el formulario no se muestra
+    access_key: '577c023d-0265-4215-89ac-fa532f2c8b42'
+    title: Escríbeme <span>un mensaje</span>
+    success: Mensaje enviado. ¡Gracias, te responderé lo antes posible!
+    error: Se ha producido un error durante el envío. Inténtalo más tarde o escríbeme por email.
+    labels:
+      name: Nombre
+      email: Email
+      subject: Asunto
+      message: Mensaje
+      send: Enviar mensaje
+    errors:
+      name: El nombre es obligatorio
+      email: Se necesita un email válido
+      subject: El asunto es obligatorio
+      message: Por favor, déjame un mensaje
+
+fr:
+  title: Contact
+  subtitle: Comment puis-je <span>vous aider ?</span>
+  columns:
+  - - icon: lnr-phone-handset
+      label: +39 3805334868
+      url: tel:3805334868
+    - icon: lnr-user
+      label: Télécharger ma fiche contact
+      url: vcard.vcf
+      title: VCard
+  - - icon: lnr-envelope
+      label: info@gabrielepucciarelli.com
+      url: mailto:info@gabrielepucciarelli.com
+      small: true
+    - icon: lnr-smartphone
+      label: Cliquez et scannez le QR Code
+      url: qr-code.png
+      title: VCard
+      lightbox: true
+      small: true
+  - - icon: lnr-bubble
+      label: Whatsapp
+      url: https://wa.me/3805334868
+    - icon: lnr-bubble
+      label: Telegram
+      url: https://t.me/gpuccio87
+  form:
+    # Clé publique Web3Forms (https://web3forms.com) : tant qu'elle est vide, le formulaire n'est pas affiché
+    access_key: '577c023d-0265-4215-89ac-fa532f2c8b42'
+    title: Écrivez-moi <span>un message</span>
+    success: "Message envoyé. Merci, je vous répondrai au plus vite !"
+    error: "Une erreur s'est produite lors de l'envoi. Réessayez plus tard ou écrivez-moi par e-mail."
+    labels:
+      name: Nom
+      email: E-mail
+      subject: Objet
+      message: Message
+      send: Envoyer le message
+    errors:
+      name: Le nom est obligatoire
+      email: Une adresse e-mail valide est obligatoire
+      subject: "L'objet est obligatoire"
+      message: "S'il vous plaît, laissez-moi un message"
+
+de:
+  title: Kontakt
+  subtitle: Wie kann ich <span>dir helfen?</span>
+  columns:
+  - - icon: lnr-phone-handset
+      label: +39 3805334868
+      url: tel:3805334868
+    - icon: lnr-user
+      label: Lade meinen Kontakt herunter
+      url: vcard.vcf
+      title: VCard
+  - - icon: lnr-envelope
+      label: info@gabrielepucciarelli.com
+      url: mailto:info@gabrielepucciarelli.com
+      small: true
+    - icon: lnr-smartphone
+      label: Klicke und scanne den QR-Code
+      url: qr-code.png
+      title: VCard
+      lightbox: true
+      small: true
+  - - icon: lnr-bubble
+      label: Whatsapp
+      url: https://wa.me/3805334868
+    - icon: lnr-bubble
+      label: Telegram
+      url: https://t.me/gpuccio87
+  form:
+    # Öffentlicher Web3Forms-Schlüssel (https://web3forms.com): solange er leer ist, wird das Formular nicht angezeigt
+    access_key: '577c023d-0265-4215-89ac-fa532f2c8b42'
+    title: Schreib mir <span>eine Nachricht</span>
+    success: Nachricht gesendet. Danke, ich antworte dir so schnell wie möglich!
+    error: Beim Senden ist ein Fehler aufgetreten. Versuche es später noch einmal oder schreib mir eine E-Mail.
+    labels:
+      name: Name
+      email: E-Mail
+      subject: Betreff
+      message: Nachricht
+      send: Nachricht senden
+    errors:
+      name: Der Name ist erforderlich
+      email: Eine gültige E-Mail-Adresse ist erforderlich
+      subject: Der Betreff ist erforderlich
+      message: Bitte hinterlass mir eine Nachricht

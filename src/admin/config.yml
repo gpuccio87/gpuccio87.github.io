@@ -18,11 +18,16 @@ logo_url: https://www.gabrielepucciarelli.com/img/main_photo.jpg
 media_folder: src/img/uploads
 public_folder: img/uploads
 
+i18n:
+  structure: multiple_folders
+  locales: [it, en, es, fr, de]
+  default_locale: it
 collections:
   - name: blog
     label: Blog
     label_singular: Post
     folder: src/blog
+    i18n: true
     create: true
     extension: md
     format: frontmatter
@@ -30,21 +35,22 @@ collections:
     summary: "{{order}} · {{title}} ({{category}})"
     sortable_fields: [order, title]
     fields:
-      - { name: title, label: Titolo, widget: string }
-      - { name: category, label: Categoria, widget: string, hint: "Es. Libri, Musica, Fisioterapia" }
-      - { name: description, label: Riassunto (anteprima su social e Google), widget: string, required: false, hint: "Una o due frasi. Vuoto: si usano i ruoli della home." }
-      - { name: image, label: Immagine anteprima (griglia), widget: image }
-      - { name: image_full, label: Immagine grande (in cima al post), widget: image, required: false }
-      - { name: image_alt, label: Testo alternativo immagine, widget: string, required: false }
-      - { name: topics, label: Tag, widget: list, required: false, hint: "Separati da virgola" }
-      - { name: order, label: Numero del post, widget: number, value_type: int, min: 1, hint: "Genera l'indirizzo blog-post-N.html. Usa il numero successivo all'ultimo post." }
-      - { name: date_label, label: Data (testo mostrato), widget: string, required: false, hint: "Es. 12 marzo 2026. Lascia vuoto per non mostrarla." }
-      - { name: body, label: Testo, widget: markdown }
+      - {name: title, label: Titolo, widget: string, i18n: true}
+      - {name: category, label: Categoria, widget: string, hint: "Es. Libri, Musica, Fisioterapia", i18n: true}
+      - {name: description, label: Riassunto (anteprima su social e Google), widget: string, required: false, hint: "Una o due frasi. Vuoto: si usano i ruoli della home.", i18n: true}
+      - {name: image, label: Immagine anteprima (griglia), widget: image, i18n: duplicate}
+      - {name: image_full, label: Immagine grande (in cima al post), widget: image, required: false, i18n: duplicate}
+      - {name: image_alt, label: Testo alternativo immagine, widget: string, required: false, i18n: true}
+      - {name: topics, label: Tag, widget: list, required: false, hint: "Separati da virgola", i18n: true}
+      - {name: order, label: Numero del post, widget: number, value_type: int, min: 1, hint: "Genera l'indirizzo blog-post-N.html. Usa il numero successivo all'ultimo post.", i18n: duplicate}
+      - {name: date_label, label: Data (testo mostrato), widget: string, required: false, hint: "Es. 12 marzo 2026. Lascia vuoto per non mostrarla.", i18n: true}
+      - {name: body, label: Testo, widget: markdown, i18n: true}
 
   - name: progetti
     label: Progetti
     label_singular: Progetto
     folder: src/progetti
+    i18n: true
     create: true
     extension: md
     format: frontmatter
@@ -52,200 +58,223 @@ collections:
     summary: "{{order}} · {{name}}"
     sortable_fields: [order, name]
     fields:
-      - { name: title, label: Titolo completo, widget: string, hint: "Mostrato nella scheda del progetto, es. EventToSMS 1.3.7" }
-      - { name: name, label: Nome breve, widget: string, hint: "Mostrato nella griglia del portfolio" }
-      - { name: category, label: Etichetta sotto il nome, widget: string, default: Progetto }
+      - {name: title, label: Titolo completo, widget: string, hint: "Mostrato nella scheda del progetto, es. EventToSMS 1.3.7", i18n: true}
+      - {name: name, label: Nome breve, widget: string, hint: "Mostrato nella griglia del portfolio", i18n: true}
+      - {name: category, label: Etichetta sotto il nome, widget: string, default: Progetto, i18n: true}
       - name: group
         label: Sezione del portfolio
         widget: select
         options:
-          - { label: Software, value: code }
-          - { label: Stampa 3D, value: "3D" }
-          - { label: Automazioni Claude, value: claude }
-      - { name: thumbnail, label: Anteprima nella griglia, widget: image }
-      - { name: order, label: Numero del progetto, widget: number, value_type: int, min: 1, hint: "Genera l'indirizzo portfolio-N.html. Usa il numero successivo all'ultimo progetto." }
-      - { name: date_label, label: Data (testo mostrato), widget: string, hint: "Es. marzo, 2026" }
-      - { name: author, label: Autore, widget: string, default: Gabriele Pucciarelli }
-      - { name: images, label: Immagini del carosello, widget: list, field: { name: image, label: Immagine, widget: image } }
-      - { name: technologies, label: Tecnologie utilizzate, widget: list, hint: "Separate da virgola" }
-      - { name: body, label: Descrizione, widget: markdown, modes: [rich_text, raw] }
+          - {label: Software, value: code}
+          - {label: Stampa 3D, value: "3D"}
+          - {label: Automazioni Claude, value: claude}
+        i18n: duplicate
+      - {name: thumbnail, label: Anteprima nella griglia, widget: image, i18n: duplicate}
+      - {name: order, label: Numero del progetto, widget: number, value_type: int, min: 1, hint: "Genera l'indirizzo portfolio-N.html. Usa il numero successivo all'ultimo progetto.", i18n: duplicate}
+      - {name: date_label, label: Data (testo mostrato), widget: string, hint: "Es. marzo, 2026", i18n: true}
+      - {name: author, label: Autore, widget: string, default: Gabriele Pucciarelli, i18n: duplicate}
+      - {name: images, label: Immagini del carosello, widget: list, field: {name: image, label: Immagine, widget: image}, i18n: false}
+      - {name: technologies, label: Tecnologie utilizzate, widget: list, hint: "Separate da virgola", i18n: true}
+      - {name: body, label: Descrizione, widget: markdown, modes: [rich_text, raw], i18n: true}
 
   - name: pagine
     label: Pagine del sito
+    i18n: {structure: single_file}
     editor:
       preview: false
     files:
       - name: home
         label: Home
-        file: src/_data/home.yml
+        file: src/_data/testi/home.yml
+        i18n: true
         fields:
-          - { name: name, label: Nome, widget: string }
-          - { name: roles, label: Ruoli a rotazione, widget: list }
+          - {name: name, label: Nome, widget: string, i18n: true}
+          - {name: roles, label: Ruoli a rotazione, widget: list, i18n: true}
 
       - name: about
         label: Chi sono
-        file: src/_data/about.yml
+        file: src/_data/testi/about.yml
+        i18n: true
         fields:
-          - { name: title, label: Titolo sezione, widget: string, hint: "Puoi usare <span> per la parola colorata" }
-          - { name: intro, label: Presentazione, widget: text, hint: "Testo con eventuali tag <b> e <i>" }
+          - {name: title, label: Titolo sezione, widget: string, hint: "Puoi usare <span> per la parola colorata", i18n: true}
+          - {name: intro, label: Presentazione, widget: text, hint: "Testo con eventuali tag <b> e <i>", i18n: true}
           - name: info
             label: Dati personali
             widget: list
             fields:
-              - { name: title, label: Etichetta, widget: string }
-              - { name: value, label: Valore, widget: string }
-          - { name: services_title, label: Titolo “Cosa faccio”, widget: string }
+              - {name: title, label: Etichetta, widget: string, i18n: true}
+              - {name: value, label: Valore, widget: string, i18n: true}
+            i18n: true
+          - {name: services_title, label: Titolo “Cosa faccio”, widget: string, i18n: true}
           - name: services_left
             label: Cosa faccio (colonna sinistra)
             widget: list
             summary: "{{fields.title}}"
             fields:
-              - { name: icon, label: Icona, widget: string, hint: "Nome icona Linearicons, es. lnr-wheelchair" }
-              - { name: title, label: Titolo, widget: string }
-              - { name: text, label: Testo, widget: text }
+              - {name: icon, label: Icona, widget: string, hint: "Nome icona Linearicons, es. lnr-wheelchair", i18n: duplicate}
+              - {name: title, label: Titolo, widget: string, i18n: true}
+              - {name: text, label: Testo, widget: text, i18n: true}
+            i18n: true
           - name: services_right
             label: Cosa faccio (colonna destra)
             widget: list
             summary: "{{fields.title}}"
             fields:
-              - { name: icon, label: Icona, widget: string }
-              - { name: title, label: Titolo, widget: string }
-              - { name: text, label: Testo, widget: text }
-          - { name: testimonials_title, label: Titolo testimonianze, widget: string }
-          - { name: testimonials_cta, label: Invito a lasciare una testimonianza, widget: string }
-          - { name: testimonials_cta_label, label: Testo del link, widget: string }
-          - { name: testimonials_form, label: Link al modulo testimonianze, widget: string }
+              - {name: icon, label: Icona, widget: string, i18n: duplicate}
+              - {name: title, label: Titolo, widget: string, i18n: true}
+              - {name: text, label: Testo, widget: text, i18n: true}
+            i18n: true
+          - {name: testimonials_title, label: Titolo testimonianze, widget: string, i18n: true}
+          - {name: testimonials_cta, label: Invito a lasciare una testimonianza, widget: string, i18n: true}
+          - {name: testimonials_cta_label, label: Testo del link, widget: string, i18n: true}
+          - {name: testimonials_form, label: Link al modulo testimonianze, widget: string, i18n: true}
           - name: testimonials
             label: Testimonianze
             widget: list
             summary: "{{fields.name}}"
             fields:
-              - { name: name, label: Nome, widget: string }
-              - { name: role, label: Ruolo, widget: string }
-              - { name: image, label: Foto, widget: image }
-              - { name: text, label: Testo, widget: text }
-          - { name: clients_title, label: Titolo clienti, widget: string }
+              - {name: name, label: Nome, widget: string, i18n: duplicate}
+              - {name: role, label: Ruolo, widget: string, i18n: true}
+              - {name: image, label: Foto, widget: image, i18n: duplicate}
+              - {name: text, label: Testo, widget: text, i18n: true}
+            i18n: true
+          - {name: clients_title, label: Titolo clienti, widget: string, i18n: true}
           - name: clients
             label: Clienti
             widget: list
             summary: "{{fields.url}}"
             fields:
-              - { name: url, label: Sito, widget: string }
-              - { name: image, label: Logo, widget: image }
-          - { name: facts_title, label: Titolo fatti divertenti, widget: string }
+              - {name: url, label: Sito, widget: string, i18n: duplicate}
+              - {name: image, label: Logo, widget: image, i18n: duplicate}
+            i18n: false
+          - {name: facts_title, label: Titolo fatti divertenti, widget: string, i18n: true}
           - name: facts
             label: Fatti divertenti
             widget: list
             summary: "{{fields.title}}"
             fields:
-              - { name: icon, label: Icona, widget: string }
-              - { name: title, label: Titolo, widget: string }
-              - { name: value, label: Valore, widget: string }
+              - {name: icon, label: Icona, widget: string, i18n: duplicate}
+              - {name: title, label: Titolo, widget: string, i18n: true}
+              - {name: value, label: Valore, widget: string, i18n: true}
 
+            i18n: true
       - name: resume
         label: Resume
-        file: src/_data/resume.yml
+        file: src/_data/testi/resume.yml
+        i18n: true
         fields:
-          - { name: title, label: Titolo sezione, widget: string }
-          - { name: education_title, label: Titolo educazione, widget: string }
+          - {name: title, label: Titolo sezione, widget: string, i18n: true}
+          - {name: education_title, label: Titolo educazione, widget: string, i18n: true}
           - name: education
             label: Educazione
             widget: list
             summary: "{{fields.period}} · {{fields.title}}"
             fields:
-              - { name: period, label: Periodo, widget: string }
-              - { name: company, label: Ente, widget: string }
-              - { name: title, label: Titolo, widget: string }
-              - { name: text, label: Note, widget: text, required: false, hint: "Righe vuote separano i paragrafi" }
-          - { name: experience_title, label: Titolo esperienza, widget: string }
+              - {name: period, label: Periodo, widget: string, i18n: true}
+              - {name: company, label: Ente, widget: string, i18n: true}
+              - {name: title, label: Titolo, widget: string, i18n: true}
+              - {name: text, label: Note, widget: text, required: false, hint: "Righe vuote separano i paragrafi", i18n: true}
+            i18n: true
+          - {name: experience_title, label: Titolo esperienza, widget: string, i18n: true}
           - name: experience
             label: Esperienza
             widget: list
             summary: "{{fields.period}} · {{fields.title}}"
             fields:
-              - { name: period, label: Periodo, widget: string }
-              - { name: company, label: Ente, widget: string }
-              - { name: title, label: Ruolo, widget: string }
-              - { name: text, label: Note, widget: text, required: false }
-          - { name: other_title, label: Titolo altre esperienze, widget: string }
+              - {name: period, label: Periodo, widget: string, i18n: true}
+              - {name: company, label: Ente, widget: string, i18n: true}
+              - {name: title, label: Ruolo, widget: string, i18n: true}
+              - {name: text, label: Note, widget: text, required: false, i18n: true}
+            i18n: true
+          - {name: other_title, label: Titolo altre esperienze, widget: string, i18n: true}
           - name: other
             label: Altre esperienze lavorative
             widget: list
             summary: "{{fields.period}} · {{fields.title}}"
             fields:
-              - { name: period, label: Periodo, widget: string }
-              - { name: company, label: Ente, widget: string }
-              - { name: title, label: Ruolo, widget: string }
-              - { name: text, label: Note, widget: text, required: false }
+              - {name: period, label: Periodo, widget: string, i18n: true}
+              - {name: company, label: Ente, widget: string, i18n: true}
+              - {name: title, label: Ruolo, widget: string, i18n: true}
+              - {name: text, label: Note, widget: text, required: false, i18n: true}
+            i18n: true
           - name: skill_groups
             label: Competenze (barre)
             widget: list
             summary: "{{fields.title}}"
             fields:
-              - { name: title, label: Titolo gruppo, widget: string }
+              - {name: title, label: Titolo gruppo, widget: string, i18n: true}
               - name: items
                 label: Voci
                 widget: list
                 summary: "{{fields.name}} {{fields.value}}%"
                 fields:
-                  - { name: name, label: Nome, widget: string }
-                  - { name: value, label: Percentuale, widget: number, value_type: int, min: 0, max: 100 }
-          - { name: knowledges_title, label: Titolo conoscenze, widget: string }
-          - { name: knowledges, label: Conoscenze, widget: list }
-          - { name: certificates_title, label: Titolo certificati, widget: string }
+                  - {name: name, label: Nome, widget: string, i18n: true}
+                  - {name: value, label: Percentuale, widget: number, value_type: int, min: 0, max: 100, i18n: duplicate}
+                i18n: true
+            i18n: true
+          - {name: knowledges_title, label: Titolo conoscenze, widget: string, i18n: true}
+          - {name: knowledges, label: Conoscenze, widget: list, i18n: true}
+          - {name: certificates_title, label: Titolo certificati, widget: string, i18n: true}
           - name: certificates
             label: Certificati
             widget: list
             summary: "{{fields.title}}"
             fields:
-              - { name: logo, label: Logo, widget: image }
-              - { name: title, label: Titolo, widget: string }
-              - { name: date, label: Data, widget: string }
+              - {name: logo, label: Logo, widget: image, i18n: duplicate}
+              - {name: title, label: Titolo, widget: string, i18n: true}
+              - {name: date, label: Data, widget: string, i18n: true}
 
+            i18n: true
       - name: portfolio
         label: Portfolio (articoli, video, tesi…)
-        file: src/_data/portfolio.yml
+        file: src/_data/testi/portfolio.yml
+        i18n: true
         fields:
-          - { name: title, label: Titolo sezione, widget: string }
-          - { name: all_label, label: Etichetta filtro “tutti”, widget: string }
+          - {name: title, label: Titolo sezione, widget: string, i18n: true}
+          - {name: all_label, label: Etichetta filtro “tutti”, widget: string, i18n: true}
           - name: filters
             label: Filtri
             widget: list
             summary: "{{fields.label}}"
             fields:
-              - { name: group, label: Codice, widget: string, hint: "Es. articles, videos. Non modificare quelli esistenti." }
-              - { name: label, label: Etichetta, widget: string }
+              - {name: group, label: Codice, widget: string, hint: "Es. articles, videos. Non modificare quelli esistenti.", i18n: duplicate}
+              - {name: label, label: Etichetta, widget: string, i18n: true}
+            i18n: true
           - name: sections
             label: Sezioni
             widget: list
             summary: "{{fields.title}}"
             fields:
-              - { name: group, label: Codice filtro, widget: string }
-              - { name: title, label: Titolo, widget: string }
+              - {name: group, label: Codice filtro, widget: string, i18n: duplicate}
+              - {name: title, label: Titolo, widget: string, i18n: true}
               - name: items
                 label: Elementi
                 widget: list
                 summary: "{{fields.name}}"
                 fields:
-                  - { name: name, label: Nome, widget: string }
-                  - { name: category, label: Etichetta sotto il nome, widget: string }
-                  - { name: image, label: Anteprima, widget: image }
+                  - {name: name, label: Nome, widget: string, i18n: true}
+                  - {name: category, label: Etichetta sotto il nome, widget: string, i18n: true}
+                  - {name: image, label: Anteprima, widget: image, i18n: duplicate}
                   - name: type
                     label: Tipo
                     widget: select
                     options:
-                      - { label: File PDF o pagina da aprire, value: file }
-                      - { label: Video YouTube (lightbox), value: video }
-                      - { label: Link esterno, value: link }
-                  - { name: url, label: Indirizzo, widget: string, hint: "Per i PDF: articles/nome.pdf o thesis/nome.pdf. Per YouTube: https://www.youtube.com/embed/ID" }
-                  - { name: title, label: Titolo del link (facoltativo), widget: string, required: false }
+                      - {label: File PDF o pagina da aprire, value: file}
+                      - {label: Video YouTube (lightbox), value: video}
+                      - {label: Link esterno, value: link}
+                    i18n: duplicate
+                  - {name: url, label: Indirizzo, widget: string, hint: "Per i PDF: articles/nome.pdf o thesis/nome.pdf. Per YouTube: https://www.youtube.com/embed/ID", i18n: duplicate}
+                  - {name: title, label: Titolo del link (facoltativo), widget: string, required: false, i18n: true}
 
+                i18n: true
+            i18n: true
       - name: contact
         label: Contatti
-        file: src/_data/contact.yml
+        file: src/_data/testi/contact.yml
+        i18n: true
         fields:
-          - { name: title, label: Titolo sezione, widget: string }
-          - { name: subtitle, label: Sottotitolo, widget: string }
+          - {name: title, label: Titolo sezione, widget: string, i18n: true}
+          - {name: subtitle, label: Sottotitolo, widget: string, i18n: true}
           - name: columns
             label: Colonne di contatti
             widget: list
@@ -255,70 +284,90 @@ collections:
               widget: list
               summary: "{{fields.label}}"
               fields:
-                - { name: icon, label: Icona, widget: string }
-                - { name: label, label: Testo, widget: string }
-                - { name: url, label: Link, widget: string }
-                - { name: title, label: Titolo del link, widget: string, required: false }
-                - { name: small, label: Testo piccolo, widget: boolean, required: false }
-                - { name: lightbox, label: Apri come immagine, widget: boolean, required: false }
+                - {name: icon, label: Icona, widget: string, i18n: duplicate}
+                - {name: label, label: Testo, widget: string, i18n: true}
+                - {name: url, label: Link, widget: string, i18n: duplicate}
+                - {name: title, label: Titolo del link, widget: string, required: false, i18n: true}
+                - {name: small, label: Testo piccolo, widget: boolean, required: false, i18n: duplicate}
+                - {name: lightbox, label: Apri come immagine, widget: boolean, required: false, i18n: duplicate}
+              i18n: true
+            i18n: true
           - name: form
             label: Form contatti
             widget: object
             fields:
-              - { name: access_key, label: Chiave Web3Forms, widget: string, required: false }
-              - { name: title, label: Titolo, widget: string }
-              - { name: success, label: Messaggio di successo, widget: string }
-              - { name: error, label: Messaggio di errore, widget: string }
+              - {name: access_key, label: Chiave Web3Forms, widget: string, required: false, i18n: duplicate}
+              - {name: title, label: Titolo, widget: string, i18n: true}
+              - {name: success, label: Messaggio di successo, widget: string, i18n: true}
+              - {name: error, label: Messaggio di errore, widget: string, i18n: true}
               - name: labels
                 label: Etichette campi
                 widget: object
                 fields:
-                  - { name: name, label: Nome, widget: string }
-                  - { name: email, label: Email, widget: string }
-                  - { name: subject, label: Oggetto, widget: string }
-                  - { name: message, label: Messaggio, widget: string }
-                  - { name: send, label: Pulsante invio, widget: string }
+                  - {name: name, label: Nome, widget: string, i18n: true}
+                  - {name: email, label: Email, widget: string, i18n: duplicate}
+                  - {name: subject, label: Oggetto, widget: string, i18n: true}
+                  - {name: message, label: Messaggio, widget: string, i18n: true}
+                  - {name: send, label: Pulsante invio, widget: string, i18n: true}
+                i18n: true
               - name: errors
                 label: Messaggi di validazione
                 widget: object
                 fields:
-                  - { name: name, label: Nome, widget: string }
-                  - { name: email, label: Email, widget: string }
-                  - { name: subject, label: Oggetto, widget: string }
-                  - { name: message, label: Messaggio, widget: string }
+                  - {name: name, label: Nome, widget: string, i18n: true}
+                  - {name: email, label: Email, widget: string, i18n: duplicate}
+                  - {name: subject, label: Oggetto, widget: string, i18n: true}
+                  - {name: message, label: Messaggio, widget: string, i18n: true}
 
+                i18n: true
+            i18n: true
       - name: site
         label: Impostazioni generali
-        file: src/_data/site.yml
+        file: src/_data/testi/site.yml
+        i18n: true
         fields:
-          - { name: name, label: Nome, widget: string }
-          - { name: title, label: Titolo della scheda, widget: string }
-          - { name: description, label: Descrizione (meta), widget: string }
-          - { name: keywords, label: Parole chiave (meta), widget: string }
-          - { name: lang, label: Lingua, widget: string }
-          - { name: photo, label: Foto profilo, widget: image }
-          - { name: background, label: Sfondo animato, widget: image }
-          - { name: og_image, label: Immagine di anteprima per i social (1200x630), widget: image }
-          - { name: copyright, label: Copyright, widget: string, hint: "{anno} diventa l'anno corrente a ogni pubblicazione" }
-          - { name: email, label: Email, widget: string }
-          - { name: phone, label: Telefono (mostrato), widget: string }
-          - { name: phone_link, label: Telefono (per il link tel:), widget: string }
-          - { name: whatsapp, label: Link WhatsApp, widget: string }
-          - { name: telegram, label: Link Telegram, widget: string }
-          - { name: vcard, label: File vCard, widget: string }
-          - { name: qr_code, label: Immagine QR code, widget: string }
+          - {name: name, label: Nome, widget: string, i18n: duplicate}
+          - {name: title, label: Titolo della scheda, widget: string, i18n: true}
+          - {name: description, label: Descrizione (meta), widget: string, i18n: true}
+          - {name: keywords, label: Parole chiave (meta), widget: string, i18n: true}
+          - {name: lang, label: Lingua, widget: string, i18n: true}
+          - {name: photo, label: Foto profilo, widget: image, i18n: duplicate}
+          - {name: background, label: Sfondo animato, widget: image, i18n: duplicate}
+          - {name: og_image, label: Immagine di anteprima per i social (1200x630), widget: image, i18n: duplicate}
+          - {name: copyright, label: Copyright, widget: string, hint: "{anno} diventa l'anno corrente a ogni pubblicazione", i18n: true}
+          - {name: email, label: Email, widget: string, i18n: duplicate}
+          - {name: phone, label: Telefono (mostrato), widget: string, i18n: duplicate}
+          - {name: phone_link, label: Telefono (per il link tel:), widget: string, i18n: duplicate}
+          - {name: whatsapp, label: Link WhatsApp, widget: string, i18n: duplicate}
+          - {name: telegram, label: Link Telegram, widget: string, i18n: duplicate}
+          - {name: vcard, label: File vCard, widget: string, i18n: duplicate}
+          - {name: qr_code, label: Immagine QR code, widget: string, i18n: duplicate}
           - name: menu
             label: Menu
             widget: list
             summary: "{{fields.label}}"
             fields:
-              - { name: id, label: Sezione, widget: string }
-              - { name: icon, label: Icona, widget: string }
-              - { name: label, label: Etichetta, widget: string }
+              - {name: id, label: Sezione, widget: string, i18n: duplicate}
+              - {name: icon, label: Icona, widget: string, i18n: duplicate}
+              - {name: label, label: Etichetta, widget: string, i18n: true}
+            i18n: true
           - name: social
             label: Icone social nella barra laterale
             widget: list
             summary: "{{fields.url}}"
             fields:
-              - { name: icon, label: Icona (Font Awesome), widget: string }
-              - { name: url, label: Link, widget: string }
+              - {name: icon, label: Icona (Font Awesome), widget: string, i18n: duplicate}
+              - {name: url, label: Link, widget: string, i18n: duplicate}
+            i18n: false
+      - name: ui
+        label: Testi dell'interfaccia
+        file: src/_data/testi/ui.yml
+        i18n: true
+        fields:
+          - {name: language_name, label: Nome della lingua (nella lingua stessa), widget: string, i18n: true}
+          - {name: language_label, label: Etichetta del selettore di lingua, widget: string, i18n: true}
+          - {name: og_locale, label: Codice per i social, widget: string, hint: 'Es. it_IT, en_US', i18n: true}
+          - {name: project_description, label: Titolo «Descrizione» nelle schede dei progetti, widget: string, i18n: true}
+          - {name: project_technologies, label: Titolo «Tecnologie utilizzate», widget: string, hint: Puoi usare <span> per la parola colorata, i18n: true}
+          - {name: blog_title, label: Titolo della sezione Blog, widget: string, i18n: true}
+          - {name: blog_see_all, label: Testo «Vedi tutti i post in», widget: string, i18n: true}

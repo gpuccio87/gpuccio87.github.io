@@ -6,3 +6,39 @@ it:
   project_technologies: Tecnologie <span>utilizzate</span>
   blog_title: Blog
   blog_see_all: Vedi tutti i post in
+
+en:
+  language_name: English
+  language_label: Language
+  og_locale: en_US
+  project_description: Description
+  project_technologies: Technologies <span>used</span>
+  blog_title: Blog
+  blog_see_all: See all posts in
+
+es:
+  language_name: Español
+  language_label: Idioma
+  og_locale: es_ES
+  project_description: Descripción
+  project_technologies: Tecnologías <span>utilizadas</span>
+  blog_title: Blog
+  blog_see_all: Ver todas las entradas en
+
+fr:
+  language_name: Français
+  language_label: Langue
+  og_locale: fr_FR
+  project_description: Description
+  project_technologies: Technologies <span>utilisées</span>
+  blog_title: Blog
+  blog_see_all: Voir tous les articles dans
+
+de:
+  language_name: Deutsch
+  language_label: Sprache
+  og_locale: de_DE
+  project_description: Beschreibung
+  project_technologies: Verwendete <span>Technologien</span>
+  blog_title: Blog
+  blog_see_all: Alle Beiträge ansehen in
