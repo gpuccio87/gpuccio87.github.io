@@ -241,6 +241,11 @@
                 }
             }
         });
+        // Recalculate the height once the logos have loaded: with autoHeight the carousel
+        // otherwise keeps the height it measured before the images arrived, cutting them off.
+        $(".clients.owl-carousel, .testimonials.owl-carousel").imagesLoaded(function() {
+            $(".clients.owl-carousel, .testimonials.owl-carousel").trigger('refresh.owl.carousel');
+        });
 
 
         //Form Controls
