@@ -3,9 +3,17 @@ permalink: sitemap.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>{{ site.url }}/</loc></url>
-  {%- for post in collections.posts %}
-  <url><loc>{{ site.url }}/{{ post.url | replace("/", "") }}</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {%- set pagine = ["/"] %}
+  {%- for post in collections.posts | inLingua("it") %}{% set pagine = (pagine.push(post.url), pagine) %}{% endfor %}
+  {%- for p in pagine %}
+  {%- for l in lingue %}
+  <url>
+    <loc>{{ site.url }}{{ p | inAltraLingua(l.prefix) }}</loc>
+    {%- for a in lingue %}
+    <xhtml:link rel="alternate" hreflang="{{ a.code }}" href="{{ site.url }}{{ p | inAltraLingua(a.prefix) }}"/>
+    {%- endfor %}
+  </url>
+  {%- endfor %}
   {%- endfor %}
 </urlset>

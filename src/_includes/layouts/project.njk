@@ -1,13 +1,14 @@
-{%- set prevItem = collections.progetti | getPreviousCollectionItem -%}
-{%- set nextItem = collections.progetti | getNextCollectionItem -%}
-{%- if not prevItem %}{% set prevItem = collections.progetti | last %}{% endif -%}
-{%- if not nextItem %}{% set nextItem = collections.progetti | first %}{% endif -%}
+{%- set lista = collections.progetti | inLingua(lang) -%}
+{%- set prevItem = lista | getPreviousCollectionItem -%}
+{%- set nextItem = lista | getNextCollectionItem -%}
+{%- if not prevItem %}{% set prevItem = lista | last %}{% endif -%}
+{%- if not nextItem %}{% set nextItem = lista | first %}{% endif -%}
 <div id="ajax-page" class="ajax-page-content">
     <div class="ajax-page-wrapper">
         <div class="ajax-page-nav">
             <div class="nav-item ajax-page-prev-next">
-                <a class="ajax-page-load" href="{{ prevItem.url | replace('/', '') }}"><i class="lnr lnr-chevron-left"></i></a>
-                <a class="ajax-page-load" href="{{ nextItem.url | replace('/', '') }}"><i class="lnr lnr-chevron-right"></i></a>
+                <a class="ajax-page-load" href="{{ prevItem.url | nomefile }}"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="{{ nextItem.url | nomefile }}"><i class="lnr lnr-chevron-right"></i></a>
             </div>
             <div class="nav-item ajax-page-close-button">
                 <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
@@ -50,7 +51,7 @@
                 <!-- Project Description -->
                 <div class="project-description">
                     <div class="block-title">
-                        <h3>Descrizione</h3>
+                        <h3>{{ ui.project_description }}</h3>
                     </div>
                     <ul class="project-general-info">
                         <li><p><i class="fa fa-user"></i> {{ author or site.name }}</p></li>
@@ -65,7 +66,7 @@
                     <!-- Technology -->
                     <div class="tags-block">
                         <div class="block-title">
-                            <h3>Tecnologie <span>utilizzate</span></h3>
+                            <h3>{{ ui.project_technologies | safe }}</h3>
                         </div>
                         <ul class="tags">
                             {%- for t in technologies %}

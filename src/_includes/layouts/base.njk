@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}" class="no-js">
+<html lang="{{ lang or 'it' }}" class="no-js">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +12,17 @@
     {%- set ogTitle = title or pageTitle or site.title %}
     {%- set ogDesc = description or (home.roles | join(" · ")) %}
     {%- set ogImage = (image_full or site.og_image) %}
-    {%- set ogUrl = site.url + "/" + (page.url | replace("/", "")) %}
+    {%- set ogUrl = site.url + page.url %}
     <link rel="canonical" href="{{ ogUrl }}" />
+    {%- for l in lingue %}
+    <link rel="alternate" hreflang="{{ l.code }}" href="{{ site.url }}{{ page.url | inAltraLingua(l.prefix) }}" />
+    {%- endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url | inAltraLingua('') }}" />
 
     <!-- Anteprima per social e app di messaggistica -->
     <meta property="og:type" content="{{ 'article' if title else 'website' }}" />
     <meta property="og:site_name" content="{{ site.name }}" />
-    <meta property="og:locale" content="it_IT" />
+    <meta property="og:locale" content="{{ ui.og_locale }}" />
     <meta property="og:title" content="{{ ogTitle }}" />
     <meta property="og:description" content="{{ ogDesc }}" />
     <meta property="og:url" content="{{ ogUrl }}" />

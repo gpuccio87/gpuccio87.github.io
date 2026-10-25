@@ -51,15 +51,15 @@ pageTitle: Gabriele Pucciarelli's Blog
 
                     <!-- Share Buttons -->
                     <div class="entry-share btn-group share-buttons">
-                      <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.gabrielepucciarelli.com/{{ page.url | replace('/', '') }}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">
+                      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">
                         <i class="fab fa-facebook-f"></i>
                       </a>
 
-                      <a href="https://twitter.com/intent/tweet?url=https://www.gabrielepucciarelli.com/{{ page.url | replace('/', '') }}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">
+                      <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">
                         <i class="fab fa-twitter"></i>
                       </a>
 
-                      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.gabrielepucciarelli.com/{{ page.url | replace('/', '') }}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on LinkedIn">
+                      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on LinkedIn">
                         <i class="fab fa-linkedin-in"></i>
                       </a>
                     </div>

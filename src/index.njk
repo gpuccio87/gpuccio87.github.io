@@ -1,7 +1,13 @@
 ---
 layout: layouts/base.njk
 menuBase: ""
-permalink: index.html
+pagination:
+  data: lingue
+  size: 1
+  alias: lingua
+eleventyComputed:
+  lang: "{{ lingua.code }}"
+permalink: "{{ lingua.prefix }}index.html"
 ---
           <!-- Arrows Nav -->
           <div class="lmpixels-arrows-nav">

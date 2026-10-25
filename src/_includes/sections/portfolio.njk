@@ -42,11 +42,11 @@
                           {%- endfor %}
 
                           <!-- Progetti -->
-                          {%- for p in collections.progetti %}
+                          {%- for p in collections.progetti | inLingua(lang) %}
                           <figure class="item standard" data-groups='["category_all", "category_{{ p.data.group }}"]'>
                             <div class="portfolio-item-img">
                               <img src="{{ p.data.thumbnail }}" alt="{{ p.data.name }}" title="" />
-                              <a href="{{ p.url | replace('/', '') }}" class="ajax-page-load"></a>
+                              <a href="{{ p.url | nomefile }}" class="ajax-page-load"></a>
                             </div>
 
                             <i class="far fa-file-alt"></i>
