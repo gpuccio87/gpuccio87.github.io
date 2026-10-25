@@ -65,6 +65,19 @@
           </div>
           <!-- End Mobile Navigation -->
 
+          <!-- Language switch -->
+          <div class="lang-switch">
+            <button type="button" class="lang-switch-button" aria-haspopup="true" aria-expanded="false" aria-label="{{ ui.language_label }}">
+              {{ (lang or 'it') | upper }}<span class="lang-switch-caret"></span>
+            </button>
+            <ul class="lang-switch-menu">
+              {%- for l in lingue %}
+              <li><a href="/{{ l.prefix }}{{ page.url | nomefile }}" hreflang="{{ l.code }}" lang="{{ l.code }}"{% if l.code == (lang or 'it') %} class="active" aria-current="true"{% endif %}><b>{{ l.code | upper }}</b>{{ l.name }}</a></li>
+              {%- endfor %}
+            </ul>
+          </div>
+          <!-- End Language switch -->
+
           {{ content | safe }}
 
       </div>

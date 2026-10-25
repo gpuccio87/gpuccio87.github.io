@@ -3027,3 +3027,124 @@ blockquote {
 }
 
 /* --- /Personalizzazioni --- */
+
+/* --- Language switch --- */
+.lang-switch {
+  position: absolute;
+  z-index: 999;
+}
+
+.lang-switch-button {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 35px;
+  background-color: #444;
+  color: #fff;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 30px -5px rgba(0,0,0,.15);
+  box-shadow: 0 0 30px -5px rgba(0,0,0,.15);
+  transition: color .2s ease-in-out;
+}
+
+.lang-switch .lang-switch-button:hover,
+.lang-switch .lang-switch-button:focus,
+.lang-switch.open .lang-switch-button {
+  background-color: #444;
+  color: #09aeea;
+  border: 0;
+  outline: none;
+}
+
+.lang-switch-caret {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+}
+
+.lang-switch-menu {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  background-color: #333;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 10px 30px rgba(0,0,0,.4);
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.lang-switch.open .lang-switch-menu {
+  display: block;
+}
+
+.lang-switch-menu a {
+  display: block;
+  padding: 7px 16px;
+  color: #d5d5d5;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.lang-switch-menu a b {
+  display: inline-block;
+  width: 32px;
+}
+
+.lang-switch-menu a:hover,
+.lang-switch-menu a.active {
+  color: #09aeea;
+}
+
+/* Computer: under the column of icons on the right, the menu opens to its left */
+@media only screen and (min-width: 1025px) {
+  .lang-switch {
+    top: 340px;
+    right: -90px;
+  }
+
+  .lang-switch-menu {
+    top: 0;
+    right: 82px;
+  }
+}
+
+/* Phone and tablet: in the top bar, next to the menu button */
+@media only screen and (max-width: 1024px) {
+  .lang-switch {
+    top: 10px;
+    right: 68px;
+  }
+
+  .lang-switch-button {
+    width: 48px;
+    height: 48px;
+    font-size: 13px;
+    background-color: #444;
+  }
+
+  .lang-switch-caret {
+    display: none;
+  }
+
+  .lang-switch-menu {
+    top: 56px;
+    right: 0;
+  }
+
+  /* Hidden while the side menu is open */
+  .menu-toggle.open + .lang-switch {
+    display: none;
+  }
+}
+/* --- End Language switch --- */

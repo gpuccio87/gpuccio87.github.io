@@ -154,6 +154,30 @@
             $('.menu-toggle').toggleClass('open');
         });
 
+        // Language switch: opens on click, closes on a click elsewhere or Esc.
+        // The chosen language keeps the section being viewed (#about-me, #portfolio...).
+        $('.lang-switch-button').on("click", function (e) {
+            e.stopPropagation();
+            var open = !$('.lang-switch').hasClass('open');
+            $('.lang-switch').toggleClass('open', open);
+            $(this).attr('aria-expanded', open);
+        });
+        $(document).on("click", function () {
+            $('.lang-switch').removeClass('open');
+            $('.lang-switch-button').attr('aria-expanded', false);
+        });
+        $(document).on("keydown", function (e) {
+            if (e.key === "Escape") {
+                $('.lang-switch').removeClass('open');
+                $('.lang-switch-button').attr('aria-expanded', false);
+            }
+        });
+        $('.lang-switch-menu').on("click", "a", function () {
+            if (window.location.hash) {
+                this.href = this.href.split('#')[0] + window.location.hash;
+            }
+        });
+
         // Mobile menu hide on main menu item click
         $('.main-menu').on("click", "a", function (e) {
             mobileMenuHide();
