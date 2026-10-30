@@ -12,6 +12,7 @@ images:
 - img/portfolio/full/playshelf/2.jpg
 - img/portfolio/full/playshelf/3.jpg
 - img/portfolio/full/playshelf/4.jpg
+- img/portfolio/full/playshelf/5.jpg
 technologies:
 - TypeScript
 - NestJS, Fastify
@@ -21,8 +22,8 @@ technologies:
 - Docker, GitHub Actions
 ---
 
-Playshelf is a service for Playnite users, Playnite being the program that brings games from Steam, GOG, Epic and the other stores together in a single library. A plugin, installed on every PC, sends the library and play sessions to a server, and a website shows them together: all your games, from any store and any computer, in one place.
+Playshelf is a service for Playnite users, Playnite being the program that brings games from Steam, GOG, Epic and the other stores together in a single library. A plugin, installed on every PC, keeps the library in sync in both directions through a server: ratings, statuses, categories and tags changed on one computer reach the others, field by field, with a preview and a backup before the first sync. Playtime is recorded session by session, so the hours from two PCs add up without being counted twice.
 
-Each user has a Steam-style public profile, with their favourite games, a library you can search and filter by status (completed, playing, plan to play...), playtime, recent activity and statistics by store, genre and platform. The profile can be public, visible only to people with the link, or private. A PC is linked to an account with an 8-character code confirmed on the website, without ever typing the password into the plugin, and every link can be revoked.
+Each user also gets a Steam-style public profile: covers, favourite games, a library you can search and filter by status, recent activity and, for every game, a page with description, developer, critic scores and unlocked achievements (read from the Playnite Achievements extension). The same game owned on several stores becomes a single entry. A statistics page shows where the hours go, completion, ratings, the rarest achievements and trends over time. The profile can be public, visible only to people with the link, or private; a PC is linked to the account with an 8-character code, without ever typing the password into the plugin.
 
-The server records play sessions one by one, so the hours from two PCs add up without being counted twice. The plugin is a C# extension for Playnite; the server and the website are written in TypeScript and run in Docker on an ARM cloud server, with PostgreSQL. It's in development and in invite-only beta at <a href="https://playshelf.gabrielepucciarelli.com" target="_blank">playshelf.gabrielepucciarelli.com</a>.
+The website, the server and the plugin are available in six languages (Italian, English, Spanish, French, German and Brazilian Portuguese). The plugin is a C# extension for Playnite; the server and the website are written in TypeScript and run in Docker on an ARM cloud server, with PostgreSQL. It's in invite-only beta at <a href="https://playshelf.gabrielepucciarelli.com" target="_blank">playshelf.gabrielepucciarelli.com</a>.
