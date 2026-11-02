@@ -5,6 +5,7 @@ category: Progetto
 group: code
 thumbnail: img/portfolio/playshelf.jpg
 order: 26
+sort_date: '2026-10-30'
 date_label: ottobre, 2026
 author: Gabriele Pucciarelli
 images:

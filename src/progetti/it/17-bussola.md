@@ -5,6 +5,7 @@ category: Progetto
 group: code
 thumbnail: img/portfolio/bussola.jpg
 order: 17
+sort_date: '2026-10-23'
 date_label: ottobre, 2026
 author: Gabriele Pucciarelli
 images:

@@ -71,6 +71,7 @@ collections:
         i18n: duplicate
       - {name: thumbnail, label: Anteprima nella griglia, widget: image, i18n: duplicate}
       - {name: order, label: Numero del progetto, widget: number, value_type: int, min: 1, hint: "Genera l'indirizzo portfolio-N.html. Usa il numero successivo all'ultimo progetto.", i18n: duplicate}
+      - {name: sort_date, label: Data per l'ordine, widget: string, pattern: ['^\\d{4}-\\d{2}-\\d{2}$', "AAAA-MM-GG"], hint: "Es. 2026-10-30. Nel portfolio i progetti vanno dal più recente.", i18n: duplicate}
       - {name: date_label, label: Data (testo mostrato), widget: string, hint: "Es. marzo, 2026", i18n: true}
       - {name: author, label: Autore, widget: string, default: Gabriele Pucciarelli, i18n: duplicate}
       - {name: images, label: Immagini del carosello, widget: list, field: {name: image, label: Immagine, widget: image}, i18n: false}

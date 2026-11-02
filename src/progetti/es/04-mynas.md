@@ -3,8 +3,9 @@ title: myNas
 name: myNas
 category: Proyecto
 group: code
-thumbnail: img/portfolio/javascript.jpg
+thumbnail: img/portfolio/mynas.jpg
 order: 4
+sort_date: '2018-03-08'
 date_label: 8 de marzo de 2018
 author: Gabriele Pucciarelli
 images:

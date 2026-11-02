@@ -3,12 +3,13 @@ title: TicTacToe AI 3.0
 name: TicTacToe AI
 category: Projet
 group: code
-thumbnail: img/portfolio/python.jpg
+thumbnail: img/portfolio/tictactoe-ai.jpg
 order: 10
+sort_date: '2021-01-13'
 date_label: 13 janvier 2021
 author: Gabriele Pucciarelli
 images:
-- img/portfolio/nn.png
+- img/portfolio/full/tictactoe-ai/1.jpg
 technologies:
 - Python
 - Numpy

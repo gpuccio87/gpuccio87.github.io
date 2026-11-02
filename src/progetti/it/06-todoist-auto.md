@@ -3,8 +3,9 @@ title: Todoist Auto
 name: Todoist Auto
 category: Progetto
 group: code
-thumbnail: img/portfolio/javascript.jpg
+thumbnail: img/portfolio/todoist-auto.jpg
 order: 6
+sort_date: '2022-09-05'
 date_label: 5 settembre, 2022
 author: Gabriele Pucciarelli
 images:

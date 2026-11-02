@@ -3,12 +3,13 @@ title: AnnA
 name: AnnA
 category: Proyecto
 group: code
-thumbnail: img/portfolio/nn.png
+thumbnail: img/portfolio/anna.jpg
 order: 7
+sort_date: '2019-02-09'
 date_label: 9 de febrero de 2019
 author: Gabriele Pucciarelli
 images:
-- img/portfolio/nn.png
+- img/portfolio/full/anna/1.jpg
 technologies:
 - Python
 - Numpy

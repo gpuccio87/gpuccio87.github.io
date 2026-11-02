@@ -5,6 +5,7 @@ category: Project
 group: 3D
 thumbnail: img/portfolio/3d.jpg
 order: 14
+sort_date: '2021-03-01'
 date_label: March 2021
 author: Gabriele Pucciarelli
 images:

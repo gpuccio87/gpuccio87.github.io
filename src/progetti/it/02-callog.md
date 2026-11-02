@@ -3,8 +3,9 @@ title: CalLog 2.2.3
 name: CalLog
 category: Progetto
 group: code
-thumbnail: img/portfolio/javascript.jpg
+thumbnail: img/portfolio/callog.jpg
 order: 2
+sort_date: '2018-11-07'
 date_label: 7 novembre, 2018
 author: Gabriele Pucciarelli
 images:

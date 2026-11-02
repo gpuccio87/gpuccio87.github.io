@@ -5,6 +5,7 @@ category: Proyecto
 group: code
 thumbnail: img/portfolio/lighthouse.jpg
 order: 20
+sort_date: '2026-10-24'
 date_label: octubre de 2026
 author: Gabriele Pucciarelli
 images:

@@ -5,6 +5,7 @@ category: Project
 group: code
 thumbnail: img/portfolio/mister.jpg
 order: 19
+sort_date: '2026-09-01'
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

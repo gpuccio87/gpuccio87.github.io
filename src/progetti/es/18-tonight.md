@@ -5,6 +5,7 @@ category: Proyecto
 group: code
 thumbnail: img/portfolio/tonight.jpg
 order: 18
+sort_date: '2026-10-27'
 date_label: octubre de 2026
 author: Gabriele Pucciarelli
 images:

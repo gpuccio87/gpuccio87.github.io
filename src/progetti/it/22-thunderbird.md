@@ -5,6 +5,7 @@ category: Automazione
 group: claude
 thumbnail: img/portfolio/automazione-thunderbird.jpg
 order: 22
+sort_date: '2026-07-01'
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

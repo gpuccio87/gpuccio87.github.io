@@ -5,6 +5,7 @@ category: Projekt
 group: 3D
 thumbnail: img/portfolio/3d.jpg
 order: 15
+sort_date: '2020-10-01'
 date_label: Oktober 2020
 author: Gabriele Pucciarelli
 images:
