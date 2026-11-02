@@ -3,8 +3,9 @@ title: EventToSMS 1.3.7
 name: EventToSMS
 category: Progetto
 group: code
-thumbnail: img/portfolio/javascript.jpg
+thumbnail: img/portfolio/eventtosms.jpg
 order: 1
+sort_date: '2019-07-10'
 date_label: 10 Luglio, 2019
 author: Gabriele Pucciarelli
 images:

@@ -3,12 +3,13 @@ title: Loew
 name: Loew
 category: Projekt
 group: code
-thumbnail: img/portfolio/python.jpg
+thumbnail: img/portfolio/loew.jpg
 order: 9
+sort_date: '2021-01-13'
 date_label: 13. Januar 2021
 author: Gabriele Pucciarelli
 images:
-- img/portfolio/nn.png
+- img/portfolio/full/loew/1.jpg
 technologies:
 - Python
 - Numpy

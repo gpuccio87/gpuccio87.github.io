@@ -5,6 +5,7 @@ category: Automatisation
 group: claude
 thumbnail: img/portfolio/automazione-fattura24.jpg
 order: 21
+sort_date: '2026-07-01'
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

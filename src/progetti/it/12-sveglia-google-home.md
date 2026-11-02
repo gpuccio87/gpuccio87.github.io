@@ -5,6 +5,7 @@ category: Progetto
 group: 3D
 thumbnail: img/portfolio/3d.jpg
 order: 12
+sort_date: '2020-12-01'
 date_label: dicembre, 2020
 author: Gabriele Pucciarelli
 images:

@@ -5,6 +5,7 @@ category: Automation
 group: claude
 thumbnail: img/portfolio/automazione-obsidian.jpg
 order: 25
+sort_date: '2026-07-01'
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

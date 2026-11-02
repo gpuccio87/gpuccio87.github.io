@@ -3,12 +3,13 @@ title: Golem
 name: Golem
 category: Project
 group: code
-thumbnail: img/portfolio/nn.png
+thumbnail: img/portfolio/golem.jpg
 order: 8
+sort_date: '2021-01-13'
 date_label: January 13, 2021
 author: Gabriele Pucciarelli
 images:
-- img/portfolio/nn.png
+- img/portfolio/full/golem/1.jpg
 technologies:
 - Python
 - Numpy

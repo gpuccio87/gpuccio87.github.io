@@ -22,9 +22,11 @@ module.exports = function (eleventyConfig) {
       .join("\n")
   );
 
-  // Progetti del portfolio, ordinati per campo "order"
+  // Progetti del portfolio, dal più recente (campo "sort_date"); a parità di data, per campo "order"
   eleventyConfig.addCollection("progetti", (api) =>
-    api.getFilteredByTag("progetti").sort((a, b) => a.data.order - b.data.order)
+    api
+      .getFilteredByTag("progetti")
+      .sort((a, b) => String(b.data.sort_date || "").localeCompare(String(a.data.sort_date || "")) || a.data.order - b.data.order)
   );
   // Post del blog, dal più recente (campo "order" più alto)
   eleventyConfig.addCollection("posts", (api) =>

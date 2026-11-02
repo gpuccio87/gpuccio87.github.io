@@ -3,8 +3,9 @@ title: MoviePal 5.1
 name: MoviePal
 category: Proyecto
 group: code
-thumbnail: img/portfolio/python.jpg
+thumbnail: img/portfolio/moviepal.jpg
 order: 11
+sort_date: '2026-08-01'
 date_label: 2026
 author: Gabriele Pucciarelli
 images:

@@ -3,8 +3,9 @@ title: FuelLog 4.2.0
 name: FueLog
 category: Project
 group: code
-thumbnail: img/portfolio/android.jpg
+thumbnail: img/portfolio/fuelog.jpg
 order: 3
+sort_date: '2018-12-16'
 date_label: December 16, 2018
 author: Gabriele Pucciarelli
 images:
