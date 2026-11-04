@@ -1,5 +1,5 @@
 ---
-title: Ca$hy 3.5.1
+title: Ca$hy
 name: Ca$hy
 category: Projekt
 group: code
